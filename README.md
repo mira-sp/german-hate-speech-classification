@@ -310,5 +310,3 @@ For questions or feedback, please open an issue on GitHub.
 2. Wiegand et al. (2018) - GermEval 2018 Shared Task
 3. Devlin et al. (2019) - BERT: Pre-training of Deep Bidirectional Transformers
 4. Chan et al. (2020) - GBERT: German's Next Language Model
-#   g e r m a n - h a t e - s p e e c h - c l a s s i f i c a t i o n  
- 
