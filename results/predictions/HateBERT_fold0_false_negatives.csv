@@ -1,0 +1,655 @@
+text,coarse_label,fine_label,label,prediction,prob_OTHER,prob_OFFENSE,correct,confidence
+@USER @USER @USER @USER @USER Na fein. Bestätigt mich: Religionen sind Mist und verdienen keinen Respekt.,OFFENSE,ABUSE,1,0,0.9721939,0.027806068,False,0.9721938967704773
+@USER @USER @USER @USER Du bist jung und schön.,OFFENSE,ABUSE,1,0,0.97143877,0.028561242,False,0.9714387655258179
+@USER Natürlich - die OSTKÜSTENHURE droht.,OFFENSE,INSULT,1,0,0.97109824,0.028901745,False,0.9710982441902161
+@USER @USER @USER Gut. Wir wollen Dich unter uns auch nicht.,OFFENSE,INSULT,1,0,0.96889204,0.031107953,False,0.9688920378684998
+@USER @USER @USER Gibt's die Bedienung auch in jünger?,OFFENSE,ABUSE,1,0,0.9684937,0.03150629,False,0.9684937000274658
+@USER @USER @USER Nein heißt nicht immer Nein. Gerade bei Frauen.,OFFENSE,ABUSE,1,0,0.9678431,0.03215687,False,0.9678431153297424
+"@USER Ich spritz gleich ab ,so geil machst du mich",OFFENSE,PROFANITY,1,0,0.96770537,0.032294624,False,0.9677053689956665
+Es wird Zeit das mann @USER ENTSORGT am besten rückstandlos. illner,OFFENSE,ABUSE,1,0,0.9668784,0.033121616,False,0.9668784141540527
+@USER Es wird Zeit das oezoguz endlich entsorgt wird. Sie ist falsch im Job und total unfähig.,OFFENSE,ABUSE,1,0,0.96682936,0.03317067,False,0.9668293595314026
+"@USER @USER Gesellschaftliche Verantwortung? Ich bin nicht in der Verantwortung, Frauen in Führungspositionen zu hieven.",OFFENSE,ABUSE,1,0,0.96679026,0.033209797,False,0.9667902588844299
+wie ist eigentlich das Leben in der Bedeutungslosigkeit @USER ? LTWNDS17 LtwNds ltw17,OFFENSE,INSULT,1,0,0.96622914,0.03377083,False,0.9662291407585144
+@USER Rechtskonservativ wäre mir lieber .Liberal führt zur Dekadenz.,OFFENSE,ABUSE,1,0,0.9660335,0.033966523,False,0.9660335183143616
+@USER Du Döddel Bernd gewinnst nicht mal den Kampf gegen @USER . Sie macht dich kalt.,OFFENSE,INSULT,1,0,0.9653953,0.034604788,False,0.9653952717781067
+können ja nicht alle so blöd sein wie der Herr der die Anzeigetafel nicht versteht @USER WDR,OFFENSE,INSULT,1,0,0.96521443,0.034785584,False,0.9652144312858582
+"@USER Ich weiß halt, wie man Frauen zum Miauen bringt",OFFENSE,ABUSE,1,0,0.9650815,0.03491845,False,0.965081512928009
+Mal ehrlich: Wer denkt bei Pforzheim nicht an Furzheim?,OFFENSE,INSULT,1,0,0.96469814,0.03530188,False,0.9646981358528137
+@USER @USER @USER @USER @USER @USER @USER Ich respektiere Deinen Glauben nicht.,OFFENSE,ABUSE,1,0,0.9644703,0.03552964,False,0.9644703269004822
+"Als FDJ Funktionärin weiss sie doch,wie das geht.",OFFENSE,INSULT,1,0,0.9643787,0.03562123,False,0.9643787145614624
+Die Bundesregierung stimmt trotz gegenteiligem Votum von Umweltministerin Hendricks in der EU für die Verlängerung der Glyphosat-Zulassung. Als SPD wäre ich jetzt maximal angepisst. Hoffentlich belässt sie es nicht dabei.,OFFENSE,PROFANITY,1,0,0.96428776,0.03571223,False,0.9642877578735352
+"@USER Klar. Liegt daran, dass es Frau nichts kostet, irgendwas zu behaupten.",OFFENSE,ABUSE,1,0,0.9640035,0.03599656,False,0.9640035033226013
+"@USER zu anbeissen ,dein geiler Arsch",OFFENSE,PROFANITY,1,0,0.9622383,0.03776172,False,0.9622383117675781
+"„Ist aber auch n bisschen geil, oder?“ Hat er verdient. Tatort",OFFENSE,PROFANITY,1,0,0.9618452,0.038154762,False,0.9618452191352844
+"@USER @USER Fazit. Frauen verdienen weniger, weil sie sich so entscheiden.",OFFENSE,ABUSE,1,0,0.9612691,0.038730886,False,0.9612690806388855
+@USER @USER @USER Vielleicht hatte er seine Tage.,OFFENSE,ABUSE,1,0,0.95966476,0.040335268,False,0.9596647620201111
+gut dass es ORF gibt da brauchte ich mir die strunzdummen @USER und @USER nicht anzuhören Formel1 RTL,OFFENSE,INSULT,1,0,0.9593753,0.040624715,False,0.9593753218650818
+@USER Das Judentum ist aber auch nicht besser sh. Israel.,OFFENSE,ABUSE,1,0,0.9592007,0.040799312,False,0.9592006802558899
+Welcher Zaussel bewacht denn da die Urne? bestimmt einer von @USER Bundestag,OFFENSE,INSULT,1,0,0.9587504,0.04124955,False,0.9587504267692566
+@USER @USER @USER Du bist jung und schön,OFFENSE,ABUSE,1,0,0.9584484,0.041551523,False,0.9584484100341797
+@USER Schlagen Sie eigentlich immer noch Ihre Frau?,OFFENSE,INSULT,1,0,0.9582834,0.041716617,False,0.9582834243774414
+@USER @USER Na ja. Hochschlafen können wir Männer uns zumindest nicht.,OFFENSE,ABUSE,1,0,0.9580759,0.04192409,False,0.9580758810043335
+"Jammergestallt Petra Roth.Das die es überhaupt noch wagt,sich darzustellen.",OFFENSE,INSULT,1,0,0.95803523,0.041964747,False,0.9580352306365967
+@USER Ich besuche grundsätzlich keine Drittweltländer.,OFFENSE,ABUSE,1,0,0.95802,0.041979957,False,0.9580199718475342
+@USER Oder Pass wegwerfen und Asylantrag stellen.,OFFENSE,ABUSE,1,0,0.95675415,0.043245833,False,0.9567541480064392
+@USER @USER Wessi ist er auch noch.,OFFENSE,INSULT,1,0,0.9567319,0.043268126,False,0.956731915473938
+@USER Glaube ich weniger. Ich denke das halbe Leben wurde sinnlos versoffen.,OFFENSE,INSULT,1,0,0.9567213,0.043278746,False,0.956721305847168
+Yvonne Willicks ist immer überzeugt wenn es ums Fressen geht Servicezeit WDR,OFFENSE,INSULT,1,0,0.95661646,0.043383528,False,0.9566164612770081
+@USER @USER @USER @USER @USER Ich ziehe all das einer Gesellschaft mit einem großen Anteil an Muslimen vor.,OFFENSE,ABUSE,1,0,0.95661277,0.043387245,False,0.956612765789032
+@USER |LBR| 0 Asylanten in Wittenberg und nicht anders.,OFFENSE,ABUSE,1,0,0.9561779,0.043822125,False,0.9561778903007507
+"Gysi, Lafo, waagenknecht sind im Volk beliebt. Der Rest ist Müll und wird nie Wahlen gewinnen. @USER",OFFENSE,INSULT,1,0,0.9559163,0.04408371,False,0.9559162855148315
+@USER @USER @USER @USER @USER @USER @USER Sag ich ja. Du bist eine religiöse Fanatikerin.,OFFENSE,ABUSE,1,0,0.95580727,0.044192776,False,0.9558072686195374
+@USER @USER @USER Ich weiß worum es geht: Um Frauen und ihre emotionalen Befindlichkeiten. Wie immer.,OFFENSE,ABUSE,1,0,0.9554914,0.044508524,False,0.9554914236068726
+"@USER Ja, freu Dich doch über die Aufmerksamkeit. Und wenn Dir etwas zu weit geht, sei kein Mädchen, sondern teile dies mit.",OFFENSE,ABUSE,1,0,0.9549942,0.045005832,False,0.9549942016601562
+@USER Geht's noch? Ihr habt doch einen an der Waffel,OFFENSE,INSULT,1,0,0.9549542,0.045045767,False,0.954954206943512
+@USER Warum will die @USER eine unabhänige Zeitung sein. Sie steht unter der Kontrolle der @USER.,OFFENSE,ABUSE,1,0,0.95422053,0.045779414,False,0.9542205333709717
+"Wenn Wolfgang Schäuble Bundestagspräsident wird, ist das dann schon Inklusion? bundestag",OFFENSE,ABUSE,1,0,0.95382625,0.04617371,False,0.9538262486457825
+"@USER @USER Tja, wer der Nahen Osten ins eigene Land bestellt, bekommt ihn auch.",OFFENSE,ABUSE,1,0,0.95304155,0.046958398,False,0.9530415534973145
+"@USER @USER @USER Nö, die kann mit ihrer isl. Brut da verrecken",OFFENSE,ABUSE,1,0,0.9522731,0.04772689,False,0.9522730708122253
+@USER @USER Vielleicht haben die alle ihre Tage.,OFFENSE,ABUSE,1,0,0.95218784,0.04781214,False,0.9521878361701965
+"Gerade sagt @USER allen Ernstes beim 3K18, Grüne, Linke + AfD hätten „geistige Verwandtschaft“. Sagt die FDP, die mit der AfD gemeinsam Familien auf der Flucht weiter trennen will. Es muss irre anstrengend sein, im Populismus-Wahn immer neuen Unsinn erfinden zu müssen.",OFFENSE,INSULT,1,0,0.9520282,0.04797179,False,0.952028214931488
+"@USER @USER Vielleicht hatte sie ihre Tage, oder so.",OFFENSE,ABUSE,1,0,0.950304,0.049695965,False,0.9503039717674255
+@USER Es gibt kein Palästina. Glücklicherweise.,OFFENSE,ABUSE,1,0,0.9501421,0.04985789,False,0.9501420855522156
+"Ich wurde ja auch mal gegen meinen Willen begrabscht. Da er aber nicht berühmt ist, und ich deswegen nicht in die Zeitung komme, bin ich deswegen auch nicht traumatisiert. |LBR| MeeToo",OFFENSE,ABUSE,1,0,0.9499507,0.050049312,False,0.9499506950378418
+"@USER Da sollten auch Asylanten eingesetzt werden, die für nichts abkassieren und sich den Tag über langweilen.",OFFENSE,ABUSE,1,0,0.9496493,0.050350767,False,0.9496492743492126
+so etwas kommt davon wenn man einen ahnungslosen Alkoholiker zum Parteivorsitzenden macht @USER SPD,OFFENSE,INSULT,1,0,0.94956124,0.05043875,False,0.9495612382888794
+@USER Männer mögen Titten. Gewöhn Dich dran.,OFFENSE,PROFANITY,1,0,0.94943106,0.0505689,False,0.9494310617446899
+"@USER @USER @USER @USER @USER Natürlich ist das Kopftuch eine moralische Pervertierung, aber Freiheit beinhaltet auch das Recht, unmoralisch zu sein.",OFFENSE,ABUSE,1,0,0.9493949,0.05060518,False,0.9493948817253113
+"@USER Wo bleibt der private Wachdienst, der die in den Arsch tritt?",OFFENSE,ABUSE,1,0,0.94895923,0.051040743,False,0.948959231376648
+du kannst gar nichts @USER ! verblödete Studienabbrecherin. illner,OFFENSE,INSULT,1,0,0.9488122,0.051187776,False,0.9488121867179871
+"Ich bemerke in unseren Medien eine Strategie, die FDP gleich der AfD, zum Abschuss freizugeben.",OFFENSE,ABUSE,1,0,0.9486518,0.051348206,False,0.9486517906188965
+danke ORF musste ich mir heute nicht diesen strunzdummen @USER anhören RTL,OFFENSE,INSULT,1,0,0.9482479,0.05175202,False,0.9482479095458984
+"@USER Scheiß Emanzipation . Ich will reine ,sittliche deutsche Mütter, wie einst vor den 68ern.",OFFENSE,ABUSE,1,0,0.9474826,0.052517474,False,0.9474825859069824
+"@USER @USER Elektrojude eben ,nach Axel Stoll.",OFFENSE,ABUSE,1,0,0.94722056,0.052779485,False,0.9472205638885498
+"@USER @USER @USER @USER @USER Überall wo Muslime die Mehrheit stellen, gibt es keinen Rechtsstaat.",OFFENSE,ABUSE,1,0,0.94714624,0.05285379,False,0.9471462368965149
+@USER @USER Jaja. Träum weiter Cinderella :),OFFENSE,ABUSE,1,0,0.9470937,0.052906234,False,0.9470937252044678
+"@USER @USER @USER Erstaunlich. Wie haben Sie es denn dann in die Politik geschafft? Trotz all der Benachteiligung, die es anderen Frauen unmöglich macht, Politiker zu werden?",OFFENSE,ABUSE,1,0,0.945677,0.05432296,False,0.9456769824028015
+@USER @USER Weniger Frauen in Vorständen ist kein Problem. Weniger Geld für weniger Arbeit und geringer bezahlte Jobs ebenfalls nicht.,OFFENSE,ABUSE,1,0,0.9448397,0.055160344,False,0.9448397159576416
+@USER @USER ich bin mir bei diesen Verlotterten nie sicher ob Grün oder Links,OFFENSE,ABUSE,1,0,0.944653,0.055347066,False,0.9446529746055603
+"@USER Sei mal ehrlich, wie sollen man Frauen noch ernst nehmen?",OFFENSE,ABUSE,1,0,0.9442879,0.05571208,False,0.944287896156311
+Simone Peter ist optische wie Marin Le Pen nur mit hässlicherer Haut. Jamaika @USER,OFFENSE,INSULT,1,0,0.9437154,0.056284603,False,0.9437153935432434
+"Da steht man auf, und wem sieht man als erstes bei Twitter? Den hässlichen Junge, toller Start in den Tag |LBR| @USER @USER NoAfD",OFFENSE,INSULT,1,0,0.9429441,0.05705593,False,0.9429441094398499
+@USER |LBR| Christen sind tierfreundlich. Asiaten nicht. Außer Buddisten. Juden?,OFFENSE,ABUSE,1,0,0.9425428,0.057457216,False,0.9425427913665771
+"das, was seit 2012 in Deutschland ungestört und ungestraft stattfindet, immer noch schön redet + relativiert, wie die verschissene Stiftung,",OFFENSE,INSULT,1,0,0.9422823,0.057717633,False,0.9422823190689087
+@USER @USER Und genau das trifft z. Z. voll zu. Meinungsdiktatur.,OFFENSE,ABUSE,1,0,0.94214165,0.05785838,False,0.9421416521072388
+"@USER @USER @USER Und da ich kein kleines Mädchen bin, so wie Du offenbar, kann ich eine solche Meinung ab.",OFFENSE,INSULT,1,0,0.9409955,0.059004467,False,0.9409955143928528
+"Das würde bedeuten, dass er seine eigene mohammedanische Sozialisierung, worunter etwa auch die Frauenverachtung fällt, aufgeben müsste.",OFFENSE,ABUSE,1,0,0.94097936,0.059020646,False,0.9409793615341187
+"Wertevermittlung so werden weiterhin Vorurteile gegenüber den Geflüchteten geschürt,sie hätten keine Ahnung von Demokratie und Rechtsstaat.",OFFENSE,PROFANITY,1,0,0.9409329,0.059067085,False,0.9409329295158386
+"Jetzt frisst der Genderismus auch den Feminismus, so @USER",OFFENSE,PROFANITY,1,0,0.94048786,0.059512187,False,0.9404878616333008
+@USER @USER Stimmt ja auch. Meistens leisten Frauen aber einfach weniger.,OFFENSE,ABUSE,1,0,0.9402085,0.05979152,False,0.9402084946632385
+Frau Böttinger meine Meinung dazu ist sie sollten uns mit ihrem Pferdegebiss nicht weiter belästigen WDR,OFFENSE,INSULT,1,0,0.9400782,0.05992181,False,0.9400781989097595
+@USER @USER @USER @USER Bitte beachten meinen letzten Punkt: Die Mehrheit der Frauen sind Opportunisten.,OFFENSE,ABUSE,1,0,0.93981516,0.060184844,False,0.9398151636123657
+"Roth,Haye,Friedman,die geballte Ladung der Zersetzung!",OFFENSE,ABUSE,1,0,0.938876,0.061124016,False,0.9388759732246399
+"@USER @USER @USER @USER @USER @USER @USER Fein. Damit kann ich leben. Womit ich nicht leben kann ist, dass immer mehr Menschen zur Dummschwätzerei auf Kosten der Allgemeinheit ausgebildet werden. Vorzugsweise Frauen (natürlich).",OFFENSE,ABUSE,1,0,0.9387043,0.06129568,False,0.9387043118476868
+"@USER @USER @USER @USER @USER @USER @USER @USER @USER Alternative: Frauen bekommen von alleine ihren Hintern hoch und geben nicht immerzu Männern die Schuld, wenn ihnen irgendetwas nicht passt.",OFFENSE,ABUSE,1,0,0.9382373,0.0617627,False,0.9382373094558716
+"Eigentlich bin ich ja gegen Verbote, aber bei den Grünen würde ich eine Ausnahme machen.",OFFENSE,ABUSE,1,0,0.9374774,0.06252261,False,0.9374774098396301
+@USER Ich verstehe die Aufregung nicht. |LBR| Das einzig Dumme an dem Statement ist die politische Note. |LBR| Aber es kommt halt vonnem Kirchenfutzi. Was erwartet man da?,OFFENSE,INSULT,1,0,0.9364312,0.06356873,False,0.9364312291145325
+das hätte ich der FDP nicht zugetraut alle Achtung! nur die Grünen kriechen allen in den Arsch,OFFENSE,INSULT,1,0,0.93613476,0.06386524,False,0.9361347556114197
+"@USER Wie sagt man - Dumm fickt gut...., oder zum Verständnis: Wer Anderen in die Möse beisst ist böse meist.",OFFENSE,INSULT,1,0,0.93533313,0.06466684,False,0.9353331327438354
+@USER @USER Yep. Welche andere Lösung sollte es geben? Der Anteil der Muslime in Europa steigt und damit das antisemitische Potential. Gleichzeitig sorgt das für intrakulturelle Verwerfungen und neuen Nationalismus/Rechtsextremismus.,OFFENSE,ABUSE,1,0,0.93483365,0.06516643,False,0.9348336458206177
+"Umgang mit Frauen? Simpel. |LBR| Frag sie zuerst ob sie Feministin ist. Wenn sie bejaht, lach sie aus und gehe. |LBR| Wenn sie verneint, ist alles gut",OFFENSE,ABUSE,1,0,0.9343463,0.065653674,False,0.9343463182449341
+@USER Du küsst bestimmt auch jeden. Egal ob er sich die Zähne putzt oder nicht.,OFFENSE,INSULT,1,0,0.9333245,0.06667543,False,0.9333245158195496
+Diese @USER sieht immer mehr aus wie andrea nahles in den Klamotten einer übergewichtigen Nutte. maischberger,OFFENSE,INSULT,1,0,0.9330217,0.06697823,False,0.9330217242240906
+Gauck und die Lemminge des Systems sofort auch vor Gericht!,OFFENSE,ABUSE,1,0,0.93291765,0.0670823,False,0.9329176545143127
+@USER @USER @USER Zur Hölle mit den Koreanern!,OFFENSE,ABUSE,1,0,0.9327714,0.067228615,False,0.9327713847160339
+"ZDF-Kika präsentiert: „ Leben wie zu Zeiten des Propheten, Teil 1: 60-jähriger Syrer stellt seine siebenjährige Ehefrau vor.“ Die grün-muslimische Pädophilie-Achse lebt.",OFFENSE,ABUSE,1,0,0.93271375,0.06728626,False,0.9327137470245361
+@USER @USER Wenigstens einer der such verpisst,OFFENSE,PROFANITY,1,0,0.9312888,0.068711184,False,0.9312887787818909
+"@USER Lange Rede, kurzer Sinn! |LBR| Auf den Punkt gebracht: Quatschkopp⁉",OFFENSE,INSULT,1,0,0.9310055,0.068994515,False,0.9310054779052734
+statt diesen kriminellen Ausländer noch im Fernsehen zu zeigen sollte man ihn lieber rausschmeißen @USER WDR,OFFENSE,ABUSE,1,0,0.9306709,0.06932909,False,0.9306709170341492
+@USER @USER Mit mind. 10 Personenschützern sicher,OFFENSE,INSULT,1,0,0.9301398,0.0698602,False,0.9301397800445557
+"@USER @USER Tja, nur ne Vagina zu haben, reicht halt nicht.",OFFENSE,ABUSE,1,0,0.9295154,0.07048454,False,0.9295154213905334
+@USER @USER @USER Berger fände sich als Finanzminister unterbezahlt. Nein @USER hat keine Ahnung vom Rechtsstaat,OFFENSE,INSULT,1,0,0.9290295,0.070970446,False,0.9290295243263245
+Geht zu jedem Infostand und lacht die Sklaven aus.Ist nicht verboten.,OFFENSE,ABUSE,1,0,0.9287598,0.0712402,False,0.9287598133087158
+"@USER Sowas nennt man Ermittlungsarbeit. Herausfinden, was geschehen ist. Unschuldsvermutung. Rechtsstaat. Ein Polizeirevier ist kein weibliche Klatschparty mit der besten Freundin.",OFFENSE,ABUSE,1,0,0.9284074,0.071592614,False,0.9284073710441589
+"Liebe Freunde,lasst euch nicht hinreißen. Lacht die Sklaven aus.",OFFENSE,ABUSE,1,0,0.928189,0.07181109,False,0.9281889796257019
+@USER @USER Eine Quote ist Diskriminierung auf Grund des Geschlechts. Nichts weiter.,OFFENSE,ABUSE,1,0,0.9281778,0.071822256,False,0.9281777739524841
+"Ich bin immer wieder überrascht wenn ich mitbekomme, dass in Hannover tatsächlich Menschen leben",OFFENSE,INSULT,1,0,0.9279783,0.072021745,False,0.9279782772064209
+Ein Land ohne Grüne. Österreich zeigt wie es geht.,OFFENSE,ABUSE,1,0,0.92794645,0.07205355,False,0.9279464483261108
+@USER @USER @USER Wer finanziert sowas? Linksgrün- Gutmenschen -Systemlinge- Juden.,OFFENSE,ABUSE,1,0,0.9269222,0.07307783,False,0.9269222021102905
+@USER @USER Hochgeschlafen hat sie sich sicher nicht,OFFENSE,ABUSE,1,0,0.92658025,0.07341975,False,0.9265802502632141
+Sollte Heribert Prantl lieber ins Irrenhaus statt zu annewill ?,OFFENSE,INSULT,1,0,0.92563593,0.07436402,False,0.9256359338760376
+"Liebe Freunde,seht euch das Staatsfernsehen ZDF über Flüchtlinge an.",OFFENSE,ABUSE,1,0,0.92551386,0.074486144,False,0.9255138635635376
+mit Andrea Nahles für die SPD endgültig untergehen,OFFENSE,INSULT,1,0,0.92514193,0.07485806,False,0.9251419305801392
+"@USER @USER Ja, furchtbar. Das nächste Mal sollte man sie ""alt und hässlich"" nennen...",OFFENSE,ABUSE,1,0,0.92415726,0.07584267,False,0.9241572618484497
+"@USER @USER @USER @USER @USER @USER @USER Und das sagt alles über Dich aus, was es wert ist, zu wissen.",OFFENSE,ABUSE,1,0,0.9236061,0.07639396,False,0.9236060976982117
+"@USER Dürfen Jungen auch werden, was sie wollen?",OFFENSE,ABUSE,1,0,0.9233802,0.07661985,False,0.9233801960945129
+@USER @USER Gauland ok. Aber die Lesbe nee.,OFFENSE,ABUSE,1,0,0.9229129,0.07708707,False,0.9229128956794739
+@USER @USER Nutzbringende Migration bedingt Abwehr der nutzlosen Migration.,OFFENSE,ABUSE,1,0,0.9227744,0.07722556,False,0.9227743744850159
+Laut Völkerrecht:Tod durch den Strang für die Führung Israels.,OFFENSE,ABUSE,1,0,0.92183876,0.078161225,False,0.9218387603759766
+"@USER Ach, das ist doch ein Sturm im Wasserglas. Spahn ist nun mal ne rechte Tucke",OFFENSE,PROFANITY,1,0,0.92155033,0.07844973,False,0.9215503334999084
+@USER @USER @USER Aber bitte jetzt nicht auch noch ne Opfernummer von männlicher Seite.,OFFENSE,ABUSE,1,0,0.9211783,0.078821704,False,0.9211782813072205
+"Der Abschaum regiert,die Ostküste jubelt.",OFFENSE,ABUSE,1,0,0.92079556,0.07920441,False,0.9207955598831177
+"Was mich an Linken am meisten nervt, ist deren moralisierende Dämlichkeit. |LBR| Wissen tun sie nicht viel, aber die Moral haben sie gepachtet.",OFFENSE,INSULT,1,0,0.92029876,0.07970125,False,0.9202987551689148
+"@USER @USER @USER @USER @USER @USER @USER Wie überall, sind Frauen zu bequem oder zu untalentiert.",OFFENSE,ABUSE,1,0,0.920133,0.07986702,False,0.9201329946517944
+@USER @USER Soll er doch dort verrotten,OFFENSE,INSULT,1,0,0.91925305,0.08074698,False,0.9192530512809753
+"@USER @USER @USER @USER @USER Dass das Kopftuch religiöse Fundamentalismus verharmlost und propagiert, macht dieses Recht nicht weniger wichtig.",OFFENSE,ABUSE,1,0,0.9190664,0.08093359,False,0.9190664291381836
+"@USER Ich fordere eine ""Forschungsgruppe islamistischer Mob""",OFFENSE,ABUSE,1,0,0.9183786,0.08162143,False,0.9183785915374756
+@USER @USER @USER @USER @USER @USER @USER Ich weiß. Du stellst Deinen Aberglauben über jedweden Anstand.,OFFENSE,ABUSE,1,0,0.9183538,0.081646234,False,0.918353796005249
+Mach sie fertig @USER! Diese Göring Fotze. illner,OFFENSE,ABUSE,1,0,0.91813153,0.08186847,False,0.9181315302848816
+@USER @USER @USER @USER Das einizg Gute an Jamaika @USER ist endlich weg!,OFFENSE,INSULT,1,0,0.91692805,0.083071895,False,0.9169280529022217
+Haben sich @USER schon zu den antisemitischen Demonstrationen ihrer Lieblingsreligion geäußert?,OFFENSE,ABUSE,1,0,0.91675127,0.0832487,False,0.9167512655258179
+wen interessiert denn die Meinung des Außenminister @USER der in meinen Augen strunzdumm ist SPD,OFFENSE,INSULT,1,0,0.9162034,0.08379658,False,0.9162033796310425
+"@USER @USER ja,vielleicht.Klär doch mal den Stammbaum der Roth.Dann passt das !",OFFENSE,INSULT,1,0,0.9156309,0.084369145,False,0.9156308770179749
+einem Verein dem Verbrecher angehören hat nicht anders verdient Bayern,OFFENSE,INSULT,1,0,0.9154566,0.084543414,False,0.9154565930366516
+"@USER @USER Ja. Männersteuer, oder so. Kommt noch. Die Umverteilung hin zu Frauen ist ja bereits jetzt massiv.",OFFENSE,ABUSE,1,0,0.9153568,0.08464314,False,0.9153568148612976
+@USER Die Umfrage ist von Forsa. Also im wesentlichen wertlos.,OFFENSE,INSULT,1,0,0.9148552,0.085144825,False,0.9148551821708679
+"@USER @USER @USER Wie gesagt: ""Nein"" heißt nicht in jedem fall ""Nein"". Es kann auch heißen: ""Lass mich sehen, ob Du wirklich interessiert bist, ich spiele gerne, ich möchte schauen, ob Du Manns genug bist, Dich nicht einschüchtern zu lassen"".",OFFENSE,ABUSE,1,0,0.91461784,0.08538215,False,0.9146178364753723
+"@USER Gut, dass es damals noch keine sexuelle Belästigung gab",OFFENSE,ABUSE,1,0,0.9145409,0.08545914,False,0.9145408868789673
+@USER Da zeigt sich leider mal wieder dass uns der Fall der Mauer nicht nur viel Gutes gebracht hat sonder eben auch @USER. falldermauer,OFFENSE,INSULT,1,0,0.91410947,0.08589049,False,0.914109468460083
+"@USER @USER @USER @USER Ja, im Arsch ist besser",OFFENSE,PROFANITY,1,0,0.9140228,0.085977174,False,0.9140228033065796
+es ist mir scheißegal wenn sich die Türken untereinander den Schädel einschlagen damit habe ich kein Problem @USER ZDF,OFFENSE,ABUSE,1,0,0.9132155,0.08678447,False,0.9132155179977417
+@USER @USER Du bist einfach nur noch lächerlich @USER . Bundestag,OFFENSE,INSULT,1,0,0.9119027,0.08809722,False,0.9119027256965637
+"@USER Natürlich darfst Du das. Du sendest dennoch sexuelle Signale aus. In Deinem Alter nicht mehr so viele, aber dennoch.",OFFENSE,ABUSE,1,0,0.91121453,0.08878545,False,0.9112145304679871
+"Flaggen verbrennen und gegen Israel sein. Ist es das, wofür Deutschland Multikulturalismus braucht?",OFFENSE,ABUSE,1,0,0.9109509,0.08904913,False,0.9109508991241455
+"@USER @USER @USER Ich würde Herrn Voigts nun nicht als ""Journalisten"" bezeichnen...",OFFENSE,INSULT,1,0,0.91012,0.08988001,False,0.9101200103759766
+"Ach ja,gibt es noch ein KZ, was der Pfaffe Gauck noch nicht besucht hat?",OFFENSE,ABUSE,1,0,0.9093937,0.090606295,False,0.9093937277793884
+@USER @USER Dass interessiert den Martin nicht. Er ist für rechtliche Diskriminierung.,OFFENSE,ABUSE,1,0,0.90936506,0.090634964,False,0.9093650579452515
+@USER @USER @USER @USER Es geht ja auch um die Emanzipation von männlicher Dienerschaft gegenüber Frau und Gesellschaft.,OFFENSE,ABUSE,1,0,0.90902096,0.09097904,False,0.9090209603309631
+Danke für die billigen Phrasen.Zum Kotzen!,OFFENSE,PROFANITY,1,0,0.90813684,0.091863155,False,0.9081368446350098
+"@USER @USER @USER @USER @USER @USER Es stimmt halt nicht. Frauen fühlen sich immer benachteiligt, wenn von ihnen erwartet wird, zu arbeiten und etwas zu leisten wie Männer.",OFFENSE,ABUSE,1,0,0.90760535,0.092394575,False,0.9076053500175476
+@USER Ich kann mit Schlampen umgehen,OFFENSE,ABUSE,1,0,0.9074739,0.092526056,False,0.9074739217758179
+Die ganze Bande der Ostküste hat sich wohl abgesetzt.,OFFENSE,ABUSE,1,0,0.9073117,0.09268834,False,0.9073116779327393
+@USER Was ist das denn für ne dumme Kuh?,OFFENSE,INSULT,1,0,0.90726376,0.092736185,False,0.9072637557983398
+Jetzt wird wieder gegen alles hetzt was nicht linksGrün ist. heuteshow,OFFENSE,ABUSE,1,0,0.90702206,0.092978,False,0.9070220589637756
+NrW Minister Jäger! : Die Grosse Pfeife spricht,OFFENSE,INSULT,1,0,0.9065576,0.093442366,False,0.9065576195716858
+schon wieder so ein Neger Tatort ohne mich ciao WDR,OFFENSE,ABUSE,1,0,0.9049947,0.095005244,False,0.9049947261810303
+Wer hat den Verfassungsrichter ins Gehrin geschissen? DrittesGeschlecht,OFFENSE,INSULT,1,0,0.9045678,0.095432214,False,0.9045677781105042
+@USER Laßt doch endlich mal A. H.u. das NS-Regime in Ruhe,OFFENSE,ABUSE,1,0,0.9042891,0.09571085,False,0.9042891263961792
+"@USER |LBR| Schon mal Gesehen. Asiaten sind brutal, gewissenlos, gottlos.",OFFENSE,ABUSE,1,0,0.90395457,0.0960454,False,0.9039545655250549
+wen interessiert dieser dumme Türke gibt es nichts wichtigeres aus NRW zu berichten @USER WDR,OFFENSE,ABUSE,1,0,0.90320253,0.09679751,False,0.9032025337219238
+Frau Neumann im Fußball und ich schalte sofort ab Auf Wiedersehen ZDF,OFFENSE,INSULT,1,0,0.9031453,0.09685469,False,0.9031453132629395
+Mit @USER wird jamaika nicht besser als die Groko sonder SCHLECHTER. illner,OFFENSE,INSULT,1,0,0.90161383,0.098386146,False,0.9016138315200806
+@USER Weil alle Medien aus Grünen bestehen.,OFFENSE,ABUSE,1,0,0.90124035,0.098759644,False,0.901240348815918
+@USER DIE BRAUCHT IHREN HASS AUF DEUTSCHLAND -SONST IST DIE WEG.,OFFENSE,INSULT,1,0,0.9011409,0.09885906,False,0.9011409282684326
+3) |LBR| Entweder sind die in Eurer Löschzentren völlig unqualifiziert oder sind selbst Antisemiten. Anders ist das nicht erklärbar! @USER,OFFENSE,INSULT,1,0,0.8997931,0.10020696,False,0.8997930884361267
+"Wenn Sie so machthungring sind und über Leichen gehen,gehen Sie nach Nordkorea.",OFFENSE,INSULT,1,0,0.8994915,0.10050856,False,0.8994914889335632
+@USER @USER @USER Zum Beispiel. Ein anderes wäre: Witze über Minderheiten. Es ist ein perfektes Einfallstor für den Opferkult.,OFFENSE,INSULT,1,0,0.8990113,0.10098866,False,0.8990113139152527
+"Solange es Frauen gibt, die bereit sind, sich hochzuschlafen, solange wird es auch Männer geben, die das für sich ausnutzen.",OFFENSE,ABUSE,1,0,0.8985801,0.10141998,False,0.8985800743103027
+der Dummschwätzer Herr Dobrindt gehört nicht in die Bundesregierung sondern ins Irrenhaus CDU CSU,OFFENSE,INSULT,1,0,0.8982402,0.10175978,False,0.8982402086257935
+"@USER Das Geschlecht, welches am wenigsten Gewalt erfährt, möchte mal wieder Sonderrechte für sich.",OFFENSE,ABUSE,1,0,0.898185,0.101815,False,0.8981850147247314
+@USER Total bekloppt. Weibliche Opfer sind die Einzigen die ernst genommen werden.,OFFENSE,ABUSE,1,0,0.8975133,0.10248672,False,0.8975132703781128
+"Also,die Juden schreien wegen 3 toten Jugendlichen,die Welt erzittert und weint.",OFFENSE,ABUSE,1,0,0.89744073,0.10255929,False,0.8974407315254211
+jetzt riskiert die bildungsferne Vollniete @USER auch noch eine dicke Lippe wie lächerlich ist das denn SPD,OFFENSE,INSULT,1,0,0.8973233,0.10267665,False,0.8973233103752136
+in ihrem Heimatland scheißen sich die Flüchtlinge in die Hose und hier in Deutschland lassen Sie die Sau raus @USER WDR,OFFENSE,ABUSE,1,0,0.89703494,0.10296505,False,0.8970349431037903
+"Was sie sagt: ""Ich bin eine Feministin."" |LBR| Was ich höre: ""Ich bin nicht zurechnungsfähig"".",OFFENSE,ABUSE,1,0,0.8960109,0.10398907,False,0.8960108757019043
+der anscheinend mit wenig Hirn ausgestattete und drittklassige Laiendarsteller @USER will Deutschland verlassen. H U R R A UND CIAO,OFFENSE,INSULT,1,0,0.8958968,0.104103185,False,0.8958967924118042
+"Die Faschisten der SPD,nennt sie endlich so!",OFFENSE,ABUSE,1,0,0.89556247,0.10443753,False,0.895562469959259
+"@USER Würde lieber lesen, dass er jämmerlich verreckt ist",OFFENSE,INSULT,1,0,0.8950584,0.10494159,False,0.8950583934783936
+@USER Feminismus zeichnet Frauen als schwach und hysterisch. Das ist nicht mein Problem.,OFFENSE,ABUSE,1,0,0.8942313,0.10576863,False,0.8942313194274902
+diese scheiß Islamisten Gejaule will doch kein Mensch hören @USER WDR,OFFENSE,ABUSE,1,0,0.89262676,0.1073733,False,0.8926267623901367
+"@USER Jede Partei, die mit der abgefuckten Scheinheiligsten Partei Deutschlands zusammenarbeitet, tut dies maximal aus Machtgeilheit.",OFFENSE,INSULT,1,0,0.89254725,0.10745278,False,0.8925472497940063
+@USER @USER @USER Kolonialismus ist keine Entschuldigung mehr für die afrikanische Unterentwicklung.,OFFENSE,ABUSE,1,0,0.89194053,0.10805952,False,0.8919405341148376
+"@USER |LBR| Also wird es nie eine Befreiung für Deutschland geben, vom Joch der Zionisten? |LBR| Oder doch und wie?",OFFENSE,ABUSE,1,0,0.89158666,0.108413376,False,0.8915866613388062
+"den Zentralrat der Muslime sollte man komplett rausschmeißen, er hat hier nichts zu suchen @USER WDR",OFFENSE,ABUSE,1,0,0.8911607,0.10883932,False,0.8911607265472412
+@USER Die Nahles ist für mich keine Normalität als Frau,OFFENSE,ABUSE,1,0,0.8908645,0.10913548,False,0.8908644914627075
+"Das Fette Schwein @ Gabriel Redet wieder auf ,alles vor der Wahl 2017",OFFENSE,INSULT,1,0,0.8903824,0.1096176,False,0.8903824090957642
+mit Frau Nahles geht die SPD wenigstens komplett runter,OFFENSE,INSULT,1,0,0.89006686,0.10993317,False,0.8900668621063232
+@USER @USER @USER @USER Anders gesagt: Ihr seid Rassisten.,OFFENSE,INSULT,1,0,0.888312,0.11168807,False,0.8883119821548462
+@USER Für solche Typen wäre Kastration das beste. Abschaum,OFFENSE,ABUSE,1,0,0.88830537,0.11169461,False,0.8883053660392761
+"@USER @USER @USER Nö, der sieht dumm aus.",OFFENSE,INSULT,1,0,0.88772726,0.112272754,False,0.8877272605895996
+@USER @USER @USER @USER Zur Hölle mit den koreanischen Tierquälern!,OFFENSE,ABUSE,1,0,0.88669103,0.11330897,False,0.8866910338401794
+@USER @USER wo ist den Ober-Bastard Voßkuhle?,OFFENSE,INSULT,1,0,0.88582075,0.11417923,False,0.885820746421814
+"@USER hallo du kleines Fötzchen. Ich habe gleich gemerkt, dass du noch nie richtig gefickt worden bist und sehsüchtig auf die Männer die dir in der Talkrunde gegenüber saßen gegiert hast .",OFFENSE,ABUSE,1,0,0.88497955,0.11502048,False,0.8849795460700989
+die CDU kann froh sein dass sie die Alkoholiker Pfeife @USER nicht endlich absägt so sinken sie Gott sei Dank nur noch tiefer,OFFENSE,INSULT,1,0,0.8837066,0.11629344,False,0.8837066292762756
+Diese Kommunistenbraut will Deutschland vernichten.,OFFENSE,INSULT,1,0,0.88338387,0.11661609,False,0.8833838701248169
+"@USER Wenn doch bloß genug NPD wählen würden,staat judenunterwanderte AfD.",OFFENSE,ABUSE,1,0,0.8830007,0.116999306,False,0.8830006718635559
+Frauen haben bereits zwei Tage lang niemanden mehr der sexuellen Belästigung bezichtigt. |LBR| Was ist da los? Gibt es Schuhe und Handtaschen im Sonderangebot? |LBR| MeToo,OFFENSE,ABUSE,1,0,0.88294864,0.11705139,False,0.882948637008667
+"@USER Mannheim, weltoffen und kunterbunt. Und strunzdumme Multikultiliebhaber. Verblödete halt",OFFENSE,ABUSE,1,0,0.88286537,0.11713465,False,0.8828653693199158
+@USER Macht endlich Schluss mit dem Gernder Wahnsinn.,OFFENSE,ABUSE,1,0,0.8823038,0.11769621,False,0.882303774356842
+"@USER @USER Ach das soll kotzen sein. Interessant, was Sie zum kotzen bringt",OFFENSE,PROFANITY,1,0,0.88096315,0.11903684,False,0.880963146686554
+"@USER @USER @USER Überall wo Muslime eingewandert sind, ist genau das passiert. Juden dagegen haben sich immer assimiliert.",OFFENSE,ABUSE,1,0,0.8808637,0.11913626,False,0.8808637261390686
+@USER @USER @USER @USER |LBR| Wie sagte Axel Stoll zum FS : Elekrojude.,OFFENSE,ABUSE,1,0,0.8805229,0.11947707,False,0.8805229067802429
+"@USER Drum Rechten Widrstand. NPD hat man kalt gestellt, mit aller Hetze ,die es gibt. |LBR| AfD ist nun die 2 Wahl.",OFFENSE,ABUSE,1,0,0.8803276,0.11967239,False,0.880327582359314
+Claudi Roth mal wieder peinlich. Bundestag,OFFENSE,INSULT,1,0,0.87920415,0.12079582,False,0.8792041540145874
+Kämpft gegen die Zersètzer wie Edathy und Friedrich. Steht auf uñd erfìndét unsere Idee ganz neu!,OFFENSE,INSULT,1,0,0.87849665,0.12150335,False,0.8784966468811035
+@USER Ist das nicht dieses Buch aus dem Adolf Hitler Verlag?,OFFENSE,ABUSE,1,0,0.8783839,0.12161619,False,0.8783838748931885
+"Hat der Pfaffe Gauck nicht mal wieder ein KZ gefunden,das er besuchen kann?",OFFENSE,ABUSE,1,0,0.87821245,0.1217875,False,0.8782124519348145
+"@USER @USER Ich wäre sehr erstaunt, wenn er Hirn hätte",OFFENSE,INSULT,1,0,0.8777047,0.12229535,False,0.8777046799659729
+@USER Ach du Scheisse. Gibt wohl nichts zu saufen,OFFENSE,INSULT,1,0,0.87539655,0.12460342,False,0.8753965497016907
+@USER @USER Bin ich auch ein LGBT Spinner?,OFFENSE,INSULT,1,0,0.8744636,0.12553634,False,0.8744636178016663
+warum muss ich mir in der @USER einen deutschen Jammerlappen anhören WDR,OFFENSE,INSULT,1,0,0.87342995,0.12657002,False,0.8734299540519714
+"@USER @USER @USER Ich würde sagen, sie hat psychische Probleme und benötigt professionelle Hilfe.",OFFENSE,ABUSE,1,0,0.87337434,0.12662558,False,0.873374342918396
+"@USER |LBR| Die Linke gehört verboten, nicht die NPD.",OFFENSE,ABUSE,1,0,0.87328047,0.1267195,False,0.8732804656028748
+@USER Und wie hoch ist der Ausländer oder Mischehe Anteil?,OFFENSE,ABUSE,1,0,0.87308013,0.12691988,False,0.8730801343917847
+"@USER stimmt selbst ""SPD-Kinderexperte"" Edathy hat sich nur für die Jungs interessiert.",OFFENSE,INSULT,1,0,0.871554,0.12844595,False,0.8715540170669556
+"@USER bei so vielen verschwulten Entscheidungen, fragt man sich doch ""wer hat den Verfassungsrichtern ins Hinr geschissen?"" voßkuhleScheisskule",OFFENSE,ABUSE,1,0,0.8714801,0.12851985,False,0.8714801073074341
+"Ein Parteivorsitzender,der im Suff nicht mehr weiß was er tut. |LBR| Danke.",OFFENSE,INSULT,1,0,0.8707322,0.12926774,False,0.8707321882247925
+"@USER @USER Ick finde es ziemlich bescheuert, dass in unserer Gesellschaft tatsächlich Frauen fürs Nichtstun bezahlt werden. Genau das trägt zu ihrem Narzissmus bei.",OFFENSE,ABUSE,1,0,0.8705684,0.12943162,False,0.8705683946609497
+"Und dann begann ich zu verstehen: |LBR| Für Frauen ist es Benachteiligung und Diskriminierung, wenn ihnen einmal nicht der Drink spendiert wird, sondern sie selbst dafür zahlen müssen.",OFFENSE,ABUSE,1,0,0.87042457,0.12957546,False,0.8704245686531067
+nun kristallisieren sich die Politiker und die Parteien ohne Rückgrat heraus Grüne FDP Lindner,OFFENSE,INSULT,1,0,0.86988866,0.13011126,False,0.8698886632919312
+@USER @USER Stimmt. Gibt es nivcht. Frauen schlafen für gewöhnlich nicht mit statusniederen Männern.,OFFENSE,ABUSE,1,0,0.8692298,0.13077019,False,0.869229793548584
+"Ich erwarte von einer nominell konservativen Partei, wie der CDU/CSU, dass Sie der Todfeind der Grünen ist. Nicht ihr Verbündeter.",OFFENSE,ABUSE,1,0,0.86872613,0.13127387,False,0.8687261343002319
+Ist es eigentlich Zufall dass die Infantilisierung der Gesellschaft mit dem Anteil von Frauen in Politik und Medien steigt?,OFFENSE,ABUSE,1,0,0.868276,0.13172403,False,0.8682760000228882
+"JETZT REDET DER PFAFFE ,, Im LARVE''",OFFENSE,INSULT,1,0,0.8667603,0.13323961,False,0.8667603135108948
+Wer fickt annewill eigentlich den ganzen Tag in den Kopf? Dass es zu so einer gästeliste kommt?,OFFENSE,INSULT,1,0,0.86632746,0.13367255,False,0.8663274645805359
+Deutschland braucht dieses Subjekt der Zersetzung nicht!,OFFENSE,INSULT,1,0,0.8662425,0.13375743,False,0.866242527961731
+@USER Die Bibel ist Schwachsinn und moralisch verkommen. Ob mit oder ohne NT.,OFFENSE,ABUSE,1,0,0.8659704,0.13402967,False,0.8659703731536865
+@USER @USER Was bist Du denn für ne Göre?,OFFENSE,INSULT,1,0,0.86575145,0.13424851,False,0.8657514452934265
+Bei einer Direktwahl hätte Claudi Roth nichtmal 1%. Keiner will sie haben. lanz maischberger,OFFENSE,INSULT,1,0,0.8642847,0.13571528,False,0.8642846941947937
+@USER @USER Ungarn zeigt wies geht. Und Dämon-Merkel?,OFFENSE,INSULT,1,0,0.8636657,0.13633427,False,0.8636656999588013
+Großmaul Özdemir hat ja gesagt dass es keine Koalition gibt wenn nicht bis 2030 der Benzinmotor Geschichte ist grüne,OFFENSE,INSULT,1,0,0.86353624,0.13646375,False,0.8635362386703491
+"@USER @USER @USER @USER @USER @USER @USER Klar, ungleiche Rechte sind für Dich gerecht. Du wirst nicht sympathischer. Aber das erwarte ich von einer Muslima auch nicht.",OFFENSE,ABUSE,1,0,0.8628477,0.1371523,False,0.8628476858139038
+"@USER Kann bleiben wo sie ist, dumme Nuss",OFFENSE,INSULT,1,0,0.86243415,0.1375659,False,0.8624341487884521
+"Liebe Freunde, Gauck,das Symbol des Sklaventums!",OFFENSE,ABUSE,1,0,0.8605104,0.13948967,False,0.8605104088783264
+in der BRDGmbH mit zweierlei Maß.,OFFENSE,ABUSE,1,0,0.8598868,0.14011313,False,0.8598868250846863
+"@USER @USER ""Ausländer raus"" ist eine reine Meinungsäußerung.",OFFENSE,ABUSE,1,0,0.85921824,0.14078179,False,0.8592182397842407
+"Liebe Freunde,grad Hessenschau gesehen.Eine Propagandaschau der Sozis!",OFFENSE,ABUSE,1,0,0.85863465,0.14136532,False,0.8586346507072449
+"Habe ich schon mal erwähnt, dass ich die Grünen verabscheue?",OFFENSE,ABUSE,1,0,0.8584738,0.14152628,False,0.8584737777709961
+@USER Laßt doch endlic mal A. H.u. das NS-Regime in Ruhe!,OFFENSE,ABUSE,1,0,0.8584247,0.14157528,False,0.858424723148346
+@USER @USER Weiblichkeit und Kreativität sind halt keine Verbündeten.,OFFENSE,ABUSE,1,0,0.85814846,0.1418515,False,0.858148455619812
+"@USER @USER @USER @USER @USER Der einzige, der wie ein Nazi argumentiert, bist Du.",OFFENSE,INSULT,1,0,0.8577986,0.14220141,False,0.8577985763549805
+@USER Stimmt. Lies lieber den Koran. Da findest Du genug Unsinn.,OFFENSE,ABUSE,1,0,0.8568523,0.14314772,False,0.8568522930145264
+"@USER @USER @USER Wie scheinheilig. Jammert um Yücel, schert sich aber nicht um das menschenverachtende Verhalten der Deutschen Botschaft in Manila.",OFFENSE,INSULT,1,0,0.85675114,0.14324892,False,0.8567511439323425
+Die Knechte der Amis werden ihrer Strafe nicht entgehen!,OFFENSE,ABUSE,1,0,0.8548175,0.14518255,False,0.8548175096511841
+"Was tut Ihr, wenn Ihr merkt, dass jemand grün wählt?",OFFENSE,ABUSE,1,0,0.8542967,0.14570338,False,0.8542966842651367
+@USER Ich kaufe nichts beim Asiaten oder Türken.,OFFENSE,ABUSE,1,0,0.85420185,0.14579819,False,0.8542018532752991
+Ansonsten nichts gegen D-Fahnen. Ich stehe aber lieber auf Schwarz- weß -rot.,OFFENSE,ABUSE,1,0,0.85193866,0.14806135,False,0.8519386649131775
+"@USER @USER Die meisten Verletzungen von Menschenrechten werden dort begangen, wo nichtweiße Männer leben. |LBR| Bad Luck",OFFENSE,ABUSE,1,0,0.85189927,0.1481007,False,0.851899266242981
+@USER @USER So siehst aus. Kuscheljutiz für Asylantenpack.,OFFENSE,ABUSE,1,0,0.8517944,0.14820556,False,0.851794421672821
+@USER Fuck the Jamaika Korruption in der abgefuckten deutschen Politik,OFFENSE,INSULT,1,0,0.8512446,0.14875539,False,0.8512446284294128
+"@USER @USER @USER Niemand, der vor Krieg flüchtet, lässt seine Familie in einem Kriegsgebiet zurück.",OFFENSE,ABUSE,1,0,0.8511839,0.1488161,False,0.8511838912963867
+"@USER @USER @USER @USER Die ganze grüne Bagage würde hyperventilieren, wenn auch nur ein AfDler ne Israelfahne verbrennen würde. Und Claudia Roth wäre in der Nervenklinik vor lauter Betroffenheit.",OFFENSE,ABUSE,1,0,0.8510588,0.14894125,False,0.8510587811470032
+"@USER @USER Glaubte Du echt, eine Frau mit befriedigendem Sexleben rennt durch die Welt und sieht überall böse Männer und sexuelle Gewalt?",OFFENSE,ABUSE,1,0,0.8506652,0.14933479,False,0.8506652116775513
+@USER @USER @USER @USER An der Universität von Queeristan?,OFFENSE,ABUSE,1,0,0.8501352,0.14986478,False,0.8501352071762085
+Nach Dr. Axel Stoll: Elektrojude,OFFENSE,ABUSE,1,0,0.8491439,0.15085606,False,0.849143922328949
+Was für einen Müll redet eigentlich der Lindtner von der FDP ?????,OFFENSE,INSULT,1,0,0.8490474,0.15095256,False,0.8490474224090576
+@USER Gottes Strafe möge alle Schwulen Lesben hart treffen.,OFFENSE,ABUSE,1,0,0.8465702,0.15342985,False,0.8465701937675476
+@USER Du hast dich echt gemacht ! Warst bei deinen Anfängen in der Szene schon Geil.... |LBR| Aber jetzt bist du 1000mal besser ! Ich hätte fast mal ein Live Cam Date mit dir gehabt ....Hab aber dann gekniffen,OFFENSE,PROFANITY,1,0,0.8453591,0.15464093,False,0.8453590869903564
+"@USER Erkläre mal einer Frau von deutscher häuslicher Gewalt, dass die ihr entgegenbrachte Gewalt weniger gewalttätig ist, weil es sich ja um einen Ur-Deutschen (was auch immer das sein mag) Prachtarier handelte, der sie verdroschen hat. /TN",OFFENSE,PROFANITY,1,0,0.84440464,0.15559536,False,0.8444046378135681
+"@USER @USER @USER Kann mir nicht vorstellen, dass der in der Lage ist eine Briefmarke zu kaufen. Prost",OFFENSE,INSULT,1,0,0.8442869,0.1557131,False,0.8442869186401367
+@USER @USER Bei euch werden die wenigen Klugen ja von Dir und Krawall-KÄTHE @USER nieder gemobbt.,OFFENSE,INSULT,1,0,0.8439591,0.15604089,False,0.8439590930938721
+"@USER @USER Aber wenn sie sich wehren, sind sie doch die Bösen, weil sie dann eine Frau ""angreifen"".",OFFENSE,ABUSE,1,0,0.8429903,0.1570097,False,0.8429902791976929
+@USER @USER @USER Das ist doch eh alles Kokolores. Sexuelle Belästigung is ein aufgebauschtes Problem.,OFFENSE,ABUSE,1,0,0.8418343,0.15816563,False,0.841834306716919
+@USER |LBR| Warum zum Teufel kann das die BRD nicht?,OFFENSE,PROFANITY,1,0,0.83898187,0.16101812,False,0.8389818668365479
+Terror wird durch Gegenterror beantwortet werden!,OFFENSE,ABUSE,1,0,0.83837897,0.16162099,False,0.8383789658546448
+@USER @USER @USER Zählt nicht. Für Bax sind Kinder Eigentum der Eltern. Pure Verfügungsmasse für deren mittelalterlichen Bräuche.,OFFENSE,ABUSE,1,0,0.8363236,0.16367637,False,0.836323618888855
+diesen strunzdummen in Vollhonk @USER schaue ich mir nicht an Formel 1 RTL davon bekommt man Plaque,OFFENSE,INSULT,1,0,0.8360679,0.16393211,False,0.8360679149627686
+ich denke Dieter Nuhr hat auch sehr viele Probleme mit psychischen Störungen,OFFENSE,INSULT,1,0,0.83556324,0.16443674,False,0.8355632424354553
+@USER Na ja. Blödsinn sind Grid-Girls schon.,OFFENSE,INSULT,1,0,0.8347834,0.16521662,False,0.8347833752632141
+in deutschen Supermärkten kennt sich Yvonne Willicks aus das glaube ich ihr dabei geht's ja schließlich auch ums Fressen Servicezeit WDR,OFFENSE,INSULT,1,0,0.8324695,0.16753046,False,0.8324695229530334
+"Also Freunde,machen wir die Sklaven öffentlich lächerlich.",OFFENSE,ABUSE,1,0,0.83205897,0.16794099,False,0.8320589661598206
+"Zeitgeist und zu wenig Widerstand gegen die Ausschweifende,perverse westl,Geseschaft.",OFFENSE,ABUSE,1,0,0.8309207,0.16907926,False,0.8309206962585449
+"Wieso glauben eigentlich die ganzen linken, nicht-binären Feministen, daß ihr Leben besser wäre, wenn aus Deutschland Syrien o Türkei wird?",OFFENSE,ABUSE,1,0,0.82978266,0.1702174,False,0.8297826647758484
+"@USER @USER @USER @USER @USER @USER Sie nennen sich aber dennoch Muslime - und geben damit zu verstehen, dass sie sich diesem Unsinn zugehörig fühlen.",OFFENSE,ABUSE,1,0,0.82869774,0.17130226,False,0.8286977410316467
+@USER @USER MarionettaSlomka wird direkt aus der linksGrünen Propaganda-Zentrale gesteuert.,OFFENSE,ABUSE,1,0,0.82854706,0.17145298,False,0.8285470604896545
+@USER schau doch Pronos wenn du mehr Redeanteil von Frauen hören willst,OFFENSE,ABUSE,1,0,0.8280328,0.17196724,False,0.8280327916145325
+"@USER Ja. Man nennt sie ""Pussies"".",OFFENSE,INSULT,1,0,0.82690877,0.17309125,False,0.8269087672233582
+"Maas ,Führt vielleicht die Ketzerei auch wieder ein ???!",OFFENSE,INSULT,1,0,0.82690555,0.17309442,False,0.8269055485725403
+"@USER @USER Ich finde, sie sieht aus wie eine Barbie für Pädos.",OFFENSE,ABUSE,1,0,0.8261492,0.17385077,False,0.8261492252349854
+@USER |LBR| Die hat doch den Arsch offen.,OFFENSE,INSULT,1,0,0.82253015,0.17746992,False,0.8225301504135132
+"@USER @USER @USER Aber ich nehme es zurück und entschuldige mich. Dass Deine Religion bekloppt ist, ist kein Argument in diesem Zusammenhang.",OFFENSE,ABUSE,1,0,0.822093,0.17790702,False,0.8220930099487305
+"Pfaffen und die US-Ostküste.Gleicher Glaube,gleiche Ideologie!",OFFENSE,ABUSE,1,0,0.8208913,0.17910872,False,0.8208913207054138
+@USER Sämtliche tödlichen Terroranschläge in Europa der letzten Jahre auf uns Juden waren von muslimischen Migranten. @USER,OFFENSE,ABUSE,1,0,0.8202966,0.17970341,False,0.820296585559845
+"@USER @USER @USER Frauen werden für gleiche Arbeit nicht niedriger bezahlt. |LBR| Wie bereits erwähnt, leisten sie weniger Arbeit.",OFFENSE,ABUSE,1,0,0.8197772,0.18022275,False,0.8197771906852722
+"@USER @USER @USER @USER @USER @USER @USER @USER @USER Nein, Du kleidest Dich wie eine religiöse Fanatikerin.",OFFENSE,ABUSE,1,0,0.8194804,0.18051958,False,0.8194804191589355
+@USER Die ganze SPD ist doch bereits feministisch durchseucht.,OFFENSE,ABUSE,1,0,0.8192603,0.18073967,False,0.81926029920578
+"@USER @USER Und was, wenn ich dort einen Negerkuss und ein Glas Negerschweiss bestelle ?",OFFENSE,ABUSE,1,0,0.81807274,0.18192722,False,0.8180727362632751
+Wo ist Kubicki heute? Ist er schon besoffen im Puff? illner,OFFENSE,INSULT,1,0,0.81735456,0.18264538,False,0.8173545598983765
+"@USER Wegen wem genau müssen Jüdische Schulen mit Soldaten beschützt werden, normal Polizei reicht nicht mehr? Naaa?",OFFENSE,ABUSE,1,0,0.8149256,0.18507433,False,0.8149256110191345
+"@USER @USER @USER @USER @USER @USER Ja und wenn ich es so empfinde, dann bin ich ein Meerschweinchen",OFFENSE,INSULT,1,0,0.8143772,0.18562275,False,0.8143771886825562
+@USER Es wird Zeit dass das Linksgrüne Meinungskartell bei ard/zdf zerlegt wird!,OFFENSE,ABUSE,1,0,0.8143131,0.18568693,False,0.8143131136894226
+"@USER glaube, der Berger fände sich als Finanzminister unterbezahlt. Quatsch @USER schieritz hat keine Ahnung",OFFENSE,INSULT,1,0,0.8128348,0.18716522,False,0.8128347992897034
+@USER @USER Und Deine sind extrem doof.,OFFENSE,INSULT,1,0,0.81161314,0.18838686,False,0.811613142490387
+@USER @USER @USER Habe gerade den Gabriel im TV gesehen - muss schon wieder kotzen.,OFFENSE,INSULT,1,0,0.81146425,0.18853574,False,0.811464250087738
+ein Tatort mit der Presswurst Saalfeld geht gar nicht ARD,OFFENSE,INSULT,1,0,0.8102776,0.18972242,False,0.8102775812149048
+also mir vergeht jedes Mal das Essen wenn ich die fette Yvonne Willicks von der servicezeit sehe WDR,OFFENSE,INSULT,1,0,0.81003684,0.18996312,False,0.810036838054657
+@USER @USER Sitze ich auch gerade ab. Facebook noch hinterfotziger als die abgefuckte deutsche Politik mit ihrem Muselwahn.,OFFENSE,ABUSE,1,0,0.80898076,0.19101925,False,0.8089807629585266
+"@USER Klar doch alles rechte böse Nazis. Was wissen die heute von damals? Fragt eure Omas, Mütter. Nicht was Hetzmedien verbreiten.",OFFENSE,ABUSE,1,0,0.8088708,0.19112921,False,0.808870792388916
+"@USER @USER |LBR| Ich hasse die auch ,wie die Pest.",OFFENSE,ABUSE,1,0,0.80666107,0.19333892,False,0.806661069393158
+@USER @USER @USER @USER Muslime haben genug Platz woanders. Die müssen sich nicht überall ausbreiten.,OFFENSE,ABUSE,1,0,0.80573756,0.19426244,False,0.8057375550270081
+"@USER @USER @USER Zu sperrig. Ich würde ""Pussikratie"" vorschlagen.",OFFENSE,ABUSE,1,0,0.8049002,0.19509979,False,0.8049002289772034
+In Wien . und wer ist Besitzer? Ein Jude?,OFFENSE,ABUSE,1,0,0.80461,0.19539003,False,0.804610013961792
+@USER @USER Von mir aus kann der an seinem Geburtstag auch qualvoll verrecken.,OFFENSE,INSULT,1,0,0.80435014,0.19564983,False,0.8043501377105713
+@USER Bin ich auch dafür. Man sollte aber auch monatlich unsere Politiker auf ihren Geisteszustand prüfen.,OFFENSE,ABUSE,1,0,0.8040749,0.19592506,False,0.8040748834609985
+"Ich weiß, ich habe das schon mal geschrieben, aber: |LBR| Ich hasse die Grünen. Mit tiefster Inbrunst.",OFFENSE,ABUSE,1,0,0.8030797,0.19692023,False,0.8030797243118286
+"@USER Stattdessen sollte man das gesamte Führungspack der SPD wegsperren. SPD - Schmarotzer, Pädophile und Drnunzianten",OFFENSE,ABUSE,1,0,0.8022894,0.19771056,False,0.8022894263267517
+@USER @USER @USER Aber zeit sich darin nicht die naturgemäße Dummheit der Grünen?,OFFENSE,ABUSE,1,0,0.8016317,0.19836837,False,0.8016316890716553
+wenn der Bundespräsident mit seinem dummen Geschwätz auf die SPD zielt sollte er bedenken dass 80% der deutschen die SPD nicht wollen,OFFENSE,INSULT,1,0,0.8013098,0.19869024,False,0.8013098239898682
+@USER @USER Nur nicht gegen 10 Neger gegen eine Frau z.b. Wie es wohl war.,OFFENSE,ABUSE,1,0,0.80040133,0.19959863,False,0.8004013299942017
+"@USER @USER Mannheim, Multikulti versiffte Stadt. Klein Istambul und Rumänen/ Bulgaren",OFFENSE,ABUSE,1,0,0.79927206,0.2007279,False,0.7992720603942871
+"@USER @USER Da kann ja nur feministischer Porno bei rauskommen. Also viel Gerede über Gefühle, eine Debatte darüber, wer welches Geschlecht und ob Penetration Vergewaltigung ist",OFFENSE,ABUSE,1,0,0.7987385,0.2012615,False,0.7987384796142578
+@USER Genau deshalb wähle immer NPD statt euch Weicheier!,OFFENSE,INSULT,1,0,0.7986207,0.20137928,False,0.7986207008361816
+"@USER Aber richtig und Abschiebungen aller verdächtiger Asylanten, samt Asylschmarotzer.",OFFENSE,ABUSE,1,0,0.7984592,0.20154083,False,0.7984591722488403
+"@USER Von mir als komm darauf zurück. |LBR| Die Antwort kann ich Dir, was mich angeht, aber bereits jetzt geben: |LBR| Ich persönlich habe kein Interesse an einer islamischen Gesellschaft.",OFFENSE,ABUSE,1,0,0.7981742,0.20182578,False,0.7981742024421692
+@USER Nazikeule? Laasst die gefälligst stecken.,OFFENSE,ABUSE,1,0,0.795049,0.20495096,False,0.7950490117073059
+"Würde mich ja nicht wundern, wenn diese Deppen Staatsgelder kassieren würden.",OFFENSE,INSULT,1,0,0.7950407,0.20495927,False,0.7950407266616821
+"Das ist der Kurs für interessierte Frauen. Parallel gibt`s den für Männer: ""Steinigen als Gruppenerlebnis"" oder auch ""Trag die Burka Mutter, sonst gibt`s Backenfutter!"" . Nach der 6. Stunde werden die Kurse dann zusammengeführt......mit Brautschau für die 9-11 jährigen.",OFFENSE,ABUSE,1,0,0.7930425,0.20695756,False,0.7930424809455872
+"@USER Wundert mich gar nicht. Die will gezielte Umvolkung wie Rot Grün im Auftrage der ""Krummnasen"".USrael.",OFFENSE,ABUSE,1,0,0.79285216,0.20714788,False,0.7928521633148193
+"Europäische Straßen sehen aus wie im Nahen Osten, voller verrückter Mossis die Juden den Tod wünschen, aber keine Sorge: |LBR| Das ist Vielfalt, das ist bunt und eine Islamisierung findet nicht statt.",OFFENSE,ABUSE,1,0,0.7902847,0.20971526,False,0.7902846932411194
+@USER @USER @USER Die israelische Verwaltung der Westbank ist nichts anderes als die polnische Verwaltung der deutschen Ostgebiete zwischen 1945 und 1990. Außer dass Israel den dort lebenden Arabern Autonomierechte gewährt.,OFFENSE,ABUSE,1,0,0.7897079,0.21029215,False,0.7897078990936279
+"Kommissar Muster bei AktenzeichenXY scheint auch strunzdumm zu sein, es heißt ""dieses Jahres"" und nicht ""diesen Jahres"" ZDF",OFFENSE,INSULT,1,0,0.78885734,0.21114266,False,0.7888573408126831
+@USER @USER @USER Du wirst heute schon ausgelacht!,OFFENSE,INSULT,1,0,0.78842,0.21157992,False,0.7884200215339661
+@USER |LBR| Genau. Tod dem Löwenmörder wünsche ich. Und Abschaffung der Hobbyjäger.,OFFENSE,ABUSE,1,0,0.7856906,0.21430944,False,0.7856906056404114
+Unbequeme Wahrheit: |LBR| Sexuelle Belästigung ist ein aufgebauschtes Problem.,OFFENSE,ABUSE,1,0,0.7856885,0.21431145,False,0.7856885194778442
+"Feministen wollen die Frauenquote, finden aber den Begriff ""Quotenfrau"" anstößig. |LBR| Tja, Mädels, das Eine geht nicht ohne das Andere.",OFFENSE,ABUSE,1,0,0.78469336,0.21530664,False,0.7846933603286743
+@USER @USER Aber mit ALLEN Konsequenten. Incl. Knast bei Straffälligkeiten seitens der Abzuschiebenden. Hirnlose Lirogrün versiffte Brut,OFFENSE,ABUSE,1,0,0.7836441,0.21635593,False,0.7836440801620483
+Man kann sämtliche Sexismus-Debatten der letzte Jahre auf ein Wort reduzieren: Schwachsinn.,OFFENSE,ABUSE,1,0,0.7836301,0.21636994,False,0.7836300730705261
+wir brauchen das scheiß Europa nicht ich bin Deutscher und kein Europäer btw2017,OFFENSE,ABUSE,1,0,0.7835527,0.21644731,False,0.7835527062416077
+@USER |LBR| Weit und breit kein Neger.,OFFENSE,ABUSE,1,0,0.7834393,0.2165607,False,0.7834392786026001
+warum ist das Gesicht von @USER so degeneriert maischberger,OFFENSE,INSULT,1,0,0.7833283,0.21667165,False,0.7833282947540283
+"Faustregel: Alles, was die muslimische Welt aufregt, ist zu begrüßen.",OFFENSE,ABUSE,1,0,0.7815575,0.2184425,False,0.7815575003623962
+"@USER @USER Mir doch egal, ob das sexistisch ist.",OFFENSE,ABUSE,1,0,0.78120434,0.21879564,False,0.781204342842102
+@USER Was für Komplexe? Ich zeige nur die Mechanismen toxischer Weiblichkeit auf.,OFFENSE,ABUSE,1,0,0.78091407,0.21908593,False,0.7809140682220459
+"Wenn Islamkritiker zensiert werden und über muslimische Feiertage debattiert wird, weiß man, was die Zukunft bringt.",OFFENSE,ABUSE,1,0,0.78087205,0.21912795,False,0.7808720469474792
+"@USER @USER @USER Ich hoffe jedenfalls, dass die Islamistin Chebli ihre Job bald los wird.",OFFENSE,ABUSE,1,0,0.77965415,0.22034578,False,0.7796541452407837
+"@USER @USER @USER Ach du Scheisse, ist der immer noch im Amt?",OFFENSE,PROFANITY,1,0,0.7764742,0.22352579,False,0.7764741778373718
+"@USER @USER Nur mag ich dieses Gerede nicht, wo ein Linkgrüner-Journalistenblock seine Prognose mit Wunschdenken verwechselt.",OFFENSE,ABUSE,1,0,0.7750176,0.22498241,False,0.7750176191329956
+@USER @USER @USER Wenn alle Anständigen gehen seit ihr CDUSPDFDPLINKEGRÜNE UND GRÜNINNEN weg vom Fenster,OFFENSE,INSULT,1,0,0.7715458,0.22845419,False,0.7715458273887634
+"@USER Natürlich empfinden Sie es als anmaßend. Sie sind von der Mehrheit der Männer Aufmerksamkeit, Rücksicht und zuvorkommendes Verhalten gewohnt. Von Kindesbeinen an.",OFFENSE,ABUSE,1,0,0.77143157,0.22856843,False,0.771431565284729
+@USER @USER Duisburg... Für mich klingt der ganze Ruhrpott nach Qual.,OFFENSE,INSULT,1,0,0.7713517,0.22864826,False,0.77135169506073
+"@USER |LBR| ausl. Täter werden wie üblich mit Bewährung freigelassen statt wie früher ins Arbeitslager ,bis zum umfallen.",OFFENSE,ABUSE,1,0,0.771305,0.22869493,False,0.7713050246238708
+@USER @USER @USER @USER Ich kritisiere insbesondere das scheinheilige Verhalten aller Mitglieder des Bundestags.,OFFENSE,INSULT,1,0,0.77101004,0.22898999,False,0.7710100412368774
+"Es wird Zeit,den Pfaffen zu zeigen,wer sie sind! Ein Verein der Gescheiterten und Weltfremden!",OFFENSE,ABUSE,1,0,0.77075106,0.22924888,False,0.7707510590553284
+Die Bildzeitung!Die verkommenste Sklavin der USA und vor allem der Ostküste. Setzt das Käppi auf so erkennt man euch.,OFFENSE,ABUSE,1,0,0.7705245,0.22947545,False,0.7705245018005371
+Es gibt drei Hauptgründe für den gegenwärtigen Feminismus: |LBR| 1. Heterosexualität |LBR| 2. Weiblicher Narzissmus |LBR| 3. Funktionierende Verhütungsmittel,OFFENSE,ABUSE,1,0,0.77005416,0.22994581,False,0.7700541615486145
+@USER @USER @USER @USER Vielleicht einfach mal mehr Journalismus machen und weniger Propaganda.,OFFENSE,INSULT,1,0,0.76991683,0.2300832,False,0.769916832447052
+"Hier sieht man wunderbar,was man als Funktionärin für Propaganda in der SED gelernt hat.",OFFENSE,INSULT,1,0,0.7695548,0.23044525,False,0.7695547938346863
+@USER @USER Kinderfickerpartei hat im Bundestag nichts verloren,OFFENSE,ABUSE,1,0,0.76922065,0.23077932,False,0.7692206501960754
+@USER Weils Juden eben auch tun-erlaubt .Tierquäler gehören in die Hölle.,OFFENSE,ABUSE,1,0,0.7680242,0.23197572,False,0.768024206161499
+welches Meth nimmt eigentlich @USER? Ihre Haut sieht ja fürchterlich aus und dann das ständige blinzeln furchtbar maischberger,OFFENSE,INSULT,1,0,0.7677154,0.23228459,False,0.7677153944969177
+@USER Asylantenflut bringt eben nur negatives für Deutschland. Drum Asylanenstop und Rückführung der Mehrzahl.,OFFENSE,ABUSE,1,0,0.76725084,0.2327492,False,0.7672508358955383
+@USER Dein Feminismus und Genderquatsch steht Dir im Weg,OFFENSE,ABUSE,1,0,0.767209,0.23279098,False,0.767208993434906
+"@USER Der Unterschied zwischen sexueller Belästigung und Flirten beteht darin, ob der Mann der Frau, der sie anspricht, gefällt.",OFFENSE,ABUSE,1,0,0.765047,0.23495302,False,0.765047013759613
+@USER Woher diese Gleichgültigkeit und Ignoranz gegenüber der gefährlichsten Religion unserer Zeit?,OFFENSE,ABUSE,1,0,0.7649788,0.23502116,False,0.76497882604599
+"@USER @USER @USER Strunzdumm, siehe BW GRÜN regiert sagt doch viel über Grüne aus",OFFENSE,INSULT,1,0,0.7639276,0.23607242,False,0.7639275789260864
+@USER @USER @USER @USER @USER Ist ja auch verständlich. Was soll man mit nem Mitarbeiter der demnächst wegen Babypause ausfällt?,OFFENSE,ABUSE,1,0,0.76388997,0.23611002,False,0.7638899683952332
+Die Asozialen sind längst an der Macht!,OFFENSE,ABUSE,1,0,0.7624135,0.23758648,False,0.762413501739502
+@USER Wer Politik macht wie die abgefuckte SPD verrät das Volk,OFFENSE,ABUSE,1,0,0.7621104,0.2378896,False,0.7621104121208191
+"@USER Alles zum Schutz von Ausländern hierzulande. Nichts, wenns um eigene Volk ,Heimat,Tradition geht.",OFFENSE,ABUSE,1,0,0.76201445,0.23798552,False,0.7620144486427307
+Wenn alle vegetarisch leben bekommen dann auch alle so hässliche Haut wie simone peters? JamaikaKoalition,OFFENSE,INSULT,1,0,0.7618511,0.23814897,False,0.7618510723114014
+"die Grünen sind so machtgeil, sie werden alles unterschreiben",OFFENSE,INSULT,1,0,0.759026,0.24097396,False,0.7590259909629822
+wann nimmt sich Claudia Roth endlich ein Beispiel an PetraKelly? Deutschland würde es ihr danken.,OFFENSE,ABUSE,1,0,0.75547916,0.24452087,False,0.7554791569709778
+Die Okkupanten wollen den deutschen und damit den europäischen Geist vernichten.,OFFENSE,ABUSE,1,0,0.7551599,0.24484003,False,0.7551599144935608
+@USER |LBR| Ich stehe auch lieber voll hinter NPD leider zu wenig Echo in der Bevölkerung- |LBR| AfD zu sehr für Mittelschicht und Juden.,OFFENSE,ABUSE,1,0,0.75440866,0.24559133,False,0.7544086575508118
+Was steht denn da für ein Zaussel neben der Urne? werder Krawatte noch Anzug? wo ist den da der Respekt vor dem Hohen Haus? Bundestag,OFFENSE,INSULT,1,0,0.7535759,0.24642414,False,0.7535759210586548
+@USER @USER Ist halt Feminismus im fortgeschrittenen Stadium. Was erwartet Du da?,OFFENSE,ABUSE,1,0,0.75346124,0.24653873,False,0.7534612417221069
+"@USER @USER Immer dran denken. Du gehörst zu den Menschen zweiter Klasse, die auf dem Amt ihren Ausweis zeigen müssen.",OFFENSE,ABUSE,1,0,0.75181586,0.24818414,False,0.7518158555030823
+@USER @USER @USER Weil Öko-Faschisten Dich dazu zwingen. Das wäre eine Möglichkeit.,OFFENSE,ABUSE,1,0,0.7504901,0.24950983,False,0.750490128993988
+Und der verblödete Deutsche /Regierung und Zustimmer nimmt die Fremden zur Selbstausrottung freiwillig auf.Unfassbar.,OFFENSE,ABUSE,1,0,0.75034124,0.24965878,False,0.7503412365913391
+@USER @USER Außerdem sind sie politisch dumm.,OFFENSE,INSULT,1,0,0.74970627,0.25029376,False,0.7497062683105469
+"@USER @USER Sollen sie doch schwanger werden, denn bluten sie nicht.",OFFENSE,ABUSE,1,0,0.74888605,0.25111398,False,0.7488860487937927
+@USER Hauptsache den Asylanten gehts gesundheitlich gut. Deutsche Patienten(Rentner) können sehen wo sie bleiben.,OFFENSE,ABUSE,1,0,0.7481704,0.25182965,False,0.7481703758239746
+"@USER Ich halte niemand für normal, der einer Religion angehört. Aber das ist eine andere Geschichte.",OFFENSE,INSULT,1,0,0.7473234,0.2526766,False,0.7473233938217163
+@USER @USER Jämmerliche Heuchelei. Der trauert höchstens um seinen Ministerposten,OFFENSE,INSULT,1,0,0.7464478,0.2535522,False,0.7464478015899658
+"@USER ja, das ist das s.Rechtschreibkorrekturverfälschungsmistprogramm.",OFFENSE,PROFANITY,1,0,0.7457258,0.2542742,False,0.7457258105278015
+"wenn die Moderatorin von taff auf ProSieben schon derart hässlich ist, muss sie sich dann auch noch anziehen wie eine Prostituierte ?",OFFENSE,INSULT,1,0,0.74539644,0.2546036,False,0.7453964352607727
+"@USER @USER @USER @USER @USER @USER @USER Ich habe ein Problem mit dem Katholizismus, dem Judentun, der russischen Bevölkerung und mit Neonazis.",OFFENSE,ABUSE,1,0,0.744647,0.25535294,False,0.7446470260620117
+@USER @USER @USER @USER Das ist vor allem Schwachsinn.,OFFENSE,INSULT,1,0,0.7436339,0.25636607,False,0.7436339259147644
+"Nur noch Magie kann uns helfen ,die dämonischen Kräte, da oben in der Reg., zu vernichten!",OFFENSE,ABUSE,1,0,0.74282223,0.2571778,False,0.7428222298622131
+"@USER Vielleicht hat der ja auch nur Dünnschiss, der irgendwo raus muss",OFFENSE,INSULT,1,0,0.7427685,0.25723144,False,0.7427685260772705
+@USER @USER @USER Laß A. H. in Ruhe!,OFFENSE,ABUSE,1,0,0.7424835,0.25751653,False,0.7424834966659546
+@USER @USER Asiaten diese Unmenschen kennen keinen Tierschutz . Mögen sie aussterben!,OFFENSE,ABUSE,1,0,0.74083567,0.2591644,False,0.7408356666564941
+@USER Bin schwul. Du befürwortest meine Tötung. |LBR| Wie kann ich Deine Religion also nicht pervers finden?,OFFENSE,ABUSE,1,0,0.73978627,0.2602138,False,0.7397862672805786
+Überhaupt keine Afrikaner nach D. Wie vor 1945 wo die D noch D war.,OFFENSE,ABUSE,1,0,0.73975533,0.2602446,False,0.7397553324699402
+@USER @USER @USER @USER @USER @USER @USER Du setzt Dir freiwillig das Symbol einer religiösen Ideologie auf den Kopf. Ein Name ist nicht freiwillig.,OFFENSE,ABUSE,1,0,0.738216,0.26178408,False,0.738215982913971
+@USER Laßt doch endlich mal den Schuldkult beenden. Zeit ist !,OFFENSE,ABUSE,1,0,0.73668456,0.26331547,False,0.7366845607757568
+@USER @USER @USER @USER @USER @USER @USER Noch einmal: Ich bin Atheist. Ich bin liberal. Ich lehne den Islam ab. Ich habe ethische und wissenschaftliche Gründe dafür.,OFFENSE,ABUSE,1,0,0.7364168,0.2635832,False,0.7364168167114258
+@USER @USER Die Wahrheit wird wieder verschwiegen im Judenführungsstaat,OFFENSE,ABUSE,1,0,0.7359132,0.26408675,False,0.7359132170677185
+@USER |LBR| Was wäre damals bloß bei adi mit dem passiert?,OFFENSE,ABUSE,1,0,0.73305273,0.26694733,False,0.7330527305603027
+@USER Stimmt. Wir haben den Rassismus des von Steinmeier geführten Auswärtihen Amtes hautnah miterlebt.,OFFENSE,INSULT,1,0,0.7313549,0.26864505,False,0.7313548922538757
+@USER Ach du Scheisse. Was für eine Heuchelei unter zwei Scheinheiligen.,OFFENSE,INSULT,1,0,0.72969043,0.27030957,False,0.729690432548523
+es weiß doch jeder dass die Nahles strunz blöd ist indieFresse SPD,OFFENSE,ABUSE,1,0,0.72943896,0.27056104,False,0.7294389605522156
+Ist es noch ein Verfassungsgericht oder ist es schon ein Verarschungsgericht? DrittesGeschlecht,OFFENSE,INSULT,1,0,0.72930694,0.27069303,False,0.7293069362640381
+"@USER Der Brunnenvergifterkomplex bei den abgefuckten Altparteien nimmt zu. Das gute an der Geschichte ist, dass es endlich mal einen aus der Elite getroffen hat. Hätte es Oma Müller erwischt, hätte es nicht den Hauch von Aufmerksamkeit gebracht.",OFFENSE,ABUSE,1,0,0.72907275,0.27092728,False,0.7290727496147156
+"Liebe Freunde,denkt einfach.Der debile Klitschko,gefeiert der BRD medien.Also ein primitiver Sklave der US Ostküste.",OFFENSE,INSULT,1,0,0.7286794,0.27132058,False,0.7286794185638428
+@USER @USER USA Waffen selbstversändlich. Hilft zuminest dem Bürger vor Machtlosigkeit gegen kriminelles Asylantenpack.,OFFENSE,ABUSE,1,0,0.7283403,0.27165967,False,0.7283403277397156
+Pofalla und Ole von Beust seid ihr beide schwul? oder hat die der Name geil gemacht. (PO)falla lanz illner,OFFENSE,ABUSE,1,0,0.72790307,0.2720969,False,0.7279030680656433
+wie schleimig und rückgratlos @USER ist werden wir in den nächsten Tagen sehen! NIE WIEDER SPD,OFFENSE,INSULT,1,0,0.72773385,0.27226615,False,0.727733850479126
+"Merken Religionen eigentlich nicht, dass Gott sie verarscht? |LBR| Ein Stück Wüste als Heiliges Land? |LBR| Welcher normale Mensch würde das von einem Immobilienmakler akzeptieren?",OFFENSE,INSULT,1,0,0.726549,0.27345094,False,0.7265490293502808
+und wieder ein 30-minütige Werbesendung für liksGrüne Propaganda heuteshow,OFFENSE,ABUSE,1,0,0.7255482,0.2744518,False,0.7255482077598572
+@USER @USER Als deutscher Staatsbürger zählt Deine Meinung nicht.,OFFENSE,ABUSE,1,0,0.7252087,0.27479133,False,0.7252086997032166
+"""@USER: @USER afd Pegida Der gemeine Soze ist kein schlechter Mensch. Er hat nur viel Pech beim nachdenken.""Ein SoZi denkt nie.",OFFENSE,ABUSE,1,0,0.72504747,0.27495247,False,0.7250474691390991
+"@USER @USER @USER @USER @USER @USER @USER Schlimm genug. Religiöses Recht raus aus Deutschland! Wer Scharia will, soll nach Saudi-Arabien auswandern.",OFFENSE,ABUSE,1,0,0.7188638,0.28113616,False,0.7188637852668762
+fast hätte ich sie verpasst die Moderatorin der @USER mit der schmoddrigen schwarzen Hose und den fettigen Haaren WDR,OFFENSE,INSULT,1,0,0.7179596,0.28204045,False,0.7179595828056335
+@USER SPD verseuchtes Nazipack heisst jetzt ANTIFA,OFFENSE,ABUSE,1,0,0.7175143,0.28248575,False,0.7175142765045166
+"Profalla,det grösste Knecht der Merkel zur DB.Wieviel verdient dieser Sklave des Kapitals?",OFFENSE,INSULT,1,0,0.7173667,0.28263333,False,0.7173666954040527
+@USER @USER Welche Antwort erwartest Du von einer Islamistin?,OFFENSE,ABUSE,1,0,0.7167758,0.28322425,False,0.7167757749557495
+"@USER @USER Eine liberalen Demokratie gegen ein autoritäres islamisches System, welches seinen Kindern beibringt, Juden zu töten. |LBR| Nein, die Verantwortung liegt nicht bei beiden.",OFFENSE,ABUSE,1,0,0.7140226,0.2859774,False,0.7140225768089294
+Der Krieg wurde durch Verrat und Zersetzung verloren.Kein Friedensvertrag!,OFFENSE,ABUSE,1,0,0.71036273,0.28963724,False,0.7103627324104309
+Ich persönlich finde Jerusalem ja doof - der Mief der Religionen raubt der Stadt die Attraktivität. |LBR| Aber selbstverständlich ist es die Hauptstadt Israels. |LBR| Und Palästina interessiert keinen.,OFFENSE,ABUSE,1,0,0.70952696,0.29047307,False,0.7095269560813904
+@USER Sie ist eine Rassistin. Und Sexistin.,OFFENSE,INSULT,1,0,0.70630413,0.2936959,False,0.706304132938385
+@USER Hab's bereits kommentiert. Der Typ ist ein Clown.,OFFENSE,INSULT,1,0,0.7057577,0.29424235,False,0.7057576775550842
+"@USER Warum scheisst sich unsere Regierung dann ein, wenn Filipinos ein Besuchsvisum möchten. Fast alle werden willkürlich abgelehnt",OFFENSE,INSULT,1,0,0.70517105,0.29482895,False,0.7051710486412048
+@USER @USER @USER @USER Gleichberechtigung der Frau ist bereits lange erreicht. Individuelle Lebensweg sind Teil der Freiheit.,OFFENSE,ABUSE,1,0,0.7045845,0.29541555,False,0.7045844793319702
+"Wenn 90 Prozent der Vergewaltigungen durch Männer nicht bestraft werden, könnte es dann nicht sein, dass 90 Prozent der Frauen gelogen haben? |LBR| Warum ist das so undenkbar?",OFFENSE,ABUSE,1,0,0.7044599,0.2955401,False,0.7044599056243896
+@USER |LBR| A. H. war als Diktator aber fürs Volk. Also.,OFFENSE,ABUSE,1,0,0.70043653,0.29956347,False,0.700436532497406
+Ich wäre für 100.000 Euro für jeden Zigeuner als Begrüssungsgeld.Endlich kommen sie.Herzlich willkommen. |LBR| Danke dieser Regierung!,OFFENSE,ABUSE,1,0,0.7001605,0.2998395,False,0.7001605033874512
+"@USER @USER @USER @USER @USER @USER @USER Sie trägt ja auch freiwillig ein Kopftuch, das anderswo Frauen mit Gewalt aufgezwungen wird.",OFFENSE,ABUSE,1,0,0.6997431,0.3002569,False,0.6997430920600891
+"@USER Sie verlgeicht nicht sich mit den Opfern, sondern weisst auf die Paralle zwischen dem Handeln der Altparteien und Görings hin. Bundestag",OFFENSE,ABUSE,1,0,0.6988784,0.3011216,False,0.6988784074783325
+Der Sturm des Aussatzes auf Europa ist eröffnet!,OFFENSE,ABUSE,1,0,0.6986356,0.30136445,False,0.6986355781555176
+ich glaube ClaudiaRoth kann einfach nur peinlich. Bundestag Bundestagsvizepraesident,OFFENSE,INSULT,1,0,0.697917,0.30208308,False,0.6979169845581055
+"Logisch!Wenn sie die Zersetzung vorangetrieben haben und das Volk genug betrogen haben,gehen sie ins gelobte Land.",OFFENSE,ABUSE,1,0,0.69766754,0.30233243,False,0.6976675391197205
+"@USER @USER @USER Ich arbeite in einem Beruf, wo ich tatsächlich arbeiten muss und nicht das Steuergeld anderer Leute verschwende.",OFFENSE,ABUSE,1,0,0.697009,0.302991,False,0.6970090270042419
+"Der Siemens-Chef Joe Kaeser geht jetzt auf die Politiker los, die ihn kritisieren. Die einzig richtige Antwort ist asozialen Firmenchefs wie Kaeser Massenentlassungen zur Profitsteigerung gesetzlich zu verbieten. Bundestag Linke",OFFENSE,INSULT,1,0,0.6967162,0.30328384,False,0.6967161893844604
+sind die TV Gebühren noch zu niedrig dass die Moderatorin der @USER immer in ihren alten Lumpen und fettigen Haaren auftritt WDR,OFFENSE,INSULT,1,0,0.69657546,0.30342454,False,0.6965754628181458
+Diese @USER hat nur Brei im Kopf illner,OFFENSE,INSULT,1,0,0.6958727,0.30412728,False,0.6958727240562439
+"@USER Die liebt Wahlkampf, andere lieben ihre Familien. Zum kotzen, was die SPD alles tut, um an der Macht zu kleben.",OFFENSE,INSULT,1,0,0.6952909,0.30470908,False,0.6952909231185913
+Vermischte und Vermanschte Ziel der D Vernichter.,OFFENSE,ABUSE,1,0,0.69515055,0.30484942,False,0.6951505541801453
+Frauen die in der Bahn laut kichern. Das belästigt mich. Ich hab's gemeldet. |LBR| keinekleinigkeit,OFFENSE,ABUSE,1,0,0.694536,0.30546406,False,0.6945359706878662
+"Das Privileg der Frauen zeigt sich bereits an ihrer Kleidung. Während männlichen Kleidung auf Effizienz und bestmögliche Ausnutzung der Arbeitskraft ausgelegt wird, leisten sich Frauen extravagante Maskeraden. |LBR| Ich suche dazu noch mal das Zitat von Vilar raus",OFFENSE,ABUSE,1,0,0.6938475,0.30615246,False,0.6938474774360657
+ekelhaft Claudia Roth wieder im Fernsehen sehen zu müssen Bundestag,OFFENSE,INSULT,1,0,0.69367254,0.30632743,False,0.6936725378036499
+"@USER @USER |LBR| Arme Deutsche Bürger, Wehrt euch geht auf die Straße. Alle!",OFFENSE,ABUSE,1,0,0.6927211,0.30727887,False,0.6927211284637451
+"@USER Wurde der Merkel schon 2015 von Australien empholen. Doch Dämon Merkel ,macht das Gegenteil.",OFFENSE,INSULT,1,0,0.6919833,0.30801672,False,0.6919832825660706
+"@USER @USER @USER Es fehlt Frauen im Vgl zu Männern im Schnitt an Ehrgeiz, Kreativität und Arbeitseifer.",OFFENSE,ABUSE,1,0,0.6911138,0.3088862,False,0.6911138296127319
+Die rumänischen Banden besetzen unser Land!,OFFENSE,ABUSE,1,0,0.69062054,0.30937943,False,0.6906205415725708
+Klasse Rede . Doch die Juden wollen Katzbuckeln sehen.,OFFENSE,ABUSE,1,0,0.6896435,0.3103565,False,0.6896435022354126
+@USER @USER @USER Von mir aus könnt ihr jämmerlich verrecken,OFFENSE,INSULT,1,0,0.6874095,0.31259048,False,0.687409520149231
+"@USER Was für eine geile Frau ,bist echt der Hammer ....",OFFENSE,PROFANITY,1,0,0.68737817,0.31262177,False,0.6873781681060791
+die fette Claudia Kleinert aus der @USER sieht heute auch wieder aus wie eine Presswurst WDR,OFFENSE,INSULT,1,0,0.68677557,0.3132244,False,0.6867755651473999
+@USER |LBR| In Kindergärten neben den Kindern? wäre ja noch schöner. Zittern soll dieses Asylantenpack in Zelten abseits der Zivilisation,OFFENSE,ABUSE,1,0,0.6863616,0.31363842,False,0.6863616108894348
+@USER Hat uns alles IM Erika mitsamt der abgefuckten GROKO eingebrockt,OFFENSE,INSULT,1,0,0.68620354,0.3137965,False,0.6862035393714905
+"@USER Jeder der den Altparteien seine Stimme gibt handelt etwa so, als würde er gutes Essen in den Müll werfen, während kleine Kinder verhungern",OFFENSE,INSULT,1,0,0.68607193,0.31392804,False,0.6860719323158264
+@USER Das würde den Zustand von Claudia Roth erklären,OFFENSE,INSULT,1,0,0.68556815,0.31443188,False,0.6855681538581848
+für mich ist die Ehe für alle pervers und abartig,OFFENSE,ABUSE,1,0,0.6855681,0.3144319,False,0.68556809425354
+@USER |LBR| DIE HUREN DES SYSTEMS SIND NIEMALS DEMOKRATEN GEWESEN.,OFFENSE,ABUSE,1,0,0.68501335,0.31498668,False,0.6850133538246155
+@USER Ist @USER jetzt auch eingeschwungen auf den Anti-AfD-Kurs der Kartellparteien?,OFFENSE,ABUSE,1,0,0.6847823,0.3152177,False,0.6847823262214661
+"Ich habe kein Verständnis für jesidische, jüdische und christliche Vertreter, die mitansehen wie Angehörige ihrer Glaubensgemeinschaft von radikalen Muslimen Gewalt erleben, aber öffentlich nicht den Mut haben diesen islamischen Extremismus zu benennen: Ihr seid Feiglinge!",OFFENSE,INSULT,1,0,0.6845118,0.31548822,False,0.6845117807388306
+"Und immer daran denken: Wer grün wählt, wählt Islam.",OFFENSE,ABUSE,1,0,0.68442833,0.3155717,False,0.684428334236145
+@USER Auch da werden viele schwanger um sich zu drücken.,OFFENSE,ABUSE,1,0,0.68397397,0.3160261,False,0.6839739680290222
+"Freie Völker der Welt,steht endlich auf,werdet wach! USA- die größte Völkermordzentrale!",OFFENSE,ABUSE,1,0,0.683662,0.31633794,False,0.6836619973182678
+wie immer die Moderatorin der @USER mit alter schmoddrigen Hose und fettigen Haaren WDR,OFFENSE,INSULT,1,0,0.68347764,0.31652242,False,0.6834776401519775
+"@USER @USER @USER Wir wissen doch bereits jetzt, dass die meisten Migranten keine Flüchtlinge sind. |LBR| Und wir wissen auch, dass die Grünen dieses Land ""multikulturell"" machen wollen - um jeden Preis. |LBR| Daher gegen Familiennachzug. Zu 100 Prozent.",OFFENSE,ABUSE,1,0,0.68241954,0.31758043,False,0.6824195384979248
+"Die Bolschewistenhure wird endlich da enden,wo viele geendet haben!",OFFENSE,ABUSE,1,0,0.6821377,0.3178623,False,0.6821377277374268
+"Dieter Nuhr und die ewig Gestrigen, strunz langweilig",OFFENSE,INSULT,1,0,0.68209714,0.31790283,False,0.6820971369743347
+@USER |LBR| Drum eben. Nazi Na und? Wäre angemessene Reaktion. Ich hatte nie was gegen das NS-Regime! Aber gegen die Siegermächte .,OFFENSE,ABUSE,1,0,0.6814831,0.31851688,False,0.6814830899238586
+@USER @USER Findet sich kein Arsch da ober der das wirklich durchzieht. Grrenzen dicht aber richtig mit Waffen wenns sein,OFFENSE,ABUSE,1,0,0.68143547,0.31856456,False,0.6814354658126831
+"Feminismus bringt einer Gesellschaft nichts positives. Er kann nur spalten, vergiften und zerstören.",OFFENSE,ABUSE,1,0,0.6807633,0.31923667,False,0.680763304233551
+"@USER @USER @USER Wieviel mehr Frauen bekommt man eigentlich ins Bett, wenn man sich feministisch anbiedert?",OFFENSE,ABUSE,1,0,0.6792373,0.32076272,False,0.6792373061180115
+"@USER @USER @USER @USER @USER @USER @USER @USER Die Anzahl der dreckigen Bastarde in diese Politverblödungsshows wäre bei 100%, wenn nicht hin und wieder jemand von der AFD dazu käme.",OFFENSE,INSULT,1,0,0.67920154,0.32079846,False,0.6792015433311462
+@USER WTF... Wie Geil!!! Da würde ich jetzt gerne mit meiner zunge rumlecken,OFFENSE,PROFANITY,1,0,0.67888707,0.32111293,False,0.6788870692253113
+@USER @USER @USER @USER Dick korreliert nicht mit sexueller Anziehung.,OFFENSE,ABUSE,1,0,0.6778197,0.3221803,False,0.6778197288513184
+@USER @USER @USER Geh nachhause dir auf Claudia Roth einen runter holen.,OFFENSE,INSULT,1,0,0.67725164,0.3227484,False,0.6772516369819641
+"@USER Reichsbürger Sind keine Gefahr, Aber Asylschmarotzer und Illegale.",OFFENSE,ABUSE,1,0,0.6749454,0.32505465,False,0.6749454140663147
+"@USER Gut, dass ich schwul bin, und mit der heutigen Frauengeneration nichts zu tun haben muss.",OFFENSE,ABUSE,1,0,0.6747224,0.32527763,False,0.6747223734855652
+"@USER Hi ,erkundige dich mal über den Hooton Plan ! dann wirst du verstehen was hier gerade passiert!",OFFENSE,ABUSE,1,0,0.6726456,0.32735434,False,0.672645628452301
+Die Pfaffen sind immer gleich! Heulen mit den Mächtigen!,OFFENSE,ABUSE,1,0,0.6706188,0.32938126,False,0.6706187725067139
+"Liebe Freunde, viel zu lange geschwiegen!Was hat diese Person verbrochen?",OFFENSE,INSULT,1,0,0.6684255,0.33157456,False,0.6684255003929138
+@USER @USER Üblicherweise werden Ehen von Frauen gewollt. Es entspricht ihrem Bedürfnis nach Romantik und Versorgung.,OFFENSE,ABUSE,1,0,0.6681841,0.33181587,False,0.6681841015815735
+"@USER @USER 3. Antisemitismus unter Muslime ist ein großes Problem, was nicht ignoriert werden darf. Dieser Antisemitismus ist aber auch tief verwurzelt in der ganzen Nazibrut. Kommentare wie von Ihnen bestätigen mich in der Einschätzung, dass hier versucht wird, ein tiefes deutsches Problem",OFFENSE,ABUSE,1,0,0.6673401,0.33265993,False,0.667340099811554
+"Psst, ich verrate Euch ein Geheimnis aus der Frauenwelt. Frauen wollen nicht wie Männer behandelt werden. Sie wollen besser behandelt werden",OFFENSE,ABUSE,1,0,0.6671719,0.33282807,False,0.6671718955039978
+@USER Die Drecks-SPD mit ihren Aussenministern scheisst aufs Grundgesetzt und ganz besonders auf Art. 6 GG,OFFENSE,INSULT,1,0,0.662892,0.33710796,False,0.6628919839859009
+"@USER Seltsam - die deutsche Botschaft in Manila hätte meine 15 Monate alte Tochter lieber im Dreck verrecken lassen, als zu beurkunden.",OFFENSE,INSULT,1,0,0.66228896,0.33771098,False,0.6622889637947083
+ich glaube kaum dass die neuen Autos auf die Stimme von Yvonne Willicks reagieren diese Gerät haben auch ihren Stolz servicezeit wdr,OFFENSE,INSULT,1,0,0.66210675,0.33789328,False,0.6621067523956299
+@USER @USER |LBR| So siehts in Wahrheit aus. Aller Abschaum kommt Nach D ohne Paß keine Akte.,OFFENSE,ABUSE,1,0,0.6620006,0.3379994,False,0.6620005965232849
+"@USER Solange bei Politikern der Dünnschiss aus der Fresse kommt, wird sich nichts ändern. Es stinkt weiter !!!",OFFENSE,ABUSE,1,0,0.6609793,0.3390208,False,0.6609792709350586
+"@USER Wenn das komplette SPD Gesocks morgen qualvoll verrecken würde, wäre das schöner als Weihnachten und Ostern zusammen.",OFFENSE,ABUSE,1,0,0.6607588,0.33924118,False,0.6607587933540344
+@USER Dieser Pfaffe erinnert mich an das ganze pädophile Gesindel,OFFENSE,ABUSE,1,0,0.66012114,0.33987892,False,0.6601211428642273
+@USER Schulz kennt alle Probleme und kriecht jedem in den Arsch. Dabei hat seine abgefuckteSPD die Probleme mitverursacht !!!,OFFENSE,INSULT,1,0,0.6597499,0.34025013,False,0.6597499251365662
+schade dass ich heute die Sendung hartaberfair nicht schauen kann aber die Stimme von frau Nicola Beer FDP ist einfach unerträglich,OFFENSE,INSULT,1,0,0.65853405,0.34146592,False,0.658534049987793
+@USER @USER @USER @USER @USER @USER @USER Richtig. Ich lehne den Islam in seiner Gänze ab.,OFFENSE,ABUSE,1,0,0.65810245,0.3418976,False,0.6581024527549744
+@USER @USER @USER Der Staatsfunk hat halt einen politischen Auftrag.,OFFENSE,ABUSE,1,0,0.657143,0.34285697,False,0.6571429967880249
+"wie strunzdumm ist denn die türkische Rechtsanwältin in der @USER sie sollte besser machen was sie kann, Ziegen hüten WDR",OFFENSE,ABUSE,1,0,0.65657455,0.34342545,False,0.656574547290802
+"@USER Diese Tierquäler Tiermörder, sollten selber geschächtet werden.",OFFENSE,ABUSE,1,0,0.6562585,0.34374148,False,0.6562585234642029
+"@USER Ich finde Claudia Roth auch ekelhaft, und ich gehe noch viel weiter. Man sollte sie rückstandslos entsorgen.",OFFENSE,ABUSE,1,0,0.6555795,0.34442052,False,0.6555795073509216
+"@USER @USER @USER Es is keine Wissenschaft. Wissenschaft falsifiziert und ist ergebnisoffen. Gender Studies sind pure Ideologie, die außer Behauptungen nichts vorweisen können.",OFFENSE,INSULT,1,0,0.65521985,0.34478012,False,0.6552198529243469
+"@USER Lieber hundert Stimmen für die AFD als eine Stimme für die SPD , die Scheinheilgste Partei Deutschlands oder der abgefuckten CDU",OFFENSE,INSULT,1,0,0.65284216,0.34715787,False,0.6528421640396118
+Gauck entschuĺdigt sich! Der Satrape der Besatzung!,OFFENSE,ABUSE,1,0,0.6517945,0.34820557,False,0.6517944931983948
+@USER Genau. Die Froschfresser haben nichts gelernt! Ihr Untergang ist selbstverschuldet.,OFFENSE,ABUSE,1,0,0.65087235,0.34912762,False,0.6508723497390747
+"@USER @USER @USER @USER |LBR| Autonome dürfen alles. Wären das Rechte-, -&gt;Höchtstrafen",OFFENSE,ABUSE,1,0,0.6504395,0.3495605,False,0.6504395008087158
+"Wäre Hitler an der Macht, wäre Gauck SS Offizier!",OFFENSE,ABUSE,1,0,0.6501355,0.3498645,False,0.6501355171203613
+Das ist die endgültige Umerziehung des Deutschen geplant 1943 in Amerika.,OFFENSE,ABUSE,1,0,0.649944,0.350056,False,0.649944007396698
+@USER |LBR| Nur viel Wind um nichts. Asylwahnsinn geht weiter!,OFFENSE,ABUSE,1,0,0.64937943,0.35062063,False,0.6493794322013855
+Was ist nur aus dem Verfassungsgericht geworden? Diese Voskhule Administration tut dem Land nicht gut. linksrotgrün verschwult,OFFENSE,ABUSE,1,0,0.6482836,0.35171643,False,0.6482836008071899
+@USER ist in meinen Augen strunzdumm wie ein Knäckebrot. Gott sei Dank hat er es bald hinter sich,OFFENSE,INSULT,1,0,0.64815366,0.35184637,False,0.6481536626815796
+"@USER @USER @USER @USER @USER Ich wäre sehr froh, wenn zum Beispiel die islamische Kultur sich auflöst und verwestlicht.",OFFENSE,ABUSE,1,0,0.6472878,0.35271215,False,0.6472877860069275
+Und was bekommt ein Asylant der Deutsche umzubringen versucht?,OFFENSE,ABUSE,1,0,0.6469323,0.3530677,False,0.6469323039054871
+"@USER @USER Genau. Hat nichts mit Religion zu tun. Deshalb rufen sie ja auch Allah an und verweisen auf Mohammed, der ebenfalls die Juden vertrieben hat.",OFFENSE,ABUSE,1,0,0.64606106,0.35393894,False,0.6460610628128052
+"@USER @USER @USER @USER @USER @USER @USER Ja, ich habe ein Problem mit dem Islam. Was dagegen?",OFFENSE,ABUSE,1,0,0.6453097,0.35469034,False,0.6453096866607666
+@USER @USER @USER Reicht Merkel nicht? Oder ist die auch ein Mann?,OFFENSE,ABUSE,1,0,0.64350367,0.3564963,False,0.6435036659240723
+"@USER @USER So wie jedem klar war, dass unkontrollierte Einwanderung aus islamischen Regionen ein Sicherheitsrisiko per se darstellt.",OFFENSE,ABUSE,1,0,0.6429051,0.35709488,False,0.6429051160812378
+"""Kunst muss provozieren"" |LBR| Äh, nein. Aber, wenn man kein Talent hat, dann bleibt einem nur die Provokation.",OFFENSE,INSULT,1,0,0.64282167,0.3571784,False,0.6428216695785522
+"Ihr könnt Frauenquoten einführen soviel Ihr wollt, aber Ihr könnt mich nicht dazu zwingen, Quotenfrauen zu respektieren. |LBR|",OFFENSE,ABUSE,1,0,0.6427885,0.3572115,False,0.6427885293960571
+"Wenn Du glaubst, die Verteidigung der Meinungsfreiheit für Faschisten, sei dasselbe wie Faschismus, dann bist Du ein Idiot.",OFFENSE,INSULT,1,0,0.64250773,0.35749224,False,0.6425077319145203
+Die grössten Verbrecher am Volk: SPD!,OFFENSE,ABUSE,1,0,0.642193,0.35780695,False,0.6421930193901062
+deutsche Politiker sind in meinen Augen blutsaugende Parasiten an der Halsschlagader der deutschen Bürger CDU SPD FDP Grüne Linke,OFFENSE,ABUSE,1,0,0.64198804,0.35801196,False,0.6419880390167236
+"@USER @USER @USER Ach ja stimmt, Eure bekloppte Religion...",OFFENSE,ABUSE,1,0,0.63985777,0.3601422,False,0.6398577690124512
+@USER @USER du bist wohl ein links-rot-grün Verblendeter.,OFFENSE,ABUSE,1,0,0.6397152,0.3602848,False,0.6397151947021484
+"@USER @USER @USER @USER @USER @USER Die Art Islam, die Frauen für männliche Verfügungsmasse hält.",OFFENSE,ABUSE,1,0,0.63950294,0.3604971,False,0.6395029425621033
+Zion wird sein Nürnberg jetzt erleben!,OFFENSE,ABUSE,1,0,0.63941604,0.3605839,False,0.6394160389900208
+@USER Claudia Roth ist eine Schande für Deutschland. Und eine Peinlichkeit für JEDE Partei.,OFFENSE,INSULT,1,0,0.63935333,0.36064667,False,0.639353334903717
+"@USER |LBR| Gar nicht gewußt. Überall Judenspuren. |LBR| Von nun an nur noch ein gesundes , gutes neues Jahr.",OFFENSE,ABUSE,1,0,0.63861364,0.3613864,False,0.6386136412620544
+@USER @USER @USER @USER Geschundenen von 40 Jahre DDR und 27 Jahren Bundesrepublik,OFFENSE,ABUSE,1,0,0.6383642,0.3616358,False,0.6383641958236694
+"Aber 20 ist er auch nur nach eigenen Angaben. |LBR| Morgen heisst Diaa/Mohammed dann Abdullah, ist 26 und in der Heimat bereits verheiratet.",OFFENSE,ABUSE,1,0,0.6383418,0.36165816,False,0.6383417844772339
+@USER Visa werden nur willkürlich erteilt. Die deutschen Botschaften machen unter Deckung ihres SPD Chefs auf Herrebmensch.,OFFENSE,INSULT,1,0,0.6369902,0.36300984,False,0.6369901895523071
+"""Ihre Dummheit macht die Frau göttlich."" |LBR| (Esther Vilar)",OFFENSE,ABUSE,1,0,0.6367852,0.3632148,False,0.6367852091789246
+so nun mach dich auch Frau Kraft SPD NRW die Taschen voll politisch war sie ja eine Niete,OFFENSE,INSULT,1,0,0.6358402,0.3641598,False,0.6358401775360107
+@USER @USER Aber natürlich findet ein SEDler die Unterstützung einer Stasi-Stiftung gut,OFFENSE,ABUSE,1,0,0.6327267,0.36727327,False,0.6327267289161682
+@USER @USER Was lässt sich die Blöde auch mit Neger ein?,OFFENSE,ABUSE,1,0,0.6322692,0.36773083,False,0.6322692036628723
+@USER Ich hoffe dieses islamistische Dreckschwein wurde ohne Narkose operiert.,OFFENSE,ABUSE,1,0,0.6312402,0.36875978,False,0.63124018907547
+@USER Weltoffenheit ist im Auswärtigen Amt ein Fremdwort! Deutsche Botschaft in Manila strotzt vor Menschenverachtung!,OFFENSE,INSULT,1,0,0.63034105,0.36965898,False,0.6303410530090332
+"@USER Selber schuld. Die hättest halt Deinen Pass wegwerfen und Dich als ""Flüchtling"" ausgeben sollen.",OFFENSE,ABUSE,1,0,0.6279719,0.37202808,False,0.627971887588501
+erster FC Bayern München zeichnet sich aus durch Scheintote als Trainer und Schwerverbrecher im Management,OFFENSE,INSULT,1,0,0.6276128,0.3723872,False,0.627612829208374
+"@USER @USER |LBR| Schalt den Eletrojuden nach(Dr,Axel Stoll) einfach aua.",OFFENSE,ABUSE,1,0,0.6261515,0.37384853,False,0.6261515021324158
+ich will diese scheiß Migranten nicht,OFFENSE,ABUSE,1,0,0.62495124,0.37504876,False,0.6249512434005737
+@USER @USER Ich weine Deutschistan keine Träne nach,OFFENSE,ABUSE,1,0,0.62483644,0.37516358,False,0.6248364448547363
+"@USER Abschieben. |LBR| ,Abschieben,Abschieben! Alle Parasiten aus Afrika.",OFFENSE,ABUSE,1,0,0.6245837,0.37541628,False,0.6245837211608887
+"@USER Schon mal eine Verbesserung. Davor haben sich die Grünen für jeden Scheinasylanten, jeden ausländischen Gewalttäter und jeden Islamisten eingesetzt.",OFFENSE,ABUSE,1,0,0.6245063,0.37549374,False,0.6245062947273254
+"@USER @USER @USER Interessant wäre auch, wieviele Ehefrauen ein Mann nachholen darf. In Syrien etc. ist Polygamie ja legal.",OFFENSE,ABUSE,1,0,0.6237422,0.37625775,False,0.6237422227859497
+@USER @USER @USER Was bist Du denn für ne Schwuchtel?,OFFENSE,PROFANITY,1,0,0.62258506,0.37741488,False,0.6225850582122803
+@USER Glaubst Du etwa ich bin pervers? Ich trage doch keinen Vollbart!,OFFENSE,ABUSE,1,0,0.62224126,0.37775874,False,0.6222412586212158
+"@USER Frauen zu einem ""Ja"" zu überreden, ist nicht selten erfolgreich. Viele Frauen wollen nicht als zu leicht zu haben angesehen werden. Oder mögen das Spiel. Oder wollen testen, ob er wirklich interessiert ist.",OFFENSE,ABUSE,1,0,0.620134,0.37986603,False,0.6201339960098267
+Sagt euch jeden Tag neu: |LBR| ES KOMMT DER TAG DER RACHE! |LBR| UND DER WIRD UNBARMHERZIG SEIN!,OFFENSE,ABUSE,1,0,0.6186665,0.38133347,False,0.6186665296554565
+@USER @USER @USER Schwesig und Stegner- die neue SS ???,OFFENSE,INSULT,1,0,0.617339,0.38266098,False,0.617339015007019
+ich finde es eine Schande Verbrecher Uli Hoeneß bei einem Bayern Spiel sehen zu müssen,OFFENSE,INSULT,1,0,0.6172999,0.38270006,False,0.6172999143600464
+"@USER @USER @USER Frauen sind nicht benachteiligt. Sie persönlich sind ja auch in der Politik. Nur weil Frau mal für etwas arbeiten muss, ist das keine Benachteiligung.",OFFENSE,ABUSE,1,0,0.61708057,0.3829194,False,0.617080569267273
+@USER Die Länger-hier-Lebenden im Vergleich zu Juden? Sie kleiner geschichtsloser Antisemit. In meiner Heimatstadt waren die Juden vermutlich vor den ersten Christen da.,OFFENSE,INSULT,1,0,0.6165001,0.3834999,False,0.6165000796318054
+"Palmer hält sich für den geilsten, dabei ist Tübingen wie Münster eine Stadt mit vielen linken Studenten. maischberger",OFFENSE,INSULT,1,0,0.6162262,0.38377383,False,0.6162261962890625
+meckern über die Touristen auf Bali dabei ist die Sendung taff einer der größten Schmeißfliegen pro7,OFFENSE,PROFANITY,1,0,0.61479557,0.38520437,False,0.6147955656051636
+"@USER @USER Was ist am Gender Pay Gap schlimm? Wer weniger arbeitet, und in Berufen, die weniger zahlen, der verdient auch weniger.",OFFENSE,ABUSE,1,0,0.6131439,0.38685605,False,0.6131439208984375
+"An Tagen wie heute fragt mann sich echt wer verblödeter ist, die Regierung oder die Verfassungsrichter!? maischberger DrittesGeschlecht",OFFENSE,INSULT,1,0,0.61258435,0.38741568,False,0.6125843524932861
+Söder sollte Verteidigungsminister werden. Entsorgt von der Leyen. illner,OFFENSE,ABUSE,1,0,0.6114439,0.3885561,False,0.6114438772201538
+"@USER |LBR| Ja ja , Deutschland wird abgeschafft. Antideutsche Verräter werden......",OFFENSE,ABUSE,1,0,0.61108994,0.38891003,False,0.6110899448394775
+"@USER |LBR| Alltag in Deutschland heute.Mann ,schmeißt alle Ausländer raus. Deutschland den Deutschen!",OFFENSE,ABUSE,1,0,0.6097299,0.39027014,False,0.6097298860549927
+"Und anstelle sofort abzureisen,jammert dieser armselige Gauck auch noch mit den Griechen.",OFFENSE,INSULT,1,0,0.60887957,0.3911204,False,0.608879566192627
+@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Macht mal Urlaub in einem islamischen Land. Dann wisst ihr was Gaffer sind.,OFFENSE,ABUSE,1,0,0.6086611,0.39133888,False,0.6086611151695251
+"@USER @USER @USER @USER @USER @USER @USER Wo ist dann Dein Problem damit, wenn jemand den Islam ablehnt?",OFFENSE,ABUSE,1,0,0.607736,0.392264,False,0.6077359914779663
+@USER @USER @USER Die Kopftuchdichte nimmt in meinem Viertel jedenfalls seit Jahren kontinuierlich zu.,OFFENSE,ABUSE,1,0,0.6069185,0.39308146,False,0.6069185137748718
+"@USER @USER Befürchte. Leider wahr. Schlafschafe, Angsthasen ,Egoisten, die Mehrheit der Deutschen, gehen nicht zur Wahl.",OFFENSE,INSULT,1,0,0.605603,0.39439696,False,0.6056029796600342
+@USER @USER @USER Deine Argumentation ist grandios. Typisch feministisch,OFFENSE,ABUSE,1,0,0.6051124,0.39488763,False,0.6051123738288879
+"Wenn ich eine Frau wäre und mein Brüste im Ausschnitt präsentiere und und mich hinterher beschwere, dass ein Mann etwas zu gierig hingeschaut hat - wäre ich doof. |LBR| MeToo",OFFENSE,ABUSE,1,0,0.60477597,0.39522406,False,0.6047759652137756
+"@USER @USER @USER Die Frage ist natürlich immer, ob die Klischee-Homos sich nur sichtbarer machen. |LBR| Ich falle ja auch nicht als Homo auf.",OFFENSE,INSULT,1,0,0.6041105,0.39588955,False,0.6041104793548584
+@USER Jeder liebt sein Land sein Volk u nicht fremde Krimminelle. Rassist Na und?,OFFENSE,ABUSE,1,0,0.600689,0.399311,False,0.6006889939308167
+"@USER @USER Das Problem ist, dass es ja nicht bei Feministen bleibt. Das ist jetzt für alle Nicht-Moslems ne No Go Area.",OFFENSE,ABUSE,1,0,0.60018003,0.39981994,False,0.6001800298690796
+die SPD ohne Rückgrat verkauft sich jetzt doch noch wie zu erwarten gewesen ist. Sie wird demnächst mit der Fünf-Prozent-Hürde kämpfen,OFFENSE,INSULT,1,0,0.59760594,0.4023941,False,0.5976059436798096
+@USER @USER Was der Kandidat der Scheinheilgsten Partei Deutschlands so alles verspricht. Wer ist denn Teil der Regierung? fucktheGroKo,OFFENSE,INSULT,1,0,0.5970939,0.40290615,False,0.5970938801765442
+Die größte Terrororganisation der Welt ist die USA und ihrer Ostküste!,OFFENSE,ABUSE,1,0,0.59695685,0.4030432,False,0.5969568490982056
+@USER @USER @USER |LBR| Genau . viel mehr Meinungsdiktatur und Selbstherrlichkeit der Regierung gegen das Volk.,OFFENSE,ABUSE,1,0,0.59680986,0.40319017,False,0.5968098640441895
+"@USER |LBR| Und mehr Kampf gegen Extremisten ,aber nur gegen Rechts und Islamisten.Linke bleiben wie immer verschont.",OFFENSE,ABUSE,1,0,0.59618914,0.40381083,False,0.5961891412734985
+@USER @USER |LBR| Wo sind die wahren Männer? Aller verschwult oder was? Oh Mann hätte bei A.H. nie gegeben.,OFFENSE,ABUSE,1,0,0.59532136,0.4046786,False,0.5953213572502136
+"Noch mal zum Merken: |LBR| Es gibt keinen Staat ""Palästina"", es hat niemals einen solchen Staat gegeben und wenn es nach mir geht, wird es auch niemals einen derartigen Staat geben.",OFFENSE,ABUSE,1,0,0.59522927,0.40477067,False,0.5952292680740356
+"@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Du bringst deinem Sohn bei, dass eine Frau ohne Kopftuch nichts weiter ist, als eine ""Schlampe"". |LBR| Genauso wie du dich abwertend über Bikinis und Freizügigkeit äußerst.",OFFENSE,ABUSE,1,0,0.59515643,0.40484357,False,0.5951564311981201
+"Dicke Lesben sollten sich glücklich schätzen, in einer Kultur zu leben in der sie dafür bezahlt werden, diese Kultur als Dreck zu bezeichnen",OFFENSE,ABUSE,1,0,0.5947942,0.40520576,False,0.5947942137718201
+"""@USER: Hallo Frau Merkel, wie lebt es sich eigentlich mit so einer großen Schuld und all dem Blut an den Händen?"" |LBR| DAS BLUT KLEBT!",OFFENSE,INSULT,1,0,0.5934492,0.40655088,False,0.5934491753578186
+@USER Die Eier wurden dir ja abgeschnitten ! von deiner mutter !!!,OFFENSE,INSULT,1,0,0.5932224,0.4067776,False,0.5932223796844482
+@USER schlimm das einer wie Volker Beck noch in Talkshows eingeladen wird,OFFENSE,INSULT,1,0,0.5931761,0.40682387,False,0.5931761264801025
+"@USER |LBR| Die Asylanten sollten für Unterkunft, Fressen usw. arbeiten und in die RK einzahlen.",OFFENSE,ABUSE,1,0,0.5926327,0.4073673,False,0.5926327109336853
+"@USER @USER FY Kriechen tun nur die schäbigen Bastarde aus der abgefuckten SPD, und zwar ganz tief in den Arsch von IM Erika.",OFFENSE,INSULT,1,0,0.5918248,0.4081752,False,0.5918248295783997
+Und eine Horde von devoten Lemmingen folgt ihr.,OFFENSE,ABUSE,1,0,0.5878072,0.4121928,False,0.5878071784973145
+"@USER |LBR| Bald Alltag, bei dem Asylantenwahsinn!",OFFENSE,ABUSE,1,0,0.58758533,0.4124147,False,0.5875853300094604
+"Religionsfreiheit ist die dümmste aller Freiheiten. De facto ist es ein Sonderrecht, nur weil man an eine bestimmte Art von Unsinn glaubt.",OFFENSE,ABUSE,1,0,0.5864166,0.4135834,False,0.5864166021347046
+"@USER Jetzt könnt ihr es sehen,,, die Nazis in Österreich waren erst gegen Ausländer und Flüchtlinge, jetzt sind Sie an der Macht, und schon geht es den „Arbeitslosen“ an den Kragen.. erinnert Euch, die AFD will Arbeitslose in Lager senden... |LBR| NoAfD afdwürgt",OFFENSE,INSULT,1,0,0.5857363,0.4142637,False,0.5857362747192383
+@USER Das Element soll sich um seine pädophilen Freunde kümmern!,OFFENSE,ABUSE,1,0,0.5855304,0.41446966,False,0.5855304002761841
+@USER Muss cool sein. So ne Stadt ganz ohne Kopftücher.,OFFENSE,ABUSE,1,0,0.5851515,0.41484854,False,0.5851514935493469
+"@USER @USER @USER Warum glauben Künstler und Intellektuelle eigentlich immer, ihr Fortzug wäre ein Verlust?",OFFENSE,INSULT,1,0,0.58419186,0.4158081,False,0.5841918587684631
+"Ich hoffe,das die Rache so brutal sein wird,das Europa endlich keine Rücksicht mehr nimmt.",OFFENSE,ABUSE,1,0,0.58418864,0.41581133,False,0.5841886401176453
+"@USER @USER @USER @USER @USER @USER @USER Es ist auch nicht gerade emanzipiert, einen barbarischen Wüstenkrieger zu verehren, der ein 9jähriges Mädchen gevögelt hat.",OFFENSE,ABUSE,1,0,0.5841422,0.41585782,False,0.5841422080993652
+@USER @USER |LBR| Klar doch immer hereinspaziert. Wir habens doch. Ausländer rein . Deutsche raus.,OFFENSE,ABUSE,1,0,0.5840075,0.41599244,False,0.5840075016021729
+@USER Und dank der Einwanderung haben wir hier bald dieselben Verhältnisse. Weltoffen und bunt...,OFFENSE,ABUSE,1,0,0.5832363,0.41676375,False,0.5832362771034241
+@USER Wohl eher die Hetzkammer der abgefuckten Altparteien. Da werden einige Bastarde mit ganz schön Dreck am Stecken dabei sein.,OFFENSE,ABUSE,1,0,0.5796941,0.42030588,False,0.5796940922737122
+"@USER @USER @USER Mich interessiert's weil ich es gut finde, dass es inmitten islamischen Barbarei wenigstens eine Demokratie gibt, in der ich Schwänze lutschen kann ohne ins Gefängnis zu kommen.",OFFENSE,ABUSE,1,0,0.57924217,0.42075786,False,0.5792421698570251
+"Ich verstehe immer weniger, warum die Polen, Tschechen und Ungarn unsere vorbildliche Migrationspolitik nicht mitmachen wollen. |LBR| Ist es denen nicht langweilig mit Weihnachtsmärkten so ganz ohne Barrieren, Polizisten und Nagelbomben?",OFFENSE,ABUSE,1,0,0.57902896,0.420971,False,0.5790289640426636
+@USER Die Hauptgegner sind die etablierten Medien.,OFFENSE,ABUSE,1,0,0.5784533,0.42154667,False,0.5784533023834229
+"@USER |LBR| ES WIRD ZEIT, DIESE KRANKE ZU WARNEN!",OFFENSE,INSULT,1,0,0.5783083,0.42169175,False,0.5783082842826843
+"Gerichtshof her, Aburteilung, Beseitigung der Führung, Besetzung des Landes, Umerziehung!",OFFENSE,ABUSE,1,0,0.5750871,0.42491293,False,0.5750870704650879
+@USER @USER @USER @USER @USER @USER @USER Ich schon. Ich teile mit ihnen die Ablehnung der derzeitigen Flüchtlingspolitik und des Islam.,OFFENSE,ABUSE,1,0,0.572848,0.42715192,False,0.5728480219841003
+"@USER @USER Raus mit denen ,am besten nach Zentra-lAfrika!",OFFENSE,ABUSE,1,0,0.5726809,0.42731914,False,0.5726808905601501
+"@USER @USER @USER @USER @USER @USER @USER Und Du bist so fanatisch, dass Du nicht bereit bist, das Symbol dieser Ideologie abzulegen, selbst wenn Du neutral Fakten lehren sollst.",OFFENSE,ABUSE,1,0,0.57111585,0.42888415,False,0.5711158514022827
+"Die Sklaven freuen sich.Der Abschaum regiert. |LBR| Es kann ganz schnell passieren,das der Wind sich dreht!",OFFENSE,ABUSE,1,0,0.5703342,0.42966577,False,0.5703341960906982
+Hoffentlich kann der Pfaffe noch lange weiter pilgern!,OFFENSE,ABUSE,1,0,0.56991243,0.43008757,False,0.5699124336242676
+"Wer ""gerechte Löhne"" fordert, ist ein Narr.",OFFENSE,INSULT,1,0,0.5691954,0.43080464,False,0.5691953897476196
+"@USER Ich finde AFD Wähler besser als fettige Hasenscharten, die auf Kosten aller permanent am schmarotzen sind.",OFFENSE,INSULT,1,0,0.5688475,0.43115258,False,0.5688474774360657
+"@USER @USER @USER @USER @USER @USER @USER @USER @USER Nein. Du trägst das Symbol einer Religion auf deinem Kopftuch, weil Du eine religiöse Fanatikerin bist.",OFFENSE,ABUSE,1,0,0.56375086,0.4362491,False,0.5637508630752563
+@USER Raus mit dem ganzen Pack in das Land ihrerer Väter oder bei Paßverschwinden auf Hotspo in Afrika (Kz ähnlich),OFFENSE,ABUSE,1,0,0.5630038,0.43699616,False,0.5630037784576416
+Friedman raus!Ab ins gelobte Land!,OFFENSE,INSULT,1,0,0.5620836,0.43791634,False,0.5620836019515991
+@USER Claudia Roth ist eine Schande für Deutschland.,OFFENSE,INSULT,1,0,0.5603232,0.43967688,False,0.560323178768158
+Endlich!Rumänen und Bulgaren können kommen. Die Sklaven der amerikanischen Ostküste triumphieren.,OFFENSE,ABUSE,1,0,0.5599514,0.44004855,False,0.5599514245986938
+"@USER @USER @USER Doch. Ich akzeptiere den Fakt, dass Gender Studies eine Ausgeburt des Feminismus sind, ideologischer Mumpitz ohne Falsifizierbarkeit, mit dem Anspruch die Gesellschaft nicht zu erforschen, sondern zu ändern.",OFFENSE,INSULT,1,0,0.55966514,0.4403349,False,0.5596651434898376
+"Auf einer gerade in Berlin stattfindenden antiisraelischen Demonstration werden vom Lautsprecherwagen ""Kindermörder Israel""und ""Intifada bis zum Sieg"" Parolen gerufen. |LBR| Antisemitismus",OFFENSE,PROFANITY,1,0,0.5592656,0.4407344,False,0.5592656135559082
+"@USER @USER @USER Ja, mir geht es zu gut. Und ich möchte nicht, dass sich das durch die Einwanderung islamischer Praktiken und Lehren ändert.",OFFENSE,ABUSE,1,0,0.5587436,0.44125637,False,0.5587435960769653
+"Die Amis haben keinen Charakter,keinen freien Geist,keine Kultur. |LBR| Also wird Deutschland und Europa am Ende siegen!",OFFENSE,ABUSE,1,0,0.55770355,0.44229642,False,0.5577035546302795
+@USER Also sie sollten sich wirklich mal Einer Psychologischen Untersuchung unterziehen!!!! und die Künast auch,OFFENSE,INSULT,1,0,0.5573259,0.4426741,False,0.5573258996009827
+die Grünen werden sich verkaufen und danach gottseidank dadurch untergehen,OFFENSE,INSULT,1,0,0.5534762,0.4465238,False,0.5534762144088745
+@USER @USER @USER @USER @USER @USER @USER Vor allem ist es hochgradiger Schwachsinn.,OFFENSE,INSULT,1,0,0.55323267,0.4467674,False,0.5532326698303223
+@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Den ganzen Kinderfickerparteien geht der Arsch auf Grundeis.,OFFENSE,ABUSE,1,0,0.5530811,0.4469189,False,0.5530810952186584
+Was haben Asylanten überhaupt an der Tafel zu suchen. Die bekommen doch Vollverpflegung im Asylantenheim?,OFFENSE,ABUSE,1,0,0.55103743,0.44896254,False,0.5510374307632446
+"@USER @USER @USER @USER Die Allgemeinheit der Frauen zeigt sehr wenig Widerstand gegen die kontinuierliche Dämonisierung von Männern. |LBR| Es sind Opportunisten, die sich aus dem Feminismus das herauspicken, was ihnen gerade passt.",OFFENSE,ABUSE,1,0,0.5480811,0.45191893,False,0.54808109998703
+"Und in Hessen?Die Verräter der SPD,die Kommunisten der Grünen und die Linke führen Gespräche .AHA!",OFFENSE,ABUSE,1,0,0.5480432,0.45195684,False,0.5480431914329529
+"Ich fürchte, in Berlin wird es bald einen Platz zum Gedenken an die Opfer des Sexismus geben. |LBR| Und er wird Sawsan-Chebli-Platz heißen.",OFFENSE,ABUSE,1,0,0.5475096,0.45249045,False,0.5475096106529236
+"@USER Ach du Scheisse, wer mit Nahles in die Zukunft geht kann auch gleich den Stegner dazu packen",OFFENSE,PROFANITY,1,0,0.5458839,0.45411605,False,0.5458838939666748
+"@USER Was lustig ist, da sie ja damit implizit die These der Genderisten bestätigen würden, das Geschlecht konstruiert ist",OFFENSE,INSULT,1,0,0.5448595,0.4551405,False,0.5448595285415649
+"Welche Frau will sich eigentlich die Blöße geben, so unattraktiv zu wirken, dass sie noch niemals sexuell belästigt wurde? |LBR| MeToo",OFFENSE,ABUSE,1,0,0.54450935,0.45549065,False,0.5445093512535095
+"@USER Wo bleibt die von der Luschenpartei ""Die Grünen"" organisierte Menschenkette ?",OFFENSE,INSULT,1,0,0.5441103,0.4558897,False,0.5441102981567383
+"@USER @USER Lieber hundert Stimmen für die AFD als eine Stimme für die SPD , die Scheinheilgste Partei Deutschlands",OFFENSE,INSULT,1,0,0.54305047,0.4569495,False,0.5430504679679871
+@USER @USER Mit dieser soll die Staatlichkeit Palästinas unmöglich gemacht werden. Was ich mittlerweile sehr begrüße.,OFFENSE,ABUSE,1,0,0.5425124,0.45748758,False,0.5425124168395996
+@USER Soros. Soros. Erspar mir diesen Blödsinn.,OFFENSE,INSULT,1,0,0.5421848,0.4578152,False,0.5421848297119141
+"Liebe Freunde, wenn ihr einen Infostand der Besatzerknechte seht,lacht sie aus!Seid Wehrwölfe!",OFFENSE,ABUSE,1,0,0.54151523,0.4584848,False,0.5415152311325073
+"@USER @USER @USER Feminismus ist eine Bewegung mit dem Ziel, eine bestimmte Gruppe von Frauen zu privilegieren und Frauen an sich von sämtlicher Verantwortung für ihr Leben freizustellen.",OFFENSE,ABUSE,1,0,0.5403149,0.4596851,False,0.5403149127960205
+"@USER Besser einen schwarz arbeiten zu lassen als PÄDOPHILE Bastarde in der Partei zu dulden, wie es in der GroKo schon mal vorkommt",OFFENSE,ABUSE,1,0,0.5400614,0.45993856,False,0.5400614142417908
+Die Huren des Systems sichern ihre Posten.Es ist der billige Dreck der hier regiert.,OFFENSE,ABUSE,1,0,0.5386211,0.4613789,False,0.5386211276054382
+@USER |LBR| Der Krieg in den Städten endet blutig und tödlich. Wollt ihr das? Nein?Dannschmeißt sämtliches Asylantenpack raus. Sofort!,OFFENSE,ABUSE,1,0,0.5381841,0.46181586,False,0.5381841063499451
+@USER @USER @USER @USER @USER @USER @USER @USER Eine lebenswerte islamischen Gesellschaft gibt es nirgends.,OFFENSE,ABUSE,1,0,0.535283,0.46471697,False,0.5352830290794373
+"@USER Hat da tatsächlich jemand die Nahles vorgeschlagen, oder sind das nur Darmblähungen gewesen ???",OFFENSE,PROFANITY,1,0,0.53503215,0.4649678,False,0.5350321531295776
+"@USER @USER Alle wirklich Deutschen mit Nationalen Stolz , müssen sich zusammentun und Das Migrations Elend Beenden ,bevor es zu spät ist!",OFFENSE,ABUSE,1,0,0.5347208,0.46527922,False,0.534720778465271
+@USER Ich scheisse auf die SPD !!!,OFFENSE,INSULT,1,0,0.53329396,0.46670607,False,0.5332939624786377
+"Freiheit und Vielfalt sind immer dann gewährleistet, wenn alle Frau_innen Kopftuch tragen und jeder dieselbe linke Meinung hat.",OFFENSE,ABUSE,1,0,0.53225124,0.46774876,False,0.532251238822937
+@USER @USER |LBR| Die haben noch einen Arsch in der Hose.,OFFENSE,PROFANITY,1,0,0.53156245,0.46843758,False,0.5315624475479126
+@USER Die Transfernomaden scharren jetzt schon mit ihren Hufen⁉,OFFENSE,ABUSE,1,0,0.5278758,0.47212425,False,0.5278757810592651
+@USER @USER @USER @USER @USER Er hat doch recht. Saudi-Arabien ist das reinste Beispiel für den Islam.,OFFENSE,ABUSE,1,0,0.5237519,0.4762481,False,0.5237519145011902
+so etwas strunzdummes wie in meinen Augen Frau Nahles darf Deutschland nicht weiterhin in einer Bundesregierung blamieren SPD ihr gehört in die Fresse,OFFENSE,ABUSE,1,0,0.52310604,0.476894,False,0.523106038570404
+@USER @USER Frauen sind albern |LBR| Ende der Geschichte.,OFFENSE,ABUSE,1,0,0.52287436,0.47712567,False,0.5228743553161621
+Wörterbuch der Gutmenschen: |LBR| Multikulturalismus = Islam |LBR| Vielfalt = Islam |LBR| Toleranz = Anpassung an den Islam |LBR| Integration = Übertritt zum Islam,OFFENSE,ABUSE,1,0,0.5216194,0.47838065,False,0.5216193795204163
+@USER @USER @USER Der Kolonialismus ist beendet. Afrikas Misere ist hausgemacht. Und Unabhängigkeit garantiert keinen Wohlstand. Afrika ging es unter Kolonialismus vmtl besser als heute. Weil dort Grundlagen für Zivilisation gelegt worden sind.,OFFENSE,ABUSE,1,0,0.5215188,0.47848123,False,0.5215188264846802
+"@USER Man sollte grundsätzlich nur Schweinefleisch an das Migrantenpack ausgeben. Sollten diese das zurückweisen, könnten sie ja in den zahlreichen Kanalisationen Ratten fangen und verzehren.",OFFENSE,ABUSE,1,0,0.52116734,0.47883266,False,0.5211673378944397
+"@USER @USER Gottes Strafe für die Schwulenlobby, folgt hoffentlich bald?",OFFENSE,ABUSE,1,0,0.51992214,0.4800779,False,0.519922137260437
+"@USER @USER Generalstreik wäre schon lange fällig, aber mit Deutschen Schlafmützen und Angsthasen nicht zu machen",OFFENSE,INSULT,1,0,0.5184788,0.48152116,False,0.5184788107872009
+"@USER Transgender ,ist sie !!! Dieses Miststück!",OFFENSE,ABUSE,1,0,0.518204,0.48179603,False,0.5182039737701416
+Dieser Volker Beck ist eine Gefahr für Deutschland! Gut das er nicht mehr im Bundestag sitzt. ....maischberger,OFFENSE,INSULT,1,0,0.5177744,0.48222557,False,0.5177744030952454
+"""@USER: CDU-Generalsekretär @USER beschimpft einen Facebook-Pöbler als ""Arschloch"" - finden Sie das in Ordnung?"" |LBR| TAUBER-DU ARSCH!",OFFENSE,INSULT,1,0,0.5176623,0.4823377,False,0.5176622867584229
+Die Mutti ist enttäuscht .Ist abgehört worden.,OFFENSE,INSULT,1,0,0.51672775,0.48327228,False,0.5167277455329895
+"Unser Unternehmen stagniert. Was tun? |LBR| Früher: |LBR| Wir brauchen Mitarbeiter mit neuen, kreativen und innovativen Ideen! |LBR| Heute: |LBR| Wir brauchen Mitarbeiter mit Vagina und anderer Hautfarbe!",OFFENSE,ABUSE,1,0,0.51401055,0.48598942,False,0.5140105485916138
+"Wer Multikulturalismus will muss damit leben, dass er auch Kulturen bekommt, die blöd sind.",OFFENSE,ABUSE,1,0,0.51269126,0.4873088,False,0.5126912593841553
+"@USER @USER Von mir aus kann der im türkischen Knast verrecken. Solange es Deutsche Botschaften wie die in Manila gibt, gibt es auch Menschenverachtung",OFFENSE,INSULT,1,0,0.51052564,0.48947436,False,0.510525643825531
+"@USER @USER Klar, denn was wir unbedingt brauchen ist noch mehr Dummschwätzerei an Hochschulen.",OFFENSE,INSULT,1,0,0.5088684,0.4911316,False,0.508868396282196
+"Liebe Männer, auch wenn Feminismus albern ist; Galanterie (Frauen in den Mantel helfen oder den Stuhl zurecht rücken) ist ebenso albern.",OFFENSE,INSULT,1,0,0.5083185,0.49168155,False,0.5083184838294983
+"Wozu muss ich eigentlich einen neuen Personalausweis beantragen, wenn ich auch als ""Flüchtling"" ohne Papiere hierzulande geduldet würde?",OFFENSE,ABUSE,1,0,0.5074507,0.4925493,False,0.5074506998062134
+"@USER @USER Wenn ich die blöden SPD Weiber sehe, allesamt nach Anatolien entsenden. Ohne Rückkehrmöglichkeit.",OFFENSE,ABUSE,1,0,0.50681853,0.49318147,False,0.5068185329437256
+@USER @USER @USER Das von der SPD verseuchte und geleitete Auswärtige Amt und seine Deutsche Botschaft in Manila strotzt vor Menschenverachtung!!!,OFFENSE,ABUSE,1,0,0.5061506,0.49384943,False,0.5061506032943726
+@USER @USER Das kommt davon wenn die Gesellschaft verweiblicht. Kaffeeklatsch wird Politik.,OFFENSE,ABUSE,1,0,0.50609404,0.493906,False,0.5060940384864807
+in der servicezeit werden Handwerker mit versteckter Kamera beobachtet dumm nur dass sie mit der Kamera an der Tür schon empfangen werden. Hier sieht man wie man selbst von den öffentlich-rechtlichen Rundfunkanstalten belogen und betrogen wird WDR,OFFENSE,INSULT,1,0,0.5057541,0.49424586,False,0.5057541131973267
+Niki Lauda ist in meinen Augen so blöd dass er stinkt er meint er braucht sich an keine Regeln zu halten Mercedes Formel1,OFFENSE,INSULT,1,0,0.5051967,0.49480328,False,0.5051966905593872
+"""@USER: @USER @USER Tauber, ich würde sagen, die tatsächlichen Arschlöcher sitzen in der Regierung"" |LBR| SO IST ES!",OFFENSE,ABUSE,1,0,0.50319886,0.4968011,False,0.5031988620758057
+@USER @USER egal wenn ihr was anderes behauptet die einizge Partei die je auf Flüchtlinge schießen lies ist @USER / SED,OFFENSE,ABUSE,1,0,0.50262624,0.4973738,False,0.5026262402534485
+die Grünen hätten sogar ihre Großmutter verkauft nur um an die Regierung zu kommen. pfui,OFFENSE,INSULT,1,0,0.5017844,0.4982156,False,0.5017843842506409
+@USER Was haben die Homo-Verbände denn noch zu tun? Sie müssen albern werden. Wie der Feminismus.,OFFENSE,INSULT,1,0,0.5017756,0.49822438,False,0.5017756223678589
+"gibts diese Woche einen Wettbewerb zwischen maischberger und lanz, wer die Gast*in mit der hässlichten Fresse hat?",OFFENSE,INSULT,1,0,0.50115645,0.49884352,False,0.5011564493179321
+"Ständig gegen Deutsche hetzen und über unsere Kultur spotten, aber nicht die Eier haben zu einer Mohammed-Karikatur LaferLichterLuther",OFFENSE,ABUSE,1,0,0.5003157,0.4996842,False,0.5003157258033752

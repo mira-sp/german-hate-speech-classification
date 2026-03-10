@@ -1,0 +1,11 @@
+{
+  "model": "GBERT_fold0",
+  "total": 3414,
+  "correct": 2699,
+  "errors": 715,
+  "accuracy": 0.7905682483889865,
+  "false_positives": 125,
+  "false_negatives": 590,
+  "fp_avg_confidence": 0.7331451177597046,
+  "fn_avg_confidence": 0.857255756855011
+}

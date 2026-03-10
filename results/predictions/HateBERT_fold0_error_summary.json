@@ -1,0 +1,11 @@
+{
+  "model": "HateBERT_fold0",
+  "total": 3414,
+  "correct": 2317,
+  "errors": 1097,
+  "accuracy": 0.6786760398359696,
+  "false_positives": 443,
+  "false_negatives": 654,
+  "fp_avg_confidence": 0.6345695853233337,
+  "fn_avg_confidence": 0.7693125605583191
+}

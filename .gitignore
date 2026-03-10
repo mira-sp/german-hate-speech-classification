@@ -1,0 +1,56 @@
+# Python environment
+.conda/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (keep structure, exclude data)
+data/raw/*.tsv
+data/raw/*.csv
+data/processed/*.pkl
+data/processed/*.npz
+
+# Model checkpoints (too large for GitHub)
+results/models/**/
+logs/tensorboard/**/
+
+# Large log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/

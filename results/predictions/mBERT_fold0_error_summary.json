@@ -1,0 +1,11 @@
+{
+  "model": "mBERT_fold0",
+  "total": 3414,
+  "correct": 2596,
+  "errors": 818,
+  "accuracy": 0.760398359695372,
+  "false_positives": 243,
+  "false_negatives": 575,
+  "fp_avg_confidence": 0.756127655506134,
+  "fn_avg_confidence": 0.8402342200279236
+}
