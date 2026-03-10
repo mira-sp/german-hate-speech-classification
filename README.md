@@ -15,13 +15,13 @@
 **Task**: Binary Classification (OFFENSE / OTHER)  
 **Evaluation**: 5-Fold Stratified Cross Validation
 
-##  Quick Results
+## Quick Results
 
 | Rank | Model         | F1 (Macro)       | Accuracy         | Notes                         |
 | ---- | ------------- | ---------------- | ---------------- | ----------------------------- |
-| 1st   | **GBERT**     | **0.8097±0.011** | **0.8334±0.008** | German-specific BERT          |
-| 2cnd   | mBERT         | 0.7874±0.008     | 0.8110±0.006     | Multilingual BERT (104 langs) |
-| 3rd   | Random Forest | 0.6707           | 0.6939           | Best baseline                 |
+| 1st  | **GBERT**     | **0.8097±0.011** | **0.8334±0.008** | German-specific BERT          |
+| 2cnd | mBERT         | 0.7874±0.008     | 0.8110±0.006     | Multilingual BERT (104 langs) |
+| 3rd  | Random Forest | 0.6707           | 0.6939           | Best baseline                 |
 | 4th  | HateBERT      | 0.6724±0.006     | 0.7123±0.010     | English hate speech BERT      |
 
 **Key Finding:** Language-specific models outperform multilingual and domain-adapted models for German hate speech detection.
@@ -34,7 +34,47 @@
 | GBERT    | `deepset/gbert-base`           | Deutsch-spezifisches BERT           |
 | HateBERT | `GroNLP/hateBERT`              | Auf Hate Speech vortrainiertes BERT |
 
-## Ergebnisse 
+## Datensatz
+
+### GermEval 2018 Shared Task
+
+Der GermEval 2018 Datensatz enthält deutsche Tweets, die manuell für offensive Sprache annotiert wurden. Die Daten wurden für eine Shared Task zur Identifikation von Hate Speech erstellt.
+
+**Datensatz-Statistiken:**
+
+| Split     | Samples   | OTHER     | OFFENSE   | Klassenbalance |
+| --------- | --------- | --------- | --------- | -------------- |
+| Training  | 4,904     | 3,734     | 1,170     | 76% / 24%      |
+| Test      | 3,414     | 2,575     | 839       | 75% / 25%      |
+| **Total** | **8,318** | **6,309** | **2,009** | **76% / 24%**  |
+
+**Textlängen-Statistiken (Training):**
+
+| Metrik        | OTHER (Median) | OFFENSE (Median) |
+| ------------- | -------------- | ---------------- |
+| Wortanzahl    | 18 Wörter      | 17 Wörter        |
+| Zeichenanzahl | 109 Zeichen    | 104 Zeichen      |
+
+**Beobachtungen:**
+
+- **Unbalancierter Datensatz**: ~76% OTHER, ~24% OFFENSE
+- Tweets sind relativ kurz (Median: 17-18 Wörter)
+- Offensive Tweets sind tendenziell etwas kürzer
+- Beide Klassen haben ähnliche Textlängenverteilungen
+- Dataset enthält auch fine-grained Labels (ABUSE, INSULT, PROFANITY)
+
+### Datenvisualisierungen
+
+![Class Distribution](results/plots/class_distribution.png)
+_Figure: Klassenverteilung in Training- und Test-Set_
+
+![Text Length Distribution](results/plots/text_length_distribution.png)
+_Figure: Verteilung der Wort- und Zeichenanzahl pro Klasse_
+
+![Top Words per Class](results/plots/top_words_per_class.png)
+_Figure: Häufigste Wörter in OTHER vs. OFFENSE Klasse (nach Stopwort-Filterung)_
+
+## Ergebnisse
 
 ### Hauptergebnisse (5-Fold Cross-Validation)
 
@@ -261,7 +301,6 @@ hate-speech-classification/
 This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
-
 
 ## Literatur
 
