@@ -15,13 +15,13 @@
 **Task**: Binary Classification (OFFENSE / OTHER)  
 **Evaluation**: 5-Fold Stratified Cross Validation
 
-##  Quick Results
+## Quick Results
 
 | Rank | Model         | F1 (Macro)       | Accuracy         | Notes                         |
 | ---- | ------------- | ---------------- | ---------------- | ----------------------------- |
-| 🥇   | **GBERT**     | **0.8097±0.011** | **0.8334±0.008** | German-specific BERT          |
-| 🥈   | mBERT         | 0.7874±0.008     | 0.8110±0.006     | Multilingual BERT (104 langs) |
-| 🥉   | Random Forest | 0.6707           | 0.6939           | Best baseline                 |
+| ¥    | **GBERT**     | **0.8097±0.011** | **0.8334±0.008** | German-specific BERT          |
+| ¥    | mBERT         | 0.7874±0.008     | 0.8110±0.006     | Multilingual BERT (104 langs) |
+| ¥    | Random Forest | 0.6707           | 0.6939           | Best baseline                 |
 | 4th  | HateBERT      | 0.6724±0.006     | 0.7123±0.010     | English hate speech BERT      |
 
 **Key Finding:** Language-specific models outperform multilingual and domain-adapted models for German hate speech detection.
@@ -34,7 +34,7 @@
 | GBERT    | `deepset/gbert-base`           | Deutsch-spezifisches BERT           |
 | HateBERT | `GroNLP/hateBERT`              | Auf Hate Speech vortrainiertes BERT |
 
-## Ergebnisse 
+## Ergebnisse
 
 ### Hauptergebnisse (5-Fold Cross-Validation)
 
@@ -49,7 +49,7 @@
 
 **Key Findings:**
 
--  GBERT achieves **F1=0.8097**, outperforming mBERT by +2.3% absolute
+- GBERT achieves **F1=0.8097**, outperforming mBERT by +2.3% absolute
 - Language-specific BERT (GBERT) beats multilingual BERT (mBERT)
 - HateBERT underperforms despite hate speech pre-training (wrong language)
 - BERT models improve +20.7% over best baseline (Random Forest)
@@ -71,11 +71,11 @@
 | 75%           | 0.7914     | 0.8134     | 97.7%                 |
 | **100%**      | **0.8097** | **0.8334** | **100%**              |
 
-**Finding:** 50% of training data achieves 97% of full performance! 📊
+**Finding:** 50% of training data achieves 97% of full performance! 
 
 ### Preprocessing Ablation (GBERT)
 
-| Variant                      | F1 (Macro) | Δ from Original |
+| Variant                      | F1 (Macro) | Î from Original |
 | ---------------------------- | ---------- | --------------- |
 | full_preprocessing           | 0.8097     | +0.61%          |
 | remove_urls                  | 0.8053     | +0.17%          |
@@ -85,7 +85,7 @@
 | full_preprocessing_lowercase | 0.7923     | -1.13%          |
 | lowercase                    | 0.7891     | -1.45%          |
 
-**Finding:** Lowercasing hurts performance! German capitalization carries semantic information. 🔤
+**Finding:** Lowercasing hurts performance! German capitalization carries semantic information. ¤
 
 ## Visualisierungen
 
@@ -103,7 +103,7 @@ _Figure 3: Impact of different preprocessing strategies_
 - Alle Experimente verwenden Random Seed 42
 - Stratifiziertes Sampling in allen CV-Splits
 - Training-Logs und Metriken werden automatisch in `results/` gespeichert
-- TensorBoard-Logs für Live-Monitoring
+- TensorBoard-Logs fü¼r Live-Monitoring
 
 ## TensorBoard
 
@@ -117,7 +117,7 @@ tensorboard --logdir=logs/tensorboard --port=6006
 ### Voraussetzungen
 
 - Python 3.10
-- CUDA 11.8 (für GPU-Support)
+- CUDA 11.8 (fü¼r GPU-Support)
 - NVIDIA GPU mit 8+ GB VRAM (getestet auf RTX 3060)
 
 ### Installation
@@ -189,49 +189,50 @@ scripts/run_all_experiments.bat
 
 ```
 hate-speech-classification/
-├── README.md                        # Diese Datei
-├── requirements.txt                 # Python Dependencies
-├── projectplan.md                   # Detaillierter Projektplan
-│
-├── data/
-│   ├── germeval_2018/               # GermEval 2018 Rohdaten
-│   ├── processed/                   # Vorverarbeitete Daten (CSV)
-│   └── splits/                      # K-Fold CV Splits (JSON)
-│
-├── src/
-│   ├── __init__.py
-│   ├── config.py                    # Konfiguration & Hyperparameter
-│   ├── preprocessing.py             # Text-Preprocessing
-│   ├── data_loader.py               # Datenladen & Dataset-Erstellung
-│   ├── models.py                    # Modell-Definitionen
-│   ├── train.py                     # Training-Pipeline
-│   ├── evaluate.py                  # Evaluation-Metriken
-│   ├── utils.py                     # Hilfsfunktionen
-│   └── visualize.py                 # Plotting-Funktionen
-│
-├── experiments/
-│   ├── 01_baselines.py              # Majority, Lexikon, RF Baselines
-│   ├── 02_bert_full_data.py         # BERT Fine-Tuning (100% Daten)
-│   ├── 03_data_size_variation.py    # Learning Curve Experiment
-│   └── 04_preprocessing_ablation.py # Preprocessing Ablation Study
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb    # Explorative Datenanalyse
-│   └── 04_error_analysis.ipynb      # Fehleranalyse
-│
-├── results/
-│   ├── metrics/                     # JSON/CSV mit Metriken
-│   ├── plots/                       # Visualisierungen (PNG)
-│   │   ├── confusion_matrices/
-│   │   └── error_analysis/
-│   └── models/                      # Gespeicherte Modell-Checkpoints
-│
-├── logs/
-│   └── tensorboard/                 # TensorBoard-Logs
-│
-└── scripts/
-    └── run_all_experiments.bat      # Alle Experimente ausführen
+ README.md                        # Diese Datei
+ requirements.txt                 # Python Dependencies
+ projectplan.md                   # Detaillierter Projektplan
+
+ data/
+    germeval_2018/               # GermEval 2018 Rohdaten
+    processed/                   # Vorverarbeitete Daten (CSV)
+    splits/                      # K-Fold CV Splits (JSON)
+
+ src/
+    __init__.py
+    config.py                    # Konfiguration & Hyperparameter
+    preprocessing.py             # Text-Preprocessing
+    data_loader.py               # Datenladen & Dataset-Erstellung
+    models.py                    # Modell-Definitionen
+    train.py                     # Training-Pipeline
+    evaluate.py                  # Evaluation-Metriken
+    utils.py                     # Hilfsfunktionen
+    visualize.py                 # Plotting-Funktionen
+
+ experiments/
+    01_baselines.py              # Majority, Lexikon, RF Baselines
+    02_bert_full_data.py         # BERT Fine-Tuning (100% Daten)
+    03_data_size_variation.py    # Learning Curve Experiment
+    04_preprocessing_ablation.py # Preprocessing Ablation Study
+
+ notebooks/
+    01_data_exploration.ipynb    # Explorative Datenanalyse
+    04_error_analysis.ipynb      # Fehleranalyse
+
+ results/
+    metrics/                     # JSON/CSV mit Metriken
+    plots/                       # Visualisierungen (PNG)
+       confusion_matrices/
+       error_analysis/
+    models/                      # Gespeicherte Modell-Checkpoints
+
+ logs/
+    tensorboard/                 # TensorBoard-Logs
+
+ scripts/
+     run_all_experiments.bat      # Alle Experimente ausfü¼hren
 ```
+
 ## Viewing Results
 
 ### Analysis Notebooks
@@ -272,6 +273,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 2. Wiegand et al. (2018) - GermEval 2018 Shared Task
 3. Devlin et al. (2019) - BERT: Pre-training of Deep Bidirectional Transformers
 4. Chan et al. (2020) - GBERT: German's Next Language Model
-#   g e r m a n - h a t e - s p e e c h - c l a s s i f i c a t i o n 
- 
- 
+   #   g e r m a n - h a t e - s p e e c h - c l a s s i f i c a t i o n 
+    
+    
