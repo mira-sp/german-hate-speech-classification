@@ -279,6 +279,12 @@ def train_all_models(
 # ============================================================
 
 def main():
+    """
+    Hauptfunktion für das Training-Skript.
+    
+    Parst Kommandozeilenargumente und startet den Trainingsprozess
+    (Single Run oder Cross-Validation).
+    """
     parser = argparse.ArgumentParser(description="BERT Fine-Tuning für Hate Speech Detection")
     parser.add_argument(
         "--model", type=str, default="GBERT",

@@ -27,7 +27,6 @@ import seaborn as sns
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.config import METRICS_DIR, PLOTS_DIR, LABEL_NAMES
-from src.visualize import plot_confusion_matrix, plot_model_comparison
 
 
 def plot_learning_curve():
@@ -68,6 +67,7 @@ def plot_learning_curve():
     ax.errorbar(sizes, acc_means, yerr=acc_stds, marker="s", linewidth=2.5,
                 markersize=9, capsize=5, label="Accuracy", color="#e74c3c")
     
+    ax.set_xticks(sizes)  # Force x-ticks to be exactly at data points [10, 25, 50, 75, 100]
     ax.set_xlabel("Trainingsdatengröße (%)", fontsize=13)
     ax.set_ylabel("Score", fontsize=13)
     ax.set_title("Learning Curve: GBERT auf GermEval 2018", fontsize=15, fontweight="bold")

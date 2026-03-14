@@ -5,7 +5,7 @@
 [![Transformers](https://img.shields.io/badge/🤗_Transformers-4.36-yellow.svg)](https://huggingface.co/transformers/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> **Best Result:** GBERT achieves **F1=0.8097±0.011** on GermEval 2018, outperforming multilingual BERT by 2.3% and traditional baselines by 20.7%
+> **Best Result:** GBERT achieves **F1=0.7923±0.012** on GermEval 2018, outperforming multilingual BERT by 2.4% and traditional baselines by 47.6%
 
 ## Projektübersicht
 
@@ -17,12 +17,12 @@
 
 ## Quick Results
 
-| Rank | Model         | F1 (Macro)       | Accuracy         | Notes                         |
-| ---- | ------------- | ---------------- | ---------------- | ----------------------------- |
-| 1st  | **GBERT**     | **0.8097±0.011** | **0.8334±0.008** | German-specific BERT          |
-| 2cnd | mBERT         | 0.7874±0.008     | 0.8110±0.006     | Multilingual BERT (104 langs) |
-| 3rd  | Random Forest | 0.6707           | 0.6939           | Best baseline                 |
-| 4th  | HateBERT      | 0.6724±0.006     | 0.7123±0.010     | English hate speech BERT      |
+| Rank | Model     | F1 (Macro)       | Accuracy         | Notes                         |
+| ---- | --------- | ---------------- | ---------------- | ----------------------------- |
+| 1st  | **GBERT** | **0.7923±0.012** | **0.8210±0.009** | German-specific BERT          |
+| 2cnd | mBERT     | 0.7684±0.015     | 0.7965±0.010     | Multilingual BERT (104 langs) |
+| 3rd  | HateBERT  | 0.6724±0.006     | 0.7123±0.010     | English hate speech BERT      |
+| 4th  | Lexikon   | 0.5366           | 0.6939           | Best baseline                 |
 
 **Key Finding:** Language-specific models outperform multilingual and domain-adapted models for German hate speech detection.
 
@@ -80,38 +80,38 @@ _Figure: Häufigste Wörter in OTHER vs. OFFENSE Klasse (nach Stopwort-Filterung
 
 | Model         | F1 (Macro)       | Precision (Macro) | Recall (Macro)   | Accuracy         | Training Zeit |
 | ------------- | ---------------- | ----------------- | ---------------- | ---------------- | ------------- |
-| **GBERT**     | **0.8097±0.011** | **0.8159±0.009**  | **0.8065±0.013** | **0.8334±0.008** | ~7.9 min      |
-| mBERT         | 0.7874±0.008     | 0.7955±0.008      | 0.7829±0.011     | 0.8110±0.006     | ~7.8 min      |
-| HateBERT      | 0.6724±0.006     | 0.6854±0.009      | 0.6704±0.009     | 0.7123±0.010     | ~7.7 min      |
-| Random Forest | 0.6707           | 0.6866            | 0.6566           | 0.6939           | <1 min        |
+| **GBERT**     | **0.7923±0.012** | **0.8043±0.010**  | **0.7845±0.014** | **0.8210±0.009** | ~7.2 min      |
+| mBERT         | 0.7684±0.015     | 0.7723±0.010      | 0.7661±0.020     | 0.7965±0.010     | ~25.0 min     |
+| HateBERT      | 0.6724±0.006     | 0.6777±0.009      | 0.6716±0.009     | 0.7123±0.010     | ~19.5 min     |
+| Random Forest | 0.4507           | 0.7658            | 0.5247           | 0.6728           | <1 min        |
 | Lexikon       | 0.5366           | 0.7174            | 0.5667           | 0.6939           | <1 sec        |
 | Majority      | 0.3966           | 0.3286            | 0.5000           | 0.6573           | <1 sec        |
 
 **Key Findings:**
 
-- GBERT achieves **F1=0.8097**, outperforming mBERT by +2.3% absolute
+- GBERT achieves **F1=0.7923**, outperforming mBERT by +2.4% absolute
 - Language-specific BERT (GBERT) beats multilingual BERT (mBERT)
 - HateBERT underperforms despite hate speech pre-training (wrong language)
-- BERT models improve +20.7% over best baseline (Random Forest)
+- BERT models improve +47.6% over best baseline (Lexikon)
 
 ### Per-Class Performance (GBERT)
 
 | Class   | F1     | Precision | Recall | Support |
 | ------- | ------ | --------- | ------ | ------- |
-| OTHER   | 0.8820 | 0.8595    | 0.9059 | 2,244   |
-| OFFENSE | 0.7373 | 0.7723    | 0.7072 | 1,170   |
+| OTHER   | 0.8694 | 0.8460    | 0.8944 | 2,244   |
+| OFFENSE | 0.7153 | 0.7627    | 0.6746 | 1,170   |
 
 ### Learning Curve (Data Efficiency)
 
 | Training Data | F1 (Macro) | Accuracy   | % of Full Performance |
 | ------------- | ---------- | ---------- | --------------------- |
-| 10%           | 0.5214     | 0.5845     | 64.4%                 |
-| 25%           | 0.6901     | 0.7373     | 85.2%                 |
-| 50%           | 0.7880     | 0.8116     | 97.3%                 |
-| 75%           | 0.7914     | 0.8134     | 97.7%                 |
+| 10%           | 0.5214     | 0.5845     | 65.8%                 |
+| 25%           | 0.7097     | 0.7651     | 89.6%                 |
+| 50%           | 0.7880     | 0.8144     | 99.5%                 |
+| 75%           | 0.7914     | 0.8208     | 99.9%                 |
 | **100%**      | **0.8097** | **0.8334** | **100%**              |
 
-**Finding:** 50% of training data achieves 97% of full performance! 📊
+**Finding:** 50% of training data achieves 99.5% of full performance! 📊
 
 ### Preprocessing Ablation (GBERT)
 

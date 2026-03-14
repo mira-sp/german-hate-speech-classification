@@ -30,7 +30,12 @@ def normalize_usernames(text: str) -> str:
 
 
 def remove_emojis(text: str) -> str:
-    """Entfernt Emojis (alles, was nicht ASCII ist)."""
+    """
+    Entfernt Emojis (alles, was nicht ASCII ist).
+    
+    Nutzt einen regulären Ausdruck, der die gängigen Unicode-Bereiche 
+    für Emojis und Piktogramme abdeckt.
+    """
     # Breites Emoji-Pattern (Unicode Emoji-Blöcke)
     emoji_pattern = re.compile(
         "["
