@@ -7,7 +7,7 @@ Implementiert und evaluiert drei Baseline-Modelle:
 3. Random Forest + TF-IDF
 
 Verwendung:
-    python -m experiments.01_baselines
+    
 """
 
 import sys
@@ -176,25 +176,6 @@ def run_baselines():
     results_rf = evaluate_predictions(y_test, preds_rf, "RandomForest+TF-IDF")
     all_results.append(results_rf)
 
-    # ---- 4. Logistic Regression + TF-IDF ----
-    print("\n" + "-" * 50)
-    print("  4. Logistic Regression + TF-IDF")
-    print("-" * 50)
-    training_timer.start("Logistic Regression")
-    preds_lr = tfidf_baseline(X_train, y_train, X_test, "logistic_regression")
-    training_timer.stop()
-    results_lr = evaluate_predictions(y_test, preds_lr, "LogReg+TF-IDF")
-    all_results.append(results_lr)
-
-    # ---- 5. SVM + TF-IDF ----
-    print("\n" + "-" * 50)
-    print("  5. SVM + TF-IDF")
-    print("-" * 50)
-    training_timer.start("SVM")
-    preds_svm = tfidf_baseline(X_train, y_train, X_test, "svm")
-    training_timer.stop()
-    results_svm = evaluate_predictions(y_test, preds_svm, "SVM+TF-IDF")
-    all_results.append(results_svm)
 
     # ---- Vergleich ----
     print_comparison_table(all_results)

@@ -54,80 +54,28 @@
     },
     {
       "model": "RandomForest+TF-IDF",
-      "accuracy": 0.6728178090216754,
-      "f1_macro": 0.45068382944489144,
-      "f1_micro": 0.6728178090216754,
-      "precision_macro": 0.7658378879262627,
-      "recall_macro": 0.524694912930207,
+      "accuracy": 0.6716461628588166,
+      "f1_macro": 0.4487167169272366,
+      "f1_micro": 0.6716461628588166,
+      "precision_macro": 0.7518399462059182,
+      "recall_macro": 0.5233945792769322,
       "confusion_matrix": [
         [
-          2234,
-          10
+          2232,
+          12
         ],
         [
-          1107,
-          63
+          1109,
+          61
         ]
       ],
-      "f1_OTHER": 0.8,
-      "precision_OTHER": 0.6686620772223885,
-      "recall_OTHER": 0.9955436720142602,
+      "f1_OTHER": 0.7992837958818263,
+      "precision_OTHER": 0.6680634540556719,
+      "recall_OTHER": 0.9946524064171123,
       "support_OTHER": 2244,
-      "f1_OFFENSE": 0.10136765888978279,
-      "precision_OFFENSE": 0.863013698630137,
-      "recall_OFFENSE": 0.05384615384615385,
-      "support_OFFENSE": 1170
-    },
-    {
-      "model": "LogReg+TF-IDF",
-      "accuracy": 0.6848271821909784,
-      "f1_macro": 0.5284530386740331,
-      "f1_micro": 0.6848271821909784,
-      "precision_macro": 0.6776446189986786,
-      "recall_macro": 0.5589880707527766,
-      "confusion_matrix": [
-        [
-          2152,
-          92
-        ],
-        [
-          984,
-          186
-        ]
-      ],
-      "f1_OTHER": 0.8,
-      "precision_OTHER": 0.6862244897959183,
-      "recall_OTHER": 0.9590017825311943,
-      "support_OTHER": 2244,
-      "f1_OFFENSE": 0.2569060773480663,
-      "precision_OFFENSE": 0.6690647482014388,
-      "recall_OFFENSE": 0.15897435897435896,
-      "support_OFFENSE": 1170
-    },
-    {
-      "model": "SVM+TF-IDF",
-      "accuracy": 0.6962507322788518,
-      "f1_macro": 0.6234663614961933,
-      "f1_micro": 0.6962507322788518,
-      "precision_macro": 0.6577236788334704,
-      "recall_macro": 0.6192204853969561,
-      "confusion_matrix": [
-        [
-          1939,
-          305
-        ],
-        [
-          732,
-          438
-        ]
-      ],
-      "f1_OTHER": 0.7890132248219736,
-      "precision_OTHER": 0.7259453388244104,
-      "recall_OTHER": 0.8640819964349377,
-      "support_OTHER": 2244,
-      "f1_OFFENSE": 0.45791949817041294,
-      "precision_OFFENSE": 0.5895020188425303,
-      "recall_OFFENSE": 0.37435897435897436,
+      "f1_OFFENSE": 0.09814963797264682,
+      "precision_OFFENSE": 0.8356164383561644,
+      "recall_OFFENSE": 0.05213675213675214,
       "support_OFFENSE": 1170
     }
   ]
