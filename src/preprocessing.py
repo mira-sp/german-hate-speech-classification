@@ -141,7 +141,7 @@ def prepare_binary_labels(df: pd.DataFrame) -> pd.DataFrame:
     df["label"] = df["label"].astype(int)
     after = len(df)
     if before != after:
-        print(f"  ⚠ {before - after} Zeilen mit unbekannten Labels entfernt.")
+        print(f"  {before - after} Zeilen mit unbekannten Labels entfernt.")
     return df
 
 
@@ -163,15 +163,15 @@ def apply_preprocessing(
 def preprocess_and_save(input_dir: Path, output_dir: Path, variant: str = "full_preprocessing"):
     """Lädt Rohdaten, verarbeitet sie vor und speichert als CSV."""
 
-    print(f"📦 Preprocessing-Variante: {variant}")
-    print(f"📂 Input:  {input_dir}")
-    print(f"📂 Output: {output_dir}")
+    print(f"Preprocessing-Variante: {variant}")
+    print(f"Input:  {input_dir}")
+    print(f"Output: {output_dir}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for split_name, filepath in [("train", TRAIN_FILE), ("test", TEST_FILE)]:
         if not filepath.exists():
-            print(f"  ⚠ Datei nicht gefunden: {filepath}")
+            print(f"  Datei nicht gefunden: {filepath}")
             continue
 
         print(f"\n  Verarbeite {split_name} ({filepath.name}) ...")
@@ -188,7 +188,7 @@ def preprocess_and_save(input_dir: Path, output_dir: Path, variant: str = "full_
 
         out_path = output_dir / f"{split_name}.csv"
         df.to_csv(out_path, index=False)
-        print(f"    ✅ Gespeichert: {out_path}")
+        print(f"    Gespeichert: {out_path}")
 
 
 def main():

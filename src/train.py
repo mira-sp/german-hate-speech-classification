@@ -90,7 +90,7 @@ def train_single_fold(
     model, tokenizer = load_model_and_tokenizer(model_key)
 
     # Datasets erstellen
-    print(f"  📊 Train: {len(train_df)} | Val: {len(val_df)}")
+    print(f"  Train: {len(train_df)} | Val: {len(val_df)}")
     train_dataset = create_hf_dataset(train_df, tokenizer, MAX_LENGTH)
     val_dataset = create_hf_dataset(val_df, tokenizer, MAX_LENGTH)
 
@@ -126,15 +126,15 @@ def train_single_fold(
     )
 
     # Training
-    print(f"\n🚀 Training {model_key} (Fold {fold}) ...")
+    print(f"\nTraining {model_key} (Fold {fold}) ...")
     start_time = time.time()
     trainer.train()
     train_time = time.time() - start_time
-    print(f"  ⏱ Trainingszeit: {format_time(train_time)}")
+    print(f"  Trainingszeit: {format_time(train_time)}")
 
     # Evaluation
     eval_results = trainer.evaluate()
-    print(f"  📈 F1: {eval_results['eval_f1']:.4f} | Acc: {eval_results['eval_accuracy']:.4f}")
+    print(f"  F1: {eval_results['eval_f1']:.4f} | Acc: {eval_results['eval_accuracy']:.4f}")
 
     # Bestes Modell speichern
     best_model_dir = MODELS_DIR / f"{model_key.lower()}_best"
@@ -317,7 +317,7 @@ def main():
     }
 
     # Daten laden
-    print("\n📂 Lade Daten ...")
+    print("\nLade Daten ...")
     train_df, test_df = load_data(preprocessing_variant=args.preprocessing)
     print(f"  Train: {len(train_df)} | Test: {len(test_df)}")
 
@@ -339,7 +339,7 @@ def main():
         )
         results, _ = train_single_fold(args.model, t_df, v_df, config=config)
 
-    print("\n✅ Training abgeschlossen!")
+    print("\nTraining abgeschlossen!")
 
 
 if __name__ == "__main__":

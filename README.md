@@ -5,7 +5,7 @@
 [![Transformers](https://img.shields.io/badge/🤗_Transformers-4.36-yellow.svg)](https://huggingface.co/transformers/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> **Best Result:** GBERT achieves **F1=0.7923±0.012** on GermEval 2018, outperforming multilingual BERT by 2.4% and traditional baselines by 47.6%
+> **Best Result:** GBERT achieves **F1=0.8080±0.020** on GermEval 2018, outperforming multilingual BERT by 4.0% and traditional baselines by ~50%
 
 ## Projektübersicht
 
@@ -19,9 +19,9 @@
 
 | Rank | Model     | F1 (Macro)       | Accuracy         | Notes                         |
 | ---- | --------- | ---------------- | ---------------- | ----------------------------- |
-| 1st  | **GBERT** | **0.7923±0.012** | **0.8210±0.009** | German-specific BERT          |
-| 2cnd | mBERT     | 0.7684±0.015     | 0.7965±0.010     | Multilingual BERT (104 langs) |
-| 3rd  | HateBERT  | 0.6724±0.006     | 0.7123±0.010     | English hate speech BERT      |
+| 1st  | **GBERT** | **0.8080±0.020** | **0.8331±0.019** | German-specific BERT          |
+| 2cnd | mBERT     | 0.7684±0.017     | 0.7965±0.012     | Multilingual BERT (104 langs) |
+| 3rd  | HateBERT  | 0.6724±0.007     | 0.7123±0.011     | English hate speech BERT      |
 | 4th  | Lexikon   | 0.5366           | 0.6939           | Best baseline                 |
 
 **Key Finding:** Language-specific models outperform multilingual and domain-adapted models for German hate speech detection.
@@ -44,9 +44,9 @@ Der GermEval 2018 Datensatz enthält deutsche Tweets, die manuell für offensive
 
 | Split     | Samples   | OTHER     | OFFENSE   | Klassenbalance |
 | --------- | --------- | --------- | --------- | -------------- |
-| Training  | 4,904     | 3,734     | 1,170     | 76% / 24%      |
-| Test      | 3,414     | 2,575     | 839       | 75% / 25%      |
-| **Total** | **8,318** | **6,309** | **2,009** | **76% / 24%**  |
+| Training  | 4,904     | 3,266     | 1,638     | 67% / 33%      |
+| Test      | 3,414     | 2,244     | 1,170     | 66% / 34%      |
+| **Total** | **8,318** | **5,510** | **2,808** | **66% / 34%**  |
 
 **Textlängen-Statistiken (Training):**
 
@@ -57,7 +57,7 @@ Der GermEval 2018 Datensatz enthält deutsche Tweets, die manuell für offensive
 
 **Beobachtungen:**
 
-- **Unbalancierter Datensatz**: ~76% OTHER, ~24% OFFENSE
+- **Unbalancierter Datensatz**: ~66% OTHER, ~34% OFFENSE (Ratio ~2:1)
 - Tweets sind relativ kurz (Median: 17-18 Wörter)
 - Offensive Tweets sind tendenziell etwas kürzer
 - Beide Klassen haben ähnliche Textlängenverteilungen
@@ -80,16 +80,16 @@ _Figure: Häufigste Wörter in OTHER vs. OFFENSE Klasse (nach Stopwort-Filterung
 
 | Model         | F1 (Macro)       | Precision (Macro) | Recall (Macro)   | Accuracy         | Training Zeit |
 | ------------- | ---------------- | ----------------- | ---------------- | ---------------- | ------------- |
-| **GBERT**     | **0.7923±0.012** | **0.8043±0.010**  | **0.7845±0.014** | **0.8210±0.009** | ~7.2 min      |
-| mBERT         | 0.7684±0.015     | 0.7723±0.010      | 0.7661±0.020     | 0.7965±0.010     | ~25.0 min     |
-| HateBERT      | 0.6724±0.006     | 0.6777±0.009      | 0.6716±0.009     | 0.7123±0.010     | ~19.5 min     |
+| **GBERT**     | **0.8080±0.020** | **0.8154±0.022**  | **0.8030±0.021** | **0.8331±0.019** | ~7.2 min      |
+| mBERT         | 0.7684±0.017     | 0.7723±0.012      | 0.7661±0.022     | 0.7965±0.012     | ~25.0 min     |
+| HateBERT      | 0.6724±0.007     | 0.6777±0.010      | 0.6716±0.010     | 0.7123±0.011     | ~19.5 min     |
 | Random Forest | 0.4507           | 0.7658            | 0.5247           | 0.6728           | <1 min        |
 | Lexikon       | 0.5366           | 0.7174            | 0.5667           | 0.6939           | <1 sec        |
 | Majority      | 0.3966           | 0.3286            | 0.5000           | 0.6573           | <1 sec        |
 
 **Key Findings:**
 
-- GBERT achieves **F1=0.7923**, outperforming mBERT by +2.4% absolute
+- GBERT achieves **F1=0.8080**, outperforming mBERT by +4.0% absolute
 - Language-specific BERT (GBERT) beats multilingual BERT (mBERT)
 - HateBERT underperforms despite hate speech pre-training (wrong language)
 - BERT models improve +47.6% over best baseline (Lexikon)

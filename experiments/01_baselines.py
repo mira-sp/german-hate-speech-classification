@@ -132,7 +132,7 @@ def run_baselines():
     set_seed(SEED)
 
     # Daten laden
-    print("\n📂 Lade GermEval 2018 Daten ...")
+    print("\nLade GermEval 2018 Daten ...")
     train_df, test_df = load_data(preprocessing_variant="original")
     print(f"  Train: {len(train_df)} | Test: {len(test_df)}")
     print(f"  Label-Verteilung (Train): {dict(train_df['label'].value_counts())}")
@@ -218,7 +218,7 @@ def run_baselines():
         })
     save_results_csv(rows, "baseline_results.csv")
 
-    print("\n✅ Experiment 1 abgeschlossen!")
+    print("\nExperiment 1 abgeschlossen!")
 
 
 if __name__ == "__main__":

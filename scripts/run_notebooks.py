@@ -27,11 +27,11 @@ def execute_notebook(notebook_path):
         with open(notebook_path, 'w', encoding='utf-8') as f:
             nbformat.write(nb, f)
         
-        print(f"✅ {notebook_path.name} completed successfully!")
+        print(f"{notebook_path.name} completed successfully!")
         return True
         
     except Exception as e:
-        print(f"❌ Error executing {notebook_path.name}:")
+        print(f"Error executing {notebook_path.name}:")
         print(f"   {str(e)}")
         return False
 
@@ -40,9 +40,11 @@ def main():
     
     # Notebooks to execute
     notebooks = [
+        '01_data_exploration.ipynb',
         '02_baseline_results.ipynb',
         '03_bert_model_comparison.ipynb',
         '04_error_analysis.ipynb',
+        '05_statistical_significance.ipynb',
     ]
     
     results = {}
@@ -51,7 +53,7 @@ def main():
         if nb_path.exists():
             results[nb_name] = execute_notebook(nb_path)
         else:
-            print(f"⚠️  {nb_name} not found!")
+            print(f"{nb_name} not found!")
             results[nb_name] = False
     
     # Summary
@@ -59,14 +61,14 @@ def main():
     print("Summary:")
     print('='*70)
     for nb_name, success in results.items():
-        status = "✅" if success else "❌"
-        print(f"  {status} {nb_name}")
+        status = "OK" if success else "FAIL"
+        print(f"  [{status}] {nb_name}")
     
     print(f"\n{'='*70}")
     if all(results.values()):
-        print("✅ All notebooks executed successfully!")
+        print("All notebooks executed successfully!")
     else:
-        print("⚠️  Some notebooks failed - check output above")
+        print("Some notebooks failed - check output above")
         sys.exit(1)
 
 if __name__ == '__main__':

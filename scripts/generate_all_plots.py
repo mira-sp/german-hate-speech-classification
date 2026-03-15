@@ -31,11 +31,11 @@ from src.config import METRICS_DIR, PLOTS_DIR, LABEL_NAMES
 
 def plot_learning_curve():
     """Plot data size variation results (Experiment 3)."""
-    print("\n📈 Generiere Learning Curve...")
+    print("\nGeneriere Learning Curve...")
     
     data_path = METRICS_DIR / "data_size_variation_results.json"
     if not data_path.exists():
-        print("  ⚠️  Keine Daten gefunden - Experiment 3 noch nicht gelaufen")
+        print("  Keine Daten gefunden - Experiment 3 noch nicht gelaufen")
         return
     
     with open(data_path, "r") as f:
@@ -79,16 +79,16 @@ def plot_learning_curve():
     output_path = PLOTS_DIR / "learning_curve.png"
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"  ✅ {output_path}")
+    print(f"  {output_path}")
 
 
 def plot_preprocessing_comparison():
     """Plot preprocessing ablation results (Experiment 4)."""
-    print("\n🔧 Generiere Preprocessing Ablation Plot...")
+    print("\nGeneriere Preprocessing Ablation Plot...")
     
     data_path = METRICS_DIR / "preprocessing_ablation_results.json"
     if not data_path.exists():
-        print("  ⚠️  Keine Daten gefunden - Experiment 4 noch nicht gelaufen")
+        print("  Keine Daten gefunden - Experiment 4 noch nicht gelaufen")
         return
     
     with open(data_path, "r") as f:
@@ -129,12 +129,12 @@ def plot_preprocessing_comparison():
     output_path = PLOTS_DIR / "preprocessing_ablation.png"
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"  ✅ {output_path}")
+    print(f"  {output_path}")
 
 
 def plot_all_confusion_matrices():
     """Generate confusion matrices for all BERT models."""
-    print("\n🔲 Generiere Confusion Matrices...")
+    print("\nGeneriere Confusion Matrices...")
     
     cm_dir = PLOTS_DIR / "confusion_matrices"
     cm_dir.mkdir(parents=True, exist_ok=True)
@@ -144,7 +144,7 @@ def plot_all_confusion_matrices():
     for model_name in models:
         result_path = METRICS_DIR / f"{model_name}_cv_results.json"
         if not result_path.exists():
-            print(f"  ⚠️  {model_name}: Keine Daten gefunden")
+            print(f"  {model_name}: Keine Daten gefunden")
             continue
         
         with open(result_path, "r") as f:
@@ -180,12 +180,12 @@ def plot_all_confusion_matrices():
         output_path = cm_dir / f"cm_{model_name.lower()}.png"
         plt.savefig(output_path, dpi=300, bbox_inches="tight")
         plt.close()
-        print(f"  ✅ {output_path.name}")
+        print(f"  {output_path.name}")
 
 
 def plot_per_class_comparison():
     """Plot per-class F1 scores for all models."""
-    print("\n📊 Generiere Per-Class Metrics...")
+    print("\nGeneriere Per-Class Metrics...")
     
     models = ["GBERT", "mBERT", "HateBERT"]
     results = {}
@@ -197,7 +197,7 @@ def plot_per_class_comparison():
                 results[model_name] = json.load(f)
     
     if not results:
-        print("  ⚠️  Keine BERT-Ergebnisse gefunden")
+        print("  Keine BERT-Ergebnisse gefunden")
         return
     
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
@@ -235,12 +235,12 @@ def plot_per_class_comparison():
     output_path = PLOTS_DIR / "per_class_metrics.png"
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"  ✅ {output_path}")
+    print(f"  {output_path}")
 
 
 def plot_overall_comparison():
     """Plot overall model comparison (all models including baselines)."""
-    print("\n🏆 Generiere Model Comparison...")
+    print("\nGeneriere Model Comparison...")
     
     # Load baseline results
     baseline_path = METRICS_DIR / "baseline_results.json"
@@ -304,7 +304,7 @@ def plot_overall_comparison():
     output_path = PLOTS_DIR / "model_comparison.png"
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"  ✅ {output_path}")
+    print(f"  {output_path}")
 
 
 def main():
@@ -324,8 +324,8 @@ def main():
     plot_preprocessing_comparison()
     
     print("\n" + "="*70)
-    print("  ✅ Alle Plots generiert!")
-    print(f"  📁 Gespeichert in: {PLOTS_DIR}")
+    print("  Alle Plots generiert!")
+    print(f"  Gespeichert in: {PLOTS_DIR}")
     print("="*70)
 
 

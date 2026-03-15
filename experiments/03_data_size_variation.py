@@ -90,7 +90,7 @@ def plot_learning_curve(
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"📊 Learning Curve gespeichert: {output_path}")
+    print(f"Learning Curve gespeichert: {output_path}")
 
 
 def run_data_size_variation(
@@ -117,7 +117,7 @@ def run_data_size_variation(
     check_gpu()
 
     # Daten laden
-    print("\n📂 Lade Daten ...")
+    print("\nLade Daten ...")
     train_df, test_df = load_data(preprocessing_variant="full_preprocessing")
     print(f"  Vollständiger Trainingssatz: {len(train_df)} Samples")
 
@@ -133,9 +133,9 @@ def run_data_size_variation(
                 existing = json.load(f)
                 if "results" in existing:
                     results_by_size.update(existing["results"])
-                    print(f"  📁 Bestehende Ergebnisse geladen: {len(existing['results'])} Datengrößen")
+                    print(f"  Bestehende Ergebnisse geladen: {len(existing['results'])} Datengrößen")
             except Exception as e:
-                print(f"  ⚠️ Konnte bestehende Ergebnisse nicht laden: {e}")
+                print(f"  Konnte bestehende Ergebnisse nicht laden: {e}")
                 pass
 
     for size in data_sizes:
@@ -201,7 +201,7 @@ def run_data_size_variation(
             })
     save_results_csv(rows, "data_size_variation_results.csv")
 
-    print("\n✅ Experiment 3 abgeschlossen!")
+    print("\nExperiment 3 abgeschlossen!")
     return results_by_size
 
 

@@ -54,7 +54,7 @@ def timer(description: str = "Operation"):
     hours = int(elapsed // 3600)
     minutes = int((elapsed % 3600) // 60)
     seconds = int(elapsed % 60)
-    print(f"⏱ {description}: {hours:02d}:{minutes:02d}:{seconds:02d} ({elapsed:.1f}s)")
+    print(f"{description}: {hours:02d}:{minutes:02d}:{seconds:02d} ({elapsed:.1f}s)")
 
 
 class TrainingTimer:
@@ -78,7 +78,7 @@ class TrainingTimer:
 
     def summary(self) -> str:
         total = sum(r["elapsed_seconds"] for r in self.records)
-        lines = ["\n📊 Training-Zeit Zusammenfassung:", "-" * 50]
+        lines = ["\nTraining-Zeit Zusammenfassung:", "-" * 50]
         for r in self.records:
             lines.append(f"  {r['experiment']:>30s}: {r['elapsed_readable']}")
         lines.append("-" * 50)

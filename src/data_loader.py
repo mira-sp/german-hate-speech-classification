@@ -81,7 +81,7 @@ def load_data(
             test_df = pd.read_csv(test_path)
             return train_df, test_df
         else:
-            print("⚠ Vorverarbeitete Daten nicht gefunden, lade Rohdaten...")
+            print("Vorverarbeitete Daten nicht gefunden, lade Rohdaten...")
 
     # Rohdaten laden
     train_df = load_germeval_file(TRAIN_FILE)
@@ -150,7 +150,7 @@ def create_cv_splits(
                 json.dump(split_info, f, indent=2)
 
     if save:
-        print(f"✅ {n_folds} CV-Splits gespeichert in {SPLITS_DIR}")
+        print(f"{n_folds} CV-Splits gespeichert in {SPLITS_DIR}")
 
     return splits
 

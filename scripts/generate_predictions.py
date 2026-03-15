@@ -40,7 +40,7 @@ def generate_predictions(
     Returns:
         DataFrame mit Spalten: text, label, prediction, prob_OTHER, prob_OFFENSE, correct
     """
-    print(f"  📦 Lade Modell von {model_path}")
+    print(f"  Lade Modell von {model_path}")
     tokenizer = AutoTokenizer.from_pretrained(str(model_path))
     model = AutoModelForSequenceClassification.from_pretrained(str(model_path))
     model.eval()
@@ -49,7 +49,7 @@ def generate_predictions(
     predictions = []
     probabilities = []
     
-    print(f"  🔮 Generiere Vorhersagen für {len(test_df)} Beispiele...")
+    print(f"  Generiere Vorhersagen für {len(test_df)} Beispiele...")
     with torch.no_grad():
         for i in tqdm(range(0, len(test_df), batch_size), desc="  Batches"):
             batch_texts = test_df["text"].iloc[i:i+batch_size].tolist()
@@ -83,7 +83,7 @@ def generate_predictions(
     
     accuracy = results_df["correct"].mean()
     n_errors = (~results_df["correct"]).sum()
-    print(f"  ✅ Accuracy: {accuracy:.4f} ({n_errors}/{len(results_df)} Fehler)")
+    print(f"  Accuracy: {accuracy:.4f} ({n_errors}/{len(results_df)} Fehler)")
     
     return results_df
 
@@ -99,28 +99,28 @@ def save_error_analysis(
     # 1. Alle Vorhersagen
     all_path = output_dir / f"{model_name}_predictions.csv"
     predictions_df.to_csv(all_path, index=False)
-    print(f"  💾 Alle Vorhersagen: {all_path}")
+    print(f"  Alle Vorhersagen: {all_path}")
     
     # 2. Nur Fehler
     errors = predictions_df[~predictions_df["correct"]].copy()
     errors = errors.sort_values("confidence", ascending=False)
     errors_path = output_dir / f"{model_name}_errors.csv"
     errors.to_csv(errors_path, index=False)
-    print(f"  💾 Fehler ({len(errors)}): {errors_path}")
+    print(f"  Fehler ({len(errors)}): {errors_path}")
     
     # 3. False Positives (Modell sagt OFFENSE, aber OTHER)
     fp = predictions_df[(predictions_df["label"] == 0) & (predictions_df["prediction"] == 1)].copy()
     fp = fp.sort_values("prob_OFFENSE", ascending=False)
     fp_path = output_dir / f"{model_name}_false_positives.csv"
     fp.to_csv(fp_path, index=False)
-    print(f"  💾 False Positives ({len(fp)}): {fp_path}")
+    print(f"  False Positives ({len(fp)}): {fp_path}")
     
     # 4. False Negatives (Modell sagt OTHER, aber OFFENSE)
     fn = predictions_df[(predictions_df["label"] == 1) & (predictions_df["prediction"] == 0)].copy()
     fn = fn.sort_values("prob_OTHER", ascending=False)
     fn_path = output_dir / f"{model_name}_false_negatives.csv"
     fn.to_csv(fn_path, index=False)
-    print(f"  💾 False Negatives ({len(fn)}): {fn_path}")
+    print(f"  False Negatives ({len(fn)}): {fn_path}")
     
     # 5. Zusammenfassung
     summary = {
@@ -139,7 +139,7 @@ def save_error_analysis(
     import json
     with open(summary_path, "w") as f:
         json.dump(summary, f, indent=2)
-    print(f"  💾 Zusammenfassung: {summary_path}")
+    print(f"  Zusammenfassung: {summary_path}")
 
 
 def main():
@@ -151,12 +151,12 @@ def main():
     args = parser.parse_args()
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"🖥️  Device: {device}")
+    print(f"Device: {device}")
     
     # Testdaten laden
-    print(f"\n📂 Lade Testdaten (Preprocessing: {args.preprocessing})...")
+    print(f"\nLade Testdaten (Preprocessing: {args.preprocessing})...")
     _, test_df = load_data(preprocessing_variant=args.preprocessing)
-    print(f"  ✅ {len(test_df)} Testbeispiele geladen")
+    print(f"  {len(test_df)} Testbeispiele geladen")
     
     output_dir = RESULTS_DIR / "predictions"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -180,7 +180,7 @@ def main():
         model_path = MODELS_DIR / f"{model_name.lower()}_best" / f"fold_{fold}"
         
         if not model_path.exists():
-            print(f"  ⚠️  Modell nicht gefunden: {model_path}")
+            print(f"  Modell nicht gefunden: {model_path}")
             continue
         
         predictions_df = generate_predictions(
@@ -196,7 +196,7 @@ def main():
             model_name=f"{model_name}_fold{fold}",
         )
     
-    print(f"\n✅ Fertig! Alle Vorhersagen gespeichert in: {output_dir}")
+    print(f"\nFertig! Alle Vorhersagen gespeichert in: {output_dir}")
 
 
 if __name__ == "__main__":

@@ -40,7 +40,7 @@ def load_model_and_tokenizer(
         )
 
     model_path = MODELS[model_key]
-    print(f"🔄 Lade {model_key} ({model_path}) ...")
+    print(f"Lade {model_key} ({model_path}) ...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
     model = AutoModelForSequenceClassification.from_pretrained(
@@ -52,8 +52,8 @@ def load_model_and_tokenizer(
         device = "cuda" if torch.cuda.is_available() else "cpu"
 
     model = model.to(device)
-    print(f"  ✅ Modell geladen auf {device}")
-    print(f"  📊 Parameter: {sum(p.numel() for p in model.parameters()) / 1e6:.1f}M")
+    print(f"  Modell geladen auf {device}")
+    print(f"  Parameter: {sum(p.numel() for p in model.parameters()) / 1e6:.1f}M")
 
     return model, tokenizer
 

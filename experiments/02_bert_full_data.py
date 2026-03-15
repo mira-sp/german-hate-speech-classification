@@ -48,10 +48,10 @@ def run_bert_full_data(model_keys=None, n_folds=N_FOLDS, config=None):
         cfg["per_device_train_batch_size"] = 8
         cfg["per_device_eval_batch_size"] = 16
         cfg["fp16"] = False
-        print("⚠ Keine GPU – reduzierte Konfiguration aktiv.")
+        print("Keine GPU – reduzierte Konfiguration aktiv.")
 
     # Daten laden
-    print("\n📂 Lade GermEval 2018 Daten ...")
+    print("\nLade GermEval 2018 Daten ...")
     train_df, test_df = load_data(preprocessing_variant="full_preprocessing")
     print(f"  Train: {len(train_df)} Samples")
     print(f"  Test:  {len(test_df)} Samples")
@@ -76,7 +76,7 @@ def run_bert_full_data(model_keys=None, n_folds=N_FOLDS, config=None):
     print_comparison_table(all_results)
 
     # Finale Evaluation auf Test-Set (mit bestem Fold-Modell)
-    print("\n📊 Finale Evaluation auf Test-Set:")
+    print("\nFinale Evaluation auf Test-Set:")
     # Hier könnte man das beste Modell laden und auf dem Test-Set evaluieren
     # Das wird im evaluate.py Script gemacht
 
@@ -86,7 +86,7 @@ def run_bert_full_data(model_keys=None, n_folds=N_FOLDS, config=None):
         "bert_full_data_results.json",
     )
 
-    print("\n✅ Experiment 2 abgeschlossen!")
+    print("\nExperiment 2 abgeschlossen!")
     return all_results
 
 

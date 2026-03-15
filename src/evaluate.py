@@ -176,7 +176,7 @@ def save_results(
     filepath = output_dir / filename
     with open(filepath, "w") as f:
         json.dump(results, f, indent=2, default=str)
-    print(f"✅ Ergebnisse gespeichert: {filepath}")
+    print(f"Ergebnisse gespeichert: {filepath}")
 
 
 def save_results_csv(
@@ -189,7 +189,7 @@ def save_results_csv(
     df = pd.DataFrame(all_results)
     filepath = output_dir / filename
     df.to_csv(filepath, index=False)
-    print(f"✅ CSV gespeichert: {filepath}")
+    print(f"CSV gespeichert: {filepath}")
 
 
 def print_comparison_table(results_list: List[Dict]):

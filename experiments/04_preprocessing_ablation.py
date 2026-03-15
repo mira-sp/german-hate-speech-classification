@@ -94,7 +94,7 @@ def plot_preprocessing_comparison(
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"📊 Preprocessing Ablation Plot gespeichert: {output_path}")
+    print(f"Preprocessing Ablation Plot gespeichert: {output_path}")
 
 
 def run_preprocessing_ablation(
@@ -129,14 +129,14 @@ def run_preprocessing_ablation(
             data = json.load(f)
             if "results" in data:
                 results_by_variant = data["results"]
-                print(f"📂 Lade vorhandene Ergebnisse: {len(results_by_variant)} Varianten")
+                print(f"Lade vorhandene Ergebnisse: {len(results_by_variant)} Varianten")
 
     training_timer = TrainingTimer()
 
     for variant in variants:
         # Überspringe bereits trainierte Varianten
         if variant in results_by_variant:
-            print(f"\n⏭️  Variante '{variant}' bereits trainiert - überspringe")
+            print(f"\nVariante '{variant}' bereits trainiert - überspringe")
             continue
 
         print(f"\n{'#' * 60}")
@@ -164,12 +164,12 @@ def run_preprocessing_ablation(
         result["preprocessing"] = variant
         results_by_variant[variant] = result
 
-        # 💾 SPEICHERE NACH JEDER VARIANTE (incremental save)
+        # SPEICHERE NACH JEDER VARIANTE (incremental save)
         save_results(
             {"experiment": "preprocessing_ablation", "model": model_key, "results": results_by_variant},
             "preprocessing_ablation_results.json",
         )
-        print(f"  💾 Zwischenergebnis gespeichert ({len(results_by_variant)}/{len(variants)} Varianten)")
+        print(f"  Zwischenergebnis gespeichert ({len(results_by_variant)}/{len(variants)} Varianten)")
 
     # Zusammenfassung
     print(training_timer.summary())
@@ -215,7 +215,7 @@ def run_preprocessing_ablation(
             })
     save_results_csv(rows, "preprocessing_ablation_results.csv")
 
-    print("\n✅ Experiment 4 abgeschlossen!")
+    print("\nExperiment 4 abgeschlossen!")
     return results_by_variant
 
 

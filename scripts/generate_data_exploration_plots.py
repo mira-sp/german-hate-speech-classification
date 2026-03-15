@@ -125,4 +125,4 @@ plt.savefig(os.path.join(output_dir, 'fine_label_distribution.png'), dpi=300, bb
 print("✓ Saved fine_label_distribution.png")
 plt.close()
 
-print("\n✅ All data exploration plots generated successfully!")
+print("\nAll data exploration plots generated successfully!")
