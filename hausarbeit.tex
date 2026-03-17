@@ -1,0 +1,397 @@
+﻿\documentclass[11pt,a4paper]{article}
+
+% PACKAGES
+
+% Sprache & Encoding
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Layout
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=25mm,
+    right=20mm,
+    top=20mm,
+    bottom=20mm
+}
+\usepackage{setspace}
+\setstretch{1.0}  % Einfacher Zeilenabstand
+
+% Schriftart
+\usepackage{times}  % Times New Roman
+
+% Grafiken & Tabellen
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{csquotes}
+\usepackage{caption}
+\usepackage{float}
+\captionsetup{font=small,labelfont=bf}
+
+% Mathematik (falls benötigt)
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Literaturverzeichnis
+\usepackage[
+    backend=biber,
+    style=apa,
+    sorting=nyt,
+    maxbibnames=99
+]{biblatex}
+\addbibresource{literatur.bib}  % Literatur-Datei
+
+% Links & URLs
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+\usepackage{url}
+
+% Code-Listings (falls benötigt)
+\usepackage{listings}
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single
+}
+
+% Kopf- und Fußzeilen
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% METADATEN
+
+\title{\textbf{Vergleich von BERT-basierten Modellen für Hate Speech Detection in deutschen Tweets}}
+\author{Mira Speier\\
+\small Matrikelnummer 7423203\\
+\small Universität zu Köln\\
+\small Institut für Digital Humanities}
+\date{\today}
+
+% DOKUMENT
+
+\begin{document}
+
+% Titelseite
+\maketitle
+\thispagestyle{empty}
+
+\clearpage
+
+% Inhaltsverzeichnis
+\tableofcontents
+\clearpage
+
+% Seitennummerierung ab hier
+\setcounter{page}{1}
+
+
+\section{Einleitung}
+In einem Zeitalter, in dem die meisten Menschen auf sozialen Medienplattformen wie Twitter, Reddit und Facebook Zeit verbringen wird Hate Speech  zunehmend zu einem gesellschaftlichen und individuellen Problem. Vor allen in Social Media ist so gut wie jede manuelle Moderation überfordert und stößt schnell an ihre Grenzen. Die deutsche Sprache ist in den meisten großen Algorithmen und automatischen Systemen global unterrepräsentiert und stellt die automatische Verarbeitung vor besondere Herausforderungen. Automatische Moderationssysteme müssen somit die morphologische komplexe Besonderheiten des Deutschen (Komposita, Großschreibung, Flexion) berücksichtigen, da eine direkte Übertragung englischsprachiger Modelle an morphologischen und semantischen Unterschieden scheitern kann.
+
+Mit BERT (Bidirectional Encoder Representations from Transformers) \parencite{devlin2019} steht seit 2019 eine leistungsfähige Modellarchitektur zur Verfügung.
+
+
+\subsection*{Forschungsfrage}
+
+Zunächst wird untersucht welches der BERT-Modelle (mBERT, GBERT, HateBERT) die beste Performance bei der binären Klassifikation von Hate Speech in deutschen Tweets erzielt. Die zu testenden Modelle verfolgen jeweils einen eigenen Ansatz: mBERT (bert-base-multilingual-cased) wurde auf 104 Sprachen mit einen 110k Vokabular trainiert. Dagegen ist GBERT (deepset/gbert-base) nur auf deutschen Datensätzen trainiert und bietet ein 31k Vokabular. HateBERT (GroNLP/hateBERT) legt den Sprachansatz beiseite und wurde auf englisches Hate Speech vortrainiert und zeigt einen Domain-Adaption-Ansatz. 
+
+Folglich stellen sich zwei Hypothesen auf: GBERT wird mBERT übertreffend, da es durch sprachspezifische Pre-Training die deutsche Morphologie (Komposita, Großschreibung) präziser erfasst.
+mBERT wird dagegen bessere Ergebnisse als HateBERT erzielen, da eine Domain-Adaptation auf englischen Hate-Speech-Daten nicht auf deutsche Sprachstrukturen transferiert.
+
+\subsection*{Beitrag dieser Arbeit}
+
+Diese Arbeit vergleicht die drei BERT-Varianten auf dem GermEval 2018-Datensatz (8.318 deutsche Tweets, 5-Fold Cross-Validation). Bisherige Arbeiten haben diesen Vergleich für das Deutsche kaum systematisch untersucht \parencite{wiegand2018}. Diese Arbeit schließt diese Lücke durch einen direkten empirischen Vergleich der drei Varianten auf einem deutschen Referenzdatensatz. 
+Zentrale Befunde sind, dass GBERT die beste Performance erzielt  (F1=0,8080±0,020), bereits 50\,\% der Trainingsdaten für 99\,\% der Performance ausreichen und Lowercasing schadet ($-$1{,}45\,\% F1). 
+Zusätzlich wird eine qualitative Analyse von 50 zufällig ausgewählten False Negative Fehlklassifikationen zeigen, dass implizite Hate Speech mit Euphemismen und Dogwhistles das Hauptproblem darstellt.
+\clearpage
+
+
+\section{Forschungsstand}
+
+
+\subsection{Hate Speech Detection als NLP-Task}
+
+Hate Speech Detection ist eine klassische binäre Textklassifikationsaufgabe, die  einem gegebenen Tweet eine von zwei Klassen, OFFENSE oder OTHER, zuordnet. Die Herausforderungen dieser Aufgabe umfassen Kontext-Abhängigkeit wie Sarkasmus oder Zitate, unbalancierte Daten, die typischerweise 66,2\,\% der Instanzen der Klasse OTHER angehören, und kulturelle Codes (Dogwhistles, Euphemismen). 
+
+Frühere Arbeiten nutzten lexikonbasierte Ansätze \parencite{schmidt2017}, während neuere Herangehensweisen auf Deep-Learning-Methoden setzen \parencite{davidson2017}. Außerdem zeigen systematische Überblicksarbeiten die Vielfalt der methodischen Ansätze im Feld \parencite{fortuna2018}.
+
+
+\subsection{BERT und Transfer Learning}
+
+Das Transformer-Modell BERT \parencite{devlin2019} revolutionierte 2019 die Textklassifikation durch bidirektionales Pre-Training. Zunächst lernt das Modell anhand großer Textkorpora ohne Supervision Sprachstrukturen (Masked Language Modeling), bevor es darauf auf spezifische Aufgaben mit supervised Learning und gelabelten Daten angepasst wird (Fine-Tuning). 
+
+Diese Art des Pre-Trainings und Fine-Tunings ermöglicht es, durch wenige Trainingsdaten kontextualisierte Embeddings zu erfassen. Das heißt, die Qualität der Daten des Pre-Trainings bestimmt, welche sprachlichen Muster das Modell erfassen kann.
+
+Die drei meistgenutzten Strategien sind multilinguale, sprachspezifische und domänenadaptierte Ansätze: Multilinguale Modelle wie mBERT ermöglichen durch Training auf 104 Sprachen Cross-Lingual-Transfer \parencite{pires2019}, sprachspezifische Modelle wie CamemBERT oder GBERT optimieren die Repräsentation einer Einzelsprache \parencite{chan2020}, und domänenadaptierte Modelle wie BioBERT oder HateBERT passen das Pre-Training an ein spezifisches Themengebiet an \parencite{caselli2021}.  
+
+
+\subsection{Deutschsprachige Hate Speech Datasets}
+
+Der GermEval 2018 Shared Task \parencite{wiegand2018} ist neben dem HASOC German (2019): 5.000 Tweets und dem GermEval 2021: Toxic Comment Classification einer der zentralen deutschsprachigen Datensätze und wird auch für diese Arbeit verwendet. Tabelle 1 zeigt die Eigenschaften des GermEval Datensatzes: 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Eigenschaft} & \textbf{Wert} \\
+\midrule
+Instanzen & 8.318 deutsche Tweets \\
+Task & Binäre Klassifikation (OFFENSE vs. OTHER) \\
+OTHER & 5.510 Tweets (66,2\,\%) \\
+OFFENSE & 2.808 Tweets (33,8\,\%) \\
+Median Textlänge & 17--18 Wörter/Tweet \\
+\bottomrule
+\end{tabular}
+\caption{Datensatz-Eigenschaften}
+\end{table}
+
+Eine solche Klassenunbalance ist typisch für Hate Speech Detection und erfordert Evaluation-Metriken wie F1-Macro statt Accuracy. Das moderate Inter-Annotator-Agreement (Cohen's Kappa) von 0,66 verdeutlicht zudem, dass die Klassifikationsaufgabe auch für menschliche Annotatoren anspruchsvoll ist \parencite{wiegand2018}.
+
+\clearpage
+
+\section{Methodik und Experimente}
+
+\subsection{Datensatz und Task}
+
+Die vorliegende Arbeit nutzt die Tweets des GermEval 2018-Datensatzes \parencite{wiegand2018}, welche, wie in der Regel die meisten Daten von Twitter, Reddit oder anderen Kommentarsektionen, Social-Media-Eigenschaften wie Hashtags, @-Mentions, Emojis, Abkürzungen und Rechtschreibfehler aufweisen. Aufgrund der starken Klassenunbalance des Datensatzes wird F1-Macro anstelle von Accuracy als Hauptmetrik verwendet.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{class_distribution.png}
+\caption{Klassenverteilung im GermEval 2018-Datensatz: 66,2\,\% OTHER vs. 33,8\,\% OFFENSE}
+\label{fig:class_dist}
+\end{figure}
+
+\subsection{Baseline und Metriken}
+
+Drei Baselines wurden implementiert und anhand von F1-Macro und Accuracy evaluiert (Tabelle~2). Zum einen eine Majority Baseline, um die Schwierigkeit der Aufgabe bei unbalancierten Daten aufzuzeigen, zum anderen ein Random Forest mit TF-IDF (5000 Features), um als starke klassische ML-Baseline zu dienen. Als dritte Baseline wird eine einfache Lexikon-Baseline hinzugezogen, da vor allem ältere Hate-Speech-Detection-Aufgaben solche nutzten.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Modell} & \textbf{F1-Macro} & \textbf{Accuracy} \\
+\midrule
+Lexikon-Baseline & 0,5366 & 0,6939 \\
+Majority Baseline & 0,3966 & 0,6573 \\
+Random Forest (TF-IDF) & 0,4507 & 0,6728 \\
+\bottomrule
+\end{tabular}
+\caption{Baseline-Ergebnisse}
+\end{table}
+
+\subsection{BERT Fine-Tuning Setup}
+
+Alle BERT-Modelle wurden mit identischen Standard-Hyperparametern trainiert. Konkret wurden AdamW als Optimizer, eine Learning Rate von 2e-5, eine Batch Size von 32, 3 Epochen, eine maximale Sequenzlänge von 128 Tokens und 500 Warm-Up Steps verwendet. Mixed Precision (FP16) gewährleistete dabei GPU-Effizienz. Tabelle 3 zeigt die drei BERT-Modelle im Vergleich:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llcc}
+\toprule
+\textbf{Modell} & \textbf{Pre-Training Korpus} & \textbf{Vokabular} & \textbf{Parameter} \\
+\midrule
+mBERT & 104 Sprachen (Wikipedia) & 110k tokens & 110M \\
+GBERT & Deutsch (Wikipedia, News) & 31k tokens & 110M \\
+HateBERT & Englisch (Reddit, Twitter) & 30k tokens & 110M \\
+\bottomrule
+\end{tabular}
+\caption{BERT-Modelle}
+\end{table}
+
+Als Evaluation-Strategie wird eine 5-fach stratifizierte Kreuzvalidierung verwendet, um die Stabilität der Ergebnisse durch Standardabweichungen zu belegen. Dabei garantiert diese Konfiguration ein robusteres Experiment als mit einem einfachen Train-Test-Split und erhält mit der Stratifizierung eine Klassenverteilung von 66\,\%/34\,\% in jedem Fold.
+
+Als primäre Evaluationsmetrik dient der F1-Score im Makro-Average, der beide Klassen gleich gewichtet. Hinzu kommen Precision und Recall pro Klasse und ein Accuracy Score, der eher als Referenz dient, da Accuracy bei Klassenimbalance als alleinige Metrik ungeeignet ist. Der vollständige Code für die Experimente und Analysen ist öffentlich verfügbar \parencite{speier2026}.
+
+
+\subsection{Ergebnisse}
+
+\subsubsection{Modellvergleich}
+
+GBERT erzielt mit F1-Macro=0{,}8080 die beste Performance mit 3{,}96 Prozentpunkten über mBERT, 13{,}56 Punkte über HateBERT und 27{,}1 Punkte über die stärkste Baseline (Lexikon-Ansatz, F1=0{,}5366). Die geringe Standardabweichung (±0{,}0200) belegt die Stabilität des Ergebnisses.
+
+mBERT erzielt eine etwas geringere Performance als GBERT, schneidet aber deutlich besser ab als die Baselines, was auf einen erfolgreichen Cross-Lingual Transfer für deutschsprachige Klassifikationsaufgaben hindeutet.
+
+HateBERT erzielt mit F1=0{,}6724 die geringste Performance der drei BERT-Varianten. Trotz domänenadaptierten Pre-Trainings auf englischen Hate-Speech-Daten gelingt kein sprachübergreifender Transfer. 
+
+Da die Hypothesen gerichtet formuliert wurden (GBERT $>$ mBERT, mBERT $>$ HateBERT), wurden einseitige gepaarte t-Tests durchgeführt. Der Unterschied zwischen GBERT und mBERT ist statistisch signifikant (t(4)=2{,}52, p=0{,}033), der Unterschied zwischen GBERT und HateBERT hochsignifikant (t(4)=11{,}74, p$<$0{,}001).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Modell} & \textbf{F1-Macro ±SD} & \textbf{Precision} & \textbf{Recall} & \textbf{Accuracy} \\
+\midrule
+\textbf{GBERT} & \textbf{0,8080±0,0200}& 0,8153±0,0182 & 0,8030±0,0185 & 0,8331±0,0173 \\
+mBERT & 0,7684±0,0155 & 0,7723±0,0100 & 0,7661±0,0200 & 0,7965±0,0103 \\
+HateBERT & 0,6724±0,0058 & 0,6777±0,0092 & 0,6716±0,0089 & 0,7123±0,0102 \\
+\midrule
+Lexikon & 0,5366 & 0,7174 & 0,5667 & 0,6939 \\
+\bottomrule
+\end{tabular}
+\caption{Performance-Vergleich aller Modelle}
+\end{table}
+
+Die Ergebnisse bestätigen die Hypothese, dass sprachspezifisches Pre-Training deutsche Morphologie besser repräsentiert als multilinguale Ansätze. Englisches Training transferiert in diesem Experiment nicht auf den deutschen Datensatz. Auf dem GermEval 2018-Datensatz überwiegt der Einfluss der Sprachspezifität gegenüber Multilingualität und Domain-Adaptation — ein Befund, der durch weitere Korpora abgesichert werden sollte.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{model_comparison.png}
+\caption{F1-Macro-Scores aller Modelle im Vergleich (mit Standardabweichungen aus 5-Fold CV)}
+\label{fig:model_comp}
+\end{figure}
+
+Abbildung~\ref{fig:model_comp} zeigt alle Modelle im Vergleich. Die geringen Standardabweichungen (±0,0200 für GBERT) belegen, dass die Ergebnisse über alle fünf Folds stabil sind.
+
+\subsubsection{Klassenspezifische Metriken}
+
+Trotz der besten Gesamtperformance zeigt GBERT eine Schwäche bei der OFFENSE-Klasse: Nur 67\,\% der OFFENSE-Tweets werden korrekt erkannt, was einer False-Negative-Rate von 33\,\% entspricht. Grund hierfür ist, dass implizite Hate Speech besonders schwer zu klassifizieren ist, wie folgende Fehleranalyse für den Fold 0, repräsentativ für einen einzelnen Cross-Validation-Split, zeigt. 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccl}
+\toprule
+\textbf{Klasse} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score}  &\textbf{Support}\\
+\midrule
+OTHER & 0,86 & 0,89 & 0,87  &654 (Fold 0)\\
+OFFENSE & 0,74 & 0,70 & 0,72  &327 (Fold 0)\\
+\bottomrule
+\end{tabular}
+\caption{GBERT: Per-Class Performance (Fold 0)}
+\end{table}
+
+\subsubsection{Zusatzexperimente}
+
+\textbf{Learning Curve (Dateneffizienz):}
+
+Die Learning-Curve-Experimente zeigen die hohe Dateneffizienz von BERT. Entgegen der intuitiven Erwartung, dass mehr Trainingsdaten stets zu Performancesteigerungen führen, wird bereits in dieser Klassifikation bei 50\,\% der Trainingsdaten 99\,\% der Full-Data-Performance erreicht (0,7880 vs. 0,8080). BERT ist extrem dateneffizient, wobei das Pre-Training den Großteil der Performance trägt. Abbildung~\ref{fig:learning_curve} veranschaulicht diesen steilen Anstieg bis 50\,\% Daten, danach flacht die Kurve ab.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{learning_curve.png}
+\caption{Learning Curve: GBERT Performance bei verschiedenen Trainingsgrößen}
+\label{fig:learning_curve}
+\end{figure}
+
+
+\noindent\textbf{Preprocessing-Einfluss:}
+
+Ein weiterer kritischer Befund zeigt sich beim Testen des Preprocessing-Einflusses. Lowercasing schadet der Klassifikation, da die deutsche Großschreibung semantisch distinktiv ist (\textit{DEUTSCH} vs. \textit{deutsch}). BERT hingegen profitiert von nicht verändertem Eingabetext. Das Hauptexperiment (Tabelle~4) verwendet \texttt{full\_preprocessing} und erzielt F1=0{,}8080; der marginale Unterschied zu 0{,}8097 ist auf unterschiedliche Random Seeds zwischen den Experimentläufen zurückzuführen. Tabelle~\ref{tab:preprocessing} zeigt, dass Lowercasing kontraproduktiv ist, während Reinigung (URL/Mention-Removal) die Performance verbessert.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Variante} & \textbf{F1-Macro} & \textbf{Differenz zur Baseline}\\
+\midrule
+Alle Preprocessing-Schritte      & 0{,}8097 & +0{,}61\,\% \\
+Ohne URLs                        & 0{,}8053 & +0{,}17\,\% \\
+Normalisierte Nutzernamen        & 0{,}8050 & +0{,}14\,\% \\
+Original (keine Vorverarbeitung) & 0{,}8036 & Baseline     \\
+Ohne Emojis                      & 0{,}8031 & $-$0{,}05\,\% \\
+Alle Schritte mit Kleinschrift   & 0{,}7923 & $-$1{,}13\,\% \\
+Nur Kleinschrift                 & 0{,}7891 & $-$1{,}45\,\% \\
+\bottomrule
+\end{tabular}
+\caption{Einfluss verschiedener Preprocessing-Varianten auf den F1-Macro-Wert}
+\label{tab:preprocessing}
+\end{table}
+
+
+\subsection{Fehleranalyse}
+
+Die zentralen Fehlertypen des GBERT Experiments lassen sich in drei Kategorien einteilen. In Fold 0 wurden 30\,\% der Hate-Speech-Tweets als False Negatives und 12,5\,\% als False Positives, insgesamt also 180 Instanzen fehlklassifiziert.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+& \textbf{Vorhergesagt OTHER} & \textbf{Vorhergesagt OFFENSE} \\
+\midrule
+\textbf{Tatsächlich OTHER} & 572 (87,5\,\%) & 82 (12,5\,\%) \\
+\textbf{Tatsächlich OFFENSE} & 98 (30,0\,\%) & 229 (70,0\,\%) \\
+\bottomrule
+\end{tabular}
+\caption{Confusion Matrix (GBERT, Fold 0)}
+\end{table}
+
+Eine qualitative Analyse von 50 zufällig ausgewählten False Negative Fehlklassifikationen zeigt, dass das Modell eine erhöhte False-Negative-Rate bei Instanzen ohne explizite Schimpfwörter aufweist.
+Implizite und euphemistische Hassrede machen mit circa 60\,\% den Großteil der False Negatives aus. Die Abwesenheit von Schimpfwörtern erschwert die Klassifikation erheblich. Der Tweet "@USER @USER @USER Der Staatsfunk hat halt einen politischen Auftrag." beinhaltet keine explizit erkennbaren Schimpfwörter wie "Lügenpresse", kann jedoch als funktionales Äquivalent zu expliziter Hassrede interpretiert werden.
+
+Weitere 25–30\,\% der untersuchten Fehlklassifikationen enthalten zwar explizite Hassrede, überfordern das Modell jedoch durch ungewöhnliche syntaktische Strukturen, Tippfehler oder Compound-Wörter mit unbekannten Tokens. Bei \enquote{@USER @USER Und was, wenn ich dort einen N****kuss und ein Glas N****\-schweiss bestelle?} werden rassistische Begriffe bewusst als \enquote{Bestellung} verwendet. Eine mögliche Erklärung ist, dass der ironisch-fragende Kontext vom Modell nicht als distanzierend erfasst wird.
+
+Aus den Tweets, die als Hassrede klassifiziert wurden, aber eigentlich harmlos annotiert sind, verwechselt das Modell häufig negative Stimmung und Aggression als Hassrede. Wörter wie "schwachsinnig", „krank“, „Idioten“ oder „zum Kotzen“ aktivieren fälschlicherweise das OFFENSE-Label, selbst wenn es nur um den schlechten „Tatort“ im Fernsehen oder das Wetter geht. Solche Instanzen enthalten zwar aggressive Sprache, erfüllen jedoch nicht die Kriterien von Hate Speech gemäß den Annotationsrichtlinien des GermEval-Datensatzes.
+
+Die Fehleranalyse offenbart zwei strukturelle Limitationen von GBERT: Erstens fehlt dem Modell das Weltwissen, das für die Erkennung impliziter kultureller Codes (Dogwhistles, Euphemismen) notwendig wäre. Zweitens führen Neologismen, Sondersprache und Code-Switching zu Fehlklassifikationen, da GBERTs deutsches Vokabular unbekannte Tokens nicht erfassen kann.
+\clearpage
+
+\section{Fazit und Ausblick}
+
+\subsection{Zusammenfassung der Ergebnisse}
+
+Diese Arbeit verglich systematisch drei BERT-Varianten für deutsche Hate Speech Detection auf dem GermEval 2018-Datensatz (8.318 Tweets, 5-Fold CV). GBERT erzielte die beste Performance mit einem F1-Macro: 0,8080 ± 0,020 und übertrifft mBERT um 3,96 Prozentpunkte (einseitiger t-Test: t(4)=2{,}52, p=0{,}033). Hochsignifikant ist die 13,6\,\% Differenz zu HateBERT (p$<$0{,}001). GBERT vollbringt damit eine 50,6\,\% relative Verbesserung gegenüber der besten Baseline (Lexikon). 
+
+Der ausschlaggebende Vorteil des sprachspezifischen Pre-Trainings zeigte sich in der semantisch relevanten Großschreibung und morphologischen Komposita des Deutschen. GBERT erfasst spezifisch-deutsche Phänomene besser als mBERT. Auch Lowercasing schadete der Performance GBERTs um 1{,}45\,\%, da die deutsche Großschreibung semantisch distinktiv ist. 
+
+Eine Domain-Adaption transferierte dabei nicht über Sprachgrenzen hinaus. Das auf englischen Hate-Speech-Daten trainierte HateBERT scheitert im Vergleich und demonstriert, dass Sprache wichtiger ist als Domain-Expertise.
+
+Des Weiteren wurde die extreme Dateneffizienz BERTs sichtbar: Bei 50\,\% der Trainingsdaten erreichte GBERT bereits 99\,\% der finalen Performance. Dies zeugte erneut, wie maßgeblich Pre-Training den Großteil der Performance trägt. 
+
+GBERT ist damit das beste BERT-Modell der drei für deutsche Hate-Speech-Detection, da das sprachspezifische Pre-Training morphologische und semantische Phänomene des Deutschen erfasst, die für diese Task ausschlaggebend sind.
+
+
+
+\subsection{Praktische Relevanz}
+
+Die Ergebnisse der Arbeit sind relevant für Entwickler und Moderationssysteme der deutschen sozialen Medien. Anstelle von mBERT würde GBERT eine 3,96\,\% Verbesserung mit Tausenden korrekt klassifizierten Tweets bei entsprechender Skalierung erbringen. 
+Die Befunde, dass Transfer Learning kontextabhängig (Sprache > Domain) ist und nicht jede Pre-Training-Strategie für jede Aufgabe funktioniert sind vor allem für die NLP-Forschung relevant.
+Schließlich liefert das Ergebnis einen Referenzwert für kleinere Annotationsprojekte, die ausschließlich für BERT-Fine-Tuning-Zwecke annotieren, da 50\,\% der Daten des GermEval 2018-Datensatzes für eine gute Performance bereits ausreichen dürfte. 
+
+\subsection{Limitationen}
+Besonders wichtig ist zu erwähnen, dass die kleine CV-Stichprobe von n=5 Folds eine sehr begrenzte statistische Aussagekraft für GBERT vs. mBERT hat.
+Zusätzlich ist die Generalisierung auf andere deutsche Korpora (Reddit, Facebook, Instagram) eingeschränkt. In dieser Arbeit wurde nur GermEval 2018 getestet und somit keine Cross-Corpus-Evaluation implementiert. 
+Dazu wurde ausschließlich binäre Klassifikation getestet. Eine Multi-Class-Performance könnte anders verlaufen und andere Ergebnisse mit sich bringen. 
+
+Schlussendlich entwickelt sich Hate-Speech immer weiter. Neue Codes, neue Beleidigungen und neue Dogwhistles schaffen komplett neue Szenarien und müssten über Zeit getestet werden. 
+
+\subsection{Zukünftige Forschung}
+Nach der Durchführung des Experiments ergeben sich neue Forschungsfragen: Wie funktioniert GBERT auf anderen deutschen Hate-Speech-Daten? Ist ein Transfer zwischen Plattformen wie Twitter, Reddit oder Facebook möglich? 
+Außerdem würden hybride Ansätze wie mBERT mit deutschen Adapter oder GBERT mit einer externen Wissensdatenbank für Dogwhistles oder Knowledge Graphs für die Integration von Kontext-Wissen interessante Ergebnisse liefern.
+Ebenfalls wichtiger Bestandteil zukünftiger Arbeiten könnte eine Modell-Adaption an neuere Hate-Speech-Codes sein. 
+
+\clearpage
+% LITERATURVERZEICHNIS
+\printbibliography
+
+\clearpage
+\appendix
+\section*{Eigenständigkeitserklärung}
+
+Ich versichere, dass ich die vorliegende Arbeit selbständig verfasst und 
+keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe. 
+Alle Stellen, die wörtlich oder sinngemäß aus anderen Werken übernommen 
+wurden, sind als solche kenntlich gemacht. Die Arbeit wurde in gleicher 
+oder ähnlicher Form noch keiner anderen Prüfungsbehörde vorgelegt.
+
+\vspace{2cm}
+\noindent Köln, den \today \hfill 
+\raisebox{-0.5cm}{\includegraphics[width=3.5cm]{unterschrift.png}}
+
+\vspace{0.1cm}
+\noindent \hfill Mira Speier
+
+
+\end{document}

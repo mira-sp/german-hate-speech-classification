@@ -200,11 +200,45 @@ pip install -r requirements.txt
 git clone https://github.com/uds-lsv/GermEval-2018-Data.git data/germeval_2018
 ```
 
+## Benutzung
+
+### 1. Training (Reproduktion aller Experimente)
+
+Um alle Modelle von Grund auf neu zu trainieren (Dauer: ~12-15 Stunden auf RTX 3060):
+
+```bash
+# Windows
+scripts\run_all_experiments.bat
+
+# Linux/Mac
+python experiments/01_baselines.py
+python experiments/02_bert_full_data.py
+python experiments/03_data_size_variation.py
+python experiments/04_preprocessing_ablation.py
+```
+
+### 2. Analyse & Auswertung
+
+Nach dem Training können die Ergebnisse analysiert werden:
+
+```bash
+# Führt alle Analyse-Notebooks automatisch aus
+python scripts/run_notebooks.py
+
+# Erstellt alle Grafiken für das Paper
+python scripts/generate_all_plots.py
+python scripts/generate_data_exploration_plots.py
+```
+
+## Viewing Results
+
+````
+
 ### GPU-Check
 
 ```bash
 python -c "import torch; print(f'CUDA: {torch.cuda.is_available()}'); print(f'GPU: {torch.cuda.get_device_name(0)}')"
-```
+````
 
 ## Verwendung
 
@@ -301,10 +335,3 @@ hate-speech-classification/
 This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
-
-## Literatur
-
-1. Caselli et al. (2021) - HateBERT: Retraining BERT for Abusive Language Detection
-2. Wiegand et al. (2018) - GermEval 2018 Shared Task
-3. Devlin et al. (2019) - BERT: Pre-training of Deep Bidirectional Transformers
-4. Chan et al. (2020) - GBERT: German's Next Language Model
